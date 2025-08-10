@@ -65,6 +65,14 @@ const products = [
     review: 'Despierta los sentidos con este aceite de masaje comestible. Su aroma afrodisíaco y su tacto sedoso son el preludio perfecto para una noche de pasión.',
     longDescription: 'Transforma cualquier noche en una experiencia sensorial. Este aceite de masaje no solo huele increíble, sino que también es comestible y tiene un sabor delicioso. Perfecto para masajes eróticos que recorren todo el cuerpo, dejando la piel suave, hidratada y lista para más.'
   },
+  {
+    name: 'Set de Plugs Anales de Silicona',
+    price: 'S/ 159.99',
+    image: 'https://placehold.co/400x400.png',
+    imageHint: 'anal plugs',
+    review: 'Perfecto para la exploración anal gradual. Este set de tres tamaños es ideal tanto para principiantes como para quienes buscan avanzar en su juego.',
+    longDescription: 'Este set de plugs está diseñado para una iniciación cómoda y segura al placer anal. Incluye tres tamaños diferentes, fabricados con silicona de grado médico, suave y flexible. Su base acampanada garantiza una extracción segura. Son resistentes al agua y fáciles de limpiar, ideales para explorar nuevas sensaciones a tu propio ritmo.'
+  }
 ];
 
 export default function ProductGrid() {
