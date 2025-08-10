@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export default function GuiaParaParejas() {
@@ -198,3 +198,5 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
+
+    
