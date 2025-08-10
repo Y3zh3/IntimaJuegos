@@ -161,8 +161,8 @@ export default function GuiaParaParejas() {
                 <div className="grid gap-8 sm:grid-cols-1">
                   {articles.map((article) => (
                     <AccordionItem value={article.title} key={article.title} className="border-b-0">
-                      <AccordionTrigger>
-                        <Card className="flex flex-col border-transparent hover:border-primary transition-colors h-full text-left">
+                      <AccordionTrigger className="w-full">
+                        <Card className="flex flex-col border-transparent hover:border-primary transition-colors h-full text-left w-full">
                           <CardHeader>
                             <CardTitle>{article.title}</CardTitle>
                           </CardHeader>
