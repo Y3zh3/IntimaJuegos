@@ -33,7 +33,7 @@ export default function HistoriasReales() {
       years: "Llevamos 8 años juntos",
       story: "Estábamos en una rutina terrible. 'El Desafío de los Sentidos' nos obligó a parar y a reconectar de una forma que no hacíamos en años. Fue increíblemente poderoso.",
       fallback: "S&D",
-      image: "https://marketplace.canva.com/EAFYbL_0ZYM/3/0/1600w/canva-foto-de-perfil-para-instagram-retrato-llamativo-floral-azul-STzuI27-q6s.jpg",
+      image: "https://i.pinimg.com/736x/e7/01/cb/e701cbc3bceca46fb27c18f761ab15c4.jpg",
       imageHint: "intimate couple"
     },
     {
