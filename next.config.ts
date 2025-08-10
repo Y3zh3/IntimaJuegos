@@ -148,6 +148,12 @@ const nextConfig: NextConfig = {
         hostname: 's.alicdn.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.atida.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

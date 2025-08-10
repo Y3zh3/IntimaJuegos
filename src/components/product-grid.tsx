@@ -59,7 +59,7 @@ const products: Product[] = [
     id: '6',
     name: 'Huevo Vibrador a Distancia',
     price: 'S/ 239.99',
-    image: 'https://placehold.co/400x460.png',
+    image: 'https://assets.atida.com/transform/e061bdb0-c5af-47bd-95ba-c9f5eab725c3/Love-Huevo-Vibrador-Control-Remoto-Nezend?io=transform:extend,width:600,height:600',
     imageHint: 'remote egg',
     review: 'El juego perfecto para citas nocturnas o para añadir un secreto excitante a la vida cotidiana. Dale el control a tu pareja y prepárate para sorpresas.',
     longDescription: 'La emoción del juego público (o privado) a un nuevo nivel. Este huevo vibrador se controla con un mando a distancia, permitiendo que tu pareja decida cuándo y cómo vibra. Úsalo en una cena romántica o mientras hacen las compras. El secreto y la anticipación los volverán locos.'
