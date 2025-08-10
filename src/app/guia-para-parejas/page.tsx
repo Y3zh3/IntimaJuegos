@@ -169,8 +169,8 @@ export default function GuiaParaParejas() {
                           <p className="text-muted-foreground">{article.description}</p>
                         </CardContent>
                         <CardFooter>
-                           <AccordionTrigger className="w-full">
-                            <Button variant="link" className="font-semibold text-primary p-0 h-auto">Leer más</Button>
+                          <AccordionTrigger className="w-full text-primary hover:underline font-semibold p-0 h-auto justify-start no-underline">
+                            Leer más
                           </AccordionTrigger>
                         </CardFooter>
                       </Card>
@@ -201,3 +201,5 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
+
+    
