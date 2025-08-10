@@ -14,7 +14,7 @@ const products: Product[] = [
     id: '1',
     name: 'El Conejito Juguetón',
     price: 'S/ 279.99',
-    image: 'https://placehold.co/400x410.png',
+    image: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1636498693-31JIbGz5ZIS._SL500_.jpg?crop=0.976xw:0.976xh;0.0120xw,0.0120xh&resize=980:*',
     imageHint: 'vibrator',
     review: 'Un clásico reinventado para un placer dual. Su diseño ergonómico y sus múltiples modos de vibración lo convierten en el compañero perfecto para explorar.',
     longDescription: 'Este vibrador de doble estimulación es famoso por una razón. Mientras el eje principal se encarga del placer interno, el estimulador de clítoris con forma de conejo ofrece vibraciones intensas justo donde más lo necesitas. Fabricado con silicona suave y segura para el cuerpo, es recargable por USB y resistente al agua.'

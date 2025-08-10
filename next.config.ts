@@ -124,6 +124,18 @@ const nextConfig: NextConfig = {
         hostname: 'us.123rf.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'hips.hearstapps.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'vader-prod.s3.amazonaws.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
