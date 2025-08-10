@@ -26,10 +26,11 @@ export function Dashboard() {
             <h1 className="text-2xl font-bold text-foreground">Intima Juegos</h1>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-            <Link href="/" className="text-foreground transition-colors hover:text-primary">Novedades</Link>
-            <Link href="/mas-vendidos" className="text-muted-foreground transition-colors hover:text-primary">Más vendidos</Link>
-            <Link href="/blog" className="text-muted-foreground transition-colors hover:text-primary">Blog</Link>
-            <Link href="/sobre-nosotros" className="text-muted-foreground transition-colors hover:text-primary">Sobre nosotros</Link>
+            <Link href="/" className="text-foreground transition-colors hover:text-primary">Inicio</Link>
+            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/guia-para-parejas" className="text-muted-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
+            <Link href="/historias-reales" className="text-muted-foreground transition-colors hover:text-primary">Historias Reales</Link>
+            <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
             <Button variant="ghost" size="icon">
@@ -253,5 +254,3 @@ export function Dashboard() {
     </div>
   );
 }
-
-    

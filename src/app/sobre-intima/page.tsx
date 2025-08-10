@@ -3,7 +3,7 @@ import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export default function SobreNosotros() {
+export default function SobreIntima() {
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
@@ -12,10 +12,11 @@ export default function SobreNosotros() {
             <h1 className="text-2xl font-bold text-foreground">Intima Juegos</h1>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-            <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Novedades</Link>
-            <Link href="/mas-vendidos" className="text-muted-foreground transition-colors hover:text-primary">Más vendidos</Link>
-            <Link href="/blog" className="text-muted-foreground transition-colors hover:text-primary">Blog</Link>
-            <Link href="/sobre-nosotros" className="text-foreground transition-colors hover:text-primary">Sobre nosotros</Link>
+            <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Inicio</Link>
+            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/guia-para-parejas" className="text-muted-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
+            <Link href="/historias-reales" className="text-muted-foreground transition-colors hover:text-primary">Historias Reales</Link>
+            <Link href="/sobre-intima" className="text-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
             <Button variant="ghost" size="icon">
@@ -33,12 +34,12 @@ export default function SobreNosotros() {
             <div className="container px-4 md:px-6">
                 <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
                     <div className="flex flex-col justify-center space-y-4">
-                        <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Sobre Intima Juegos</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Sobre Íntima Juegos</h1>
                         <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                            En Intima Juegos, creemos que el placer es una parte esencial y saludable de la vida. Nuestra misión es ofrecer una colección cuidadosamente seleccionada de juguetes y accesorios de alta calidad que inspiren curiosidad, exploración y, sobre todo, alegría.
+                            En Íntima Juegos, creemos que el placer y la conexión emocional son partes esenciales de una vida plena. Nuestra misión es ofrecer herramientas, juegos y recursos de alta calidad que inspiren curiosidad, comunicación y, sobre todo, alegría en pareja.
                         </p>
                         <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                            Somos un equipo apasionado por el bienestar sexual y la autoexploración. Cada producto de nuestra tienda ha sido elegido por su calidad, seguridad y capacidad para proporcionar experiencias excepcionales. Queremos que te sientas con poder, confianza y libertad para descubrir tus deseos en un espacio seguro y acogedor.
+                            Somos un equipo apasionado por el bienestar sexual y la inteligencia emocional. Cada producto y juego ha sido diseñado y seleccionado pensando en la seguridad, la confianza y la capacidad de proporcionar experiencias excepcionales. Queremos que te sientas con poder, confianza y libertad para descubrir tus deseos en un espacio seguro y acogedor.
                         </p>
                     </div>
                     <Image

@@ -3,7 +3,7 @@ import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export default function Blog() {
+export default function GuiaParaParejas() {
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
@@ -12,10 +12,11 @@ export default function Blog() {
             <h1 className="text-2xl font-bold text-foreground">Intima Juegos</h1>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-            <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Novedades</Link>
-            <Link href="/mas-vendidos" className="text-muted-foreground transition-colors hover:text-primary">Más vendidos</Link>
-            <Link href="/blog" className="text-foreground transition-colors hover:text-primary">Blog</Link>
-            <Link href="/sobre-nosotros" className="text-muted-foreground transition-colors hover:text-primary">Sobre nosotros</Link>
+            <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Inicio</Link>
+            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/guia-para-parejas" className="text-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
+            <Link href="/historias-reales" className="text-muted-foreground transition-colors hover:text-primary">Historias Reales</Link>
+            <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
             <Button variant="ghost" size="icon">
@@ -32,9 +33,9 @@ export default function Blog() {
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Blog de Intima Juegos</h1>
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Guía para Parejas</h1>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Consejos, historias y guías para explorar tu sexualidad.
+                Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
               </p>
             </div>
           </div>
@@ -45,16 +46,16 @@ export default function Blog() {
               <div className="flex flex-col gap-4">
                 <Image
                   src="https://placehold.co/600x400.png"
-                  alt="Blog post image"
+                  alt="Article image"
                   width={600}
                   height={400}
                   className="rounded-lg object-cover"
-                  data-ai-hint="sensual couple"
+                  data-ai-hint="couple talking"
                 />
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-bold">5 Maneras de Usar un Vibrador de Bala</h3>
+                  <h3 className="text-xl font-bold">El Arte de la Comunicación Afectiva</h3>
                   <p className="text-muted-foreground">
-                    Pequeño pero poderoso, el vibrador de bala es un clásico. Aquí tienes 5 ideas para empezar.
+                    Aprende a expresar tus necesidades y a escuchar a tu pareja de una manera que construya puentes, no muros.
                   </p>
                   <Link href="#" className="font-semibold text-primary">Leer más</Link>
                 </div>
@@ -62,16 +63,16 @@ export default function Blog() {
               <div className="flex flex-col gap-4">
                  <Image
                   src="https://placehold.co/600x400.png"
-                  alt="Blog post image"
+                  alt="Article image"
                   width={600}
                   height={400}
                   className="rounded-lg object-cover"
-                  data-ai-hint="sex toys"
+                  data-ai-hint="couple laughing"
                 />
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-bold">Guía para Principiantes del Bondage</h3>
+                  <h3 className="text-xl font-bold">5 Ideas para Salir de la Rutina</h3>
                    <p className="text-muted-foreground">
-                    ¿Sientes curiosidad por el bondage? Esta guía te ayudará a dar tus primeros pasos de forma segura.
+                    Desde citas temáticas en casa hasta aventuras improvisadas. ¡Reaviva la chispa con estas ideas creativas!
                   </p>
                   <Link href="#" className="font-semibold text-primary">Leer más</Link>
                 </div>
@@ -79,16 +80,16 @@ export default function Blog() {
               <div className="flex flex-col gap-4">
                  <Image
                   src="https://placehold.co/600x400.png"
-                  alt="Blog post image"
+                  alt="Article image"
                   width={600}
                   height={400}
                   className="rounded-lg object-cover"
-                  data-ai-hint="romantic bedroom"
+                  data-ai-hint="love letters"
                 />
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-bold">Comunicación en la Pareja: Hablando de Deseos</h3>
+                  <h3 className="text-xl font-bold">Cómo Hablar de Fantasías sin Miedo</h3>
                    <p className="text-muted-foreground">
-                    Una buena comunicación es clave. Aprende a hablar sobre tus deseos y fantasías con tu pareja.
+                    Una guía paso a paso para compartir tus deseos más íntimos de forma segura y respetuosa.
                   </p>
                   <Link href="#" className="font-semibold text-primary">Leer más</Link>
                 </div>

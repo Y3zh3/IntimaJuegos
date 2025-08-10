@@ -3,7 +3,7 @@ import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import ProductGrid from "@/components/product-grid";
 
-export default function MasVendidos() {
+export default function JuegosParaConectar() {
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
@@ -12,10 +12,11 @@ export default function MasVendidos() {
             <h1 className="text-2xl font-bold text-foreground">Intima Juegos</h1>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-            <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Novedades</Link>
-            <Link href="/mas-vendidos" className="text-foreground transition-colors hover:text-primary">Más vendidos</Link>
-            <Link href="/blog" className="text-muted-foreground transition-colors hover:text-primary">Blog</Link>
-            <Link href="/sobre-nosotros" className="text-muted-foreground transition-colors hover:text-primary">Sobre nosotros</Link>
+            <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Inicio</Link>
+            <Link href="/juegos-para-conectar" className="text-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/guia-para-parejas" className="text-muted-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
+            <Link href="/historias-reales" className="text-muted-foreground transition-colors hover:text-primary">Historias Reales</Link>
+            <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
             <Button variant="ghost" size="icon">
@@ -31,9 +32,9 @@ export default function MasVendidos() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
             <div className="container px-4 md:px-6 text-center">
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Nuestros Productos Más Populares</h2>
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Juegos para Conectar</h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
-                    Descubre los favoritos de nuestra comunidad y los más vendidos.
+                    Explora nuestra selección de productos físicos y digitales diseñados para la intimidad y la diversión.
                 </p>
             </div>
         </section>
