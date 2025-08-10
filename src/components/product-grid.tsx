@@ -77,7 +77,7 @@ const products: Product[] = [
     id: '8',
     name: 'Aceite de Masaje Sensual',
     price: 'S/ 79.99',
-    image: 'https://placehold.co/400x480.png',
+    image: 'https://tolivmarket-production.s3.sa-east-1.amazonaws.com/products/a06cf0a251a3f0a2d4a190eea32c40985d2c3d604563cba2a6eb6e5e94faff09.jpg',
     imageHint: 'massage oil',
     review: 'Despierta los sentidos con este aceite de masaje comestible. Su aroma afrodisíaco y su tacto sedoso son el preludio perfecto para una noche de pasión.',
     longDescription: 'Transforma cualquier noche en una experiencia sensorial. Este aceite de masaje no solo huele increíble, sino que también es comestible y tiene un sabor delicioso. Perfecto para masajes eróticos que recorren todo el cuerpo, dejando la piel suave, hidratada y lista para más.'

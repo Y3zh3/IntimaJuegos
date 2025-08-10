@@ -154,6 +154,12 @@ const nextConfig: NextConfig = {
         hostname: 'assets.atida.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'tolivmarket-production.s3.sa-east-1.amazonaws.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
