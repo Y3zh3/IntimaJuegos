@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export default function GuiaParaParejas() {
@@ -161,19 +161,16 @@ export default function GuiaParaParejas() {
                 <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                   {articles.map((article) => (
                     <AccordionItem value={article.title} key={article.title} className="border-b-0">
-                       <Card className="flex flex-col border-transparent hover:border-primary transition-colors h-full">
-                        <CardHeader>
-                          <CardTitle>{article.title}</CardTitle>
-                        </CardHeader>
-                        <CardContent className="flex-grow">
-                          <p className="text-muted-foreground">{article.description}</p>
-                        </CardContent>
-                        <CardFooter>
-                          <AccordionTrigger className="w-full text-primary hover:underline font-semibold p-0 h-auto justify-start no-underline">
-                            Leer más
-                          </AccordionTrigger>
-                        </CardFooter>
-                      </Card>
+                      <AccordionTrigger>
+                        <Card className="flex flex-col border-transparent hover:border-primary transition-colors h-full text-left">
+                          <CardHeader>
+                            <CardTitle>{article.title}</CardTitle>
+                          </CardHeader>
+                          <CardContent className="flex-grow">
+                            <p className="text-muted-foreground">{article.description}</p>
+                          </CardContent>
+                        </Card>
+                      </AccordionTrigger>
                       <AccordionContent>
                         <Card className="mt-2">
                            <CardContent className="pt-6 text-left">
