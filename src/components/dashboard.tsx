@@ -52,6 +52,17 @@ export function Dashboard() {
             </div>
         </section>
 
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/10">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">¿Por qué Íntima Juegos?</h2>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Sabemos que hablar de deseos íntimos puede ser difícil. Por eso creamos Íntima Juegos: una herramienta diseñada con parejas reales, para ayudar a abrir conversaciones, fortalecer la confianza y disfrutar de una sexualidad más plena.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
