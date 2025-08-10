@@ -100,6 +100,12 @@ const nextConfig: NextConfig = {
         hostname: 's.yimg.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.clarin.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

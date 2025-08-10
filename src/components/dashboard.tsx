@@ -57,7 +57,7 @@ export function Dashboard() {
       dialogTitle: "Escenario de Roles Erótico",
       dialogDescription: "Desde un encuentro casual en un bar hasta una sesión con el profesor particular. Elijan uno de nuestros escenarios o creen el suyo propio. Es la oportunidad perfecta para experimentar con nuevas dinámicas y liberar su lado más creativo en la intimidad.",
       buttonText: "Crear personaje",
-      image: "https://i.etsystatic.com/37509785/r/il/73397c/6499791195/il_1080xN.6499791195_gla3.jpg",
+      image: "https://www.clarin.com/2022/05/05/D9lXG--8R_720x0__1.jpg",
       imageHint: "erotic roleplay"
     },
     {
