@@ -9,7 +9,7 @@ export default function SobreIntima() {
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
         <Link href="/" className="flex items-center gap-2">
             <SparklesIcon className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold text-foreground">Intima Juegos</h1>
+            <h1 className="text-2xl font-bold text-foreground">Banana Pop Sex Shop</h1>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
             <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Inicio</Link>
@@ -31,14 +31,14 @@ export default function SobreIntima() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
-            <div className="px-4 md:px-6">
-                <div className="flex flex-col items-center space-y-8 text-center">
+            <div className="px-4 md:px-6 text-center">
+                <div className="flex flex-col items-center space-y-8">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Nuestra Razón de Ser</h1>
                     <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                        En Íntima Juegos, creemos que el placer y la conexión emocional son pilares fundamentales de una vida plena y una relación saludable. Nacimos de la convicción de que la intimidad es un universo por explorar, y que la comunicación es la brújula que guía esa exploración.
+                        En Banana Pop Sex Shop, creemos que el placer y la conexión emocional son pilares fundamentales de una vida plena y una relación saludable. Nacimos de la convicción de que la intimidad es un universo por explorar, y que la comunicación es la brújula que guía esa exploración.
                     </p>
                 </div>
-                <div className="mx-auto max-w-3xl space-y-10 pt-12 text-center">
+                <div className="mx-auto max-w-3xl space-y-10 pt-12">
                     <div className="space-y-4">
                         <h2 className="text-3xl font-bold text-primary">Nuestra Filosofía</h2>
                         <p className="text-muted-foreground text-lg">
@@ -62,7 +62,7 @@ export default function SobreIntima() {
         </section>
       </main>
        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 Intima Juegos. Todos los derechos reservados.</p>
+        <p className="text-xs text-muted-foreground">&copy; 2024 Banana Pop Sex Shop. Todos los derechos reservados.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <a href="#" className="text-xs hover:underline underline-offset-4">Términos y Condiciones</a>
           <a href="#" className="text-xs hover:underline underline-offset-4">Privacidad</a>
