@@ -23,7 +23,7 @@ export default function HistoriasReales() {
       years: "Llevamos 2 años juntos",
       story: "Siempre nos costó hablar de fantasías. Nos daba vergüenza. La 'Ruleta de Fantasías' lo hizo divertido, casual, ¡un juego! Nos reímos mucho y descubrimos cosas nuevas del otro que nunca hubiéramos imaginado.",
       fallback: "A&C",
-      image: "https://placehold.co/80x80.png",
+      image: "https://i.pinimg.com/236x/58/4c/a9/584ca9b7efea30c60cd1c70636f60a27.jpg",
       imageHint: "laughing couple"
     },
     {

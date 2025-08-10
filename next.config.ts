@@ -166,6 +166,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.dzoom.org.es',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.pinimg.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
