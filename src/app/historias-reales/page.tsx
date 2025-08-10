@@ -39,7 +39,7 @@ export default function HistoriasReales() {
       years: "Llevamos 1 año juntos",
       story: "Somos una pareja joven y creíamos que nos comunicábamos bien, pero 'Secretos Compartidos' nos llevó a un nivel de honestidad y confianza que no esperábamos. Súper recomendado.",
       fallback: "J&L",
-      image: "https://placehold.co/80x80.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLt5vcgikVlciyy4NL5VGlnQlngrPSc30fNg&s",
       imageHint: "young couple"
     },
     {
@@ -123,5 +123,3 @@ export default function HistoriasReales() {
     </div>
   );
 }
-
-    
