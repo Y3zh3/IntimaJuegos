@@ -49,7 +49,7 @@ export default function HistoriasReales() {
       years: "Llevamos 10 años juntos",
       story: "Creíamos que lo habíamos probado todo, pero el 'Guion Erótico Colaborativo' fue una sorpresa total. Escribir juntos fue tan excitante como el resultado. Nos desbloqueó una creatividad que no sabíamos que teníamos.",
       fallback: "P&M",
-      image: "https://cdn.shopify.com/s/files/1/0273/1550/3138/files/11011.bigger_480x480.jpg?v=1645036931",
+      image: "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyZmlsfGVufDB8fDB8fHww",
       imageHint: "creative couple"
     },
     {
