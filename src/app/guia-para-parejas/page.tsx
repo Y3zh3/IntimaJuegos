@@ -159,9 +159,9 @@ export default function GuiaParaParejas() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-16">
+        <section className="w-full py-12">
           <div className="flex flex-col items-center px-4 md:px-6">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tighter text-primary text-center">Guía para Parejas</h1>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary text-center">Guía para Parejas</h1>
             <p className="mt-4 max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
             Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
             </p>

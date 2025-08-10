@@ -33,7 +33,7 @@ export default function SobreIntima() {
         <section className="w-full py-12">
             <div className="container mx-auto max-w-3xl px-4 md:px-6">
                 <div className="flex flex-col items-center space-y-4 text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
+                    <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
                 </div>
                 <div className="mt-6 space-y-6">
                     <p className="text-lg text-muted-foreground text-justify">

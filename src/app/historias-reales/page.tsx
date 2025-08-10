@@ -83,9 +83,9 @@ export default function HistoriasReales() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-16">
+        <section className="w-full py-12">
           <div className="flex flex-col items-center px-4 md:px-6 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tighter text-primary mb-4">Historias que Conectan</h1>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary mb-4">Historias que Conectan</h1>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
               Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
             </p>
