@@ -33,19 +33,16 @@ export default function HistoriasReales() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-16">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Historias que Conectan</h1>
-              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Parejas como la tuya comparten cómo Íntima Juegos les ayudó a redescubrirse.
-              </p>
-            </div>
+        <section className="w-full py-12">
+          <div className="px-4 md:px-6 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Historias que Conectan</h1>
+            <p className="max-w-[900px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Parejas como la tuya comparten cómo Íntima Juegos les ayudó a redescubrirse.
+            </p>
           </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
-          <div className="px-4 md:px-6">
-            <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
+          <div className="grid gap-8 md:grid-cols-2 lg:gap-12 px-4 md:px-6">
               <Card>
                 <CardHeader className="flex flex-row items-center gap-4">
                   <Avatar>
@@ -149,7 +146,6 @@ export default function HistoriasReales() {
                 </CardContent>
               </Card>
             </div>
-          </div>
         </section>
       </main>
        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
