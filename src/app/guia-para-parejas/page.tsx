@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
 import { CartSheet } from "@/components/cart-sheet";
+import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 
 
 export default function GuiaParaParejas() {
@@ -152,10 +153,27 @@ export default function GuiaParaParejas() {
         </nav>
         <div className="flex items-center gap-4">
             <CartSheet />
-            <Button variant="ghost" size="icon" className="md:hidden">
-                <MenuIcon className="h-6 w-6" />
-                <span className="sr-only">Menú</span>
-            </Button>
+            <Sheet>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="md:hidden">
+                    <MenuIcon className="h-6 w-6" />
+                    <span className="sr-only">Menú</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="left">
+                <nav className="grid gap-6 text-lg font-medium">
+                  <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
+                    <SparklesIcon className="h-6 w-6 text-primary" />
+                    <span className="text-foreground">IntimaJuegos</span>
+                  </Link>
+                  <Link href="/" className="text-muted-foreground hover:text-foreground">Inicio</Link>
+                  <Link href="/juegos-para-conectar" className="text-muted-foreground hover:text-foreground">Juegos para Conectar</Link>
+                  <Link href="/guia-para-parejas" className="text-foreground hover:text-foreground">Guía para Parejas</Link>
+                  <Link href="/historias-reales" className="text-muted-foreground hover:text-foreground">Historias Reales</Link>
+                  <Link href="/sobre-intima" className="text-muted-foreground hover:text-foreground">Sobre Íntima</Link>
+                </nav>
+              </SheetContent>
+            </Sheet>
         </div>
       </header>
       <main className="flex-1">
@@ -201,5 +219,3 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
-
-    
