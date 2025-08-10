@@ -2,10 +2,10 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { SparklesIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { CartSheet } from "@/components/cart-sheet";
 
 export default function HistoriasReales() {
@@ -92,25 +92,29 @@ export default function HistoriasReales() {
           </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
-          <div className="container mx-auto max-w-4xl px-4 md:px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-6">
               {testimonials.map((testimonial) => (
-                <Card key={testimonial.name} className="flex flex-col items-center gap-6 p-6 border-transparent hover:border-primary transition-colors overflow-hidden text-center">
-                  <Avatar className="h-20 w-20 flex-shrink-0">
-                    <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.imageHint} />
-                    <AvatarFallback>{testimonial.fallback}</AvatarFallback>
-                  </Avatar>
-                  <div className="flex flex-col">
-                    <h3 className="text-lg font-bold text-primary">{testimonial.name}</h3>
-                    <p className="text-sm text-muted-foreground mb-2">{testimonial.years}</p>
-                    <p className="text-muted-foreground text-sm text-center">
+                <Card key={testimonial.name} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
+                    <Image
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                      width={400}
+                      height={300}
+                      className="h-48 w-full object-cover"
+                      data-ai-hint={testimonial.imageHint}
+                    />
+                  <CardHeader>
+                    <CardTitle className="text-primary">{testimonial.name}</CardTitle>
+                    <CardDescription>{testimonial.years}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground text-sm">
                       "{testimonial.story}"
                     </p>
-                  </div>
+                  </CardContent>
                 </Card>
               ))}
             </div>
-          </div>
         </section>
       </main>
        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
