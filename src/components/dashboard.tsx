@@ -77,7 +77,7 @@ export function Dashboard() {
       dialogTitle: "Mapa del Tesoro Corporal",
       dialogDescription: "El cuerpo de su pareja es un mapa lleno de tesoros por descubrir. Con esta guía, explorarán cada rincón con besos, caricias y masajes, encontrando nuevos puntos de placer que no sabían que existían. ¡La aventura está a punto de comenzar!",
       buttonText: "Iniciar Aventura",
-      image: "https://w7.pngwing.com/pngs/159/442/png-transparent-treasure-map-treasure-island-buried-treasure-map-piracy-map-treasure-thumbnail.png",
+      image: "https://i.ytimg.com/vi/tIRqi1rSso0/maxresdefault.jpg",
       imageHint: "body map"
     },
     {

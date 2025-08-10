@@ -82,6 +82,12 @@ const nextConfig: NextConfig = {
         hostname: 'imgv2-1-f.scribdassets.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
