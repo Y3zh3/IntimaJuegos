@@ -44,9 +44,9 @@ export function Dashboard() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full pt-12 md:pt-24">
             <div className="container px-4 md:px-6 text-center">
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Conecta desde el Placer y la Confianza</h2>
+                <h2 className="text-4xl md:text-5xl font-bold sm:text-6xl text-primary">Conecta desde el Placer y la Confianza</h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
                     Íntima Juegos nace para ayudarte a hablar, sentir y explorar el deseo con tu pareja desde el respeto, la empatía y la diversión.
                 </p>
@@ -56,7 +56,7 @@ export function Dashboard() {
         <section className="w-full py-12 bg-muted/20">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Juegos en Pareja Digitales</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary">Juegos en Pareja Digitales</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
