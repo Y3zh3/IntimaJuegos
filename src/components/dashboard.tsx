@@ -101,7 +101,7 @@ export function Dashboard() {
             </div>
         </section>
 
-        <section className="w-full py-12 bg-muted/20">
+        <section className="w-full py-12">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juegos en Pareja Digitales</h2>
@@ -109,7 +109,7 @@ export function Dashboard() {
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
-            <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-3">
+            <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3">
               {games.map((game) => (
                 <Card key={game.title} className="flex flex-col">
                   <CardHeader>
