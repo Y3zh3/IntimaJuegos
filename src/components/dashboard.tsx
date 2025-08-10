@@ -114,6 +114,7 @@ export function Dashboard() {
                 <Card key={game.title}>
                   <CardHeader>
                     <CardTitle>{game.title}</CardTitle>
+                    <CardDescription>{game.category}</CardDescription>
                   </CardHeader>
                   <CardContent className="flex flex-col justify-between h-full">
                     <p className="text-muted-foreground mb-4">{game.description}</p>
@@ -131,7 +132,6 @@ export function Dashboard() {
                           </DialogHeader>
                         </DialogContent>
                       </Dialog>
-                      <span className="text-sm font-semibold text-accent-foreground">{game.category}</span>
                     </div>
                   </CardContent>
                 </Card>
