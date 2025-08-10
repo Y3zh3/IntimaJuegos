@@ -132,7 +132,7 @@ export function Dashboard() {
                     <SparklesIcon className="h-6 w-6 text-primary" />
                     <span className="text-foreground">IntimaJuegos</span>
                   </Link>
-                  <Link href="/" className="text-muted-foreground hover:text-foreground">Inicio</Link>
+                  <Link href="/" className="text-foreground hover:text-foreground">Inicio</Link>
                   <Link href="/juegos-para-conectar" className="text-muted-foreground hover:text-foreground">Juegos para Conectar</Link>
                   <Link href="/guia-para-parejas" className="text-muted-foreground hover:text-foreground">Guía para Parejas</Link>
                   <Link href="/historias-reales" className="text-muted-foreground hover:text-foreground">Historias Reales</Link>
