@@ -184,6 +184,12 @@ const nextConfig: NextConfig = {
         hostname: 'cdn.shopify.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'marketplace.canva.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

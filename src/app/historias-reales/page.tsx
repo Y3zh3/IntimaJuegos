@@ -33,7 +33,7 @@ export default function HistoriasReales() {
       years: "Llevamos 8 años juntos",
       story: "Estábamos en una rutina terrible. 'El Desafío de los Sentidos' nos obligó a parar y a reconectar de una forma que no hacíamos en años. Fue increíblemente poderoso.",
       fallback: "S&D",
-      image: "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyZmlsfGVufDB8fDB8fHww",
+      image: "https://marketplace.canva.com/EAFYbL_0ZYM/3/0/1600w/canva-foto-de-perfil-para-instagram-retrato-llamativo-floral-azul-STzuI27-q6s.jpg",
       imageHint: "intimate couple"
     },
     {
@@ -57,7 +57,7 @@ export default function HistoriasReales() {
       years: "Llevamos 3 años juntos",
       story: "La 'Cita a Ciegas en Casa' se ha convertido en nuestro ritual mensual. Es increíble cómo algo tan simple puede traer tanta emoción y romanticismo a la relación. Nos turnamos para sorprender al otro y cada vez es mejor.",
       fallback: "E&V",
-      image: "https://i.pinimg.com/236x/c2/9c/40/c29c40fef515b859f19d99c9c96f5429.jpg",
+      image: "https://i.pinimg.com/236x/c2/9c/40/c29c40fef515b8ef19d99c9c96f5429.jpg",
       imageHint: "romantic couple"
     },
   ];
