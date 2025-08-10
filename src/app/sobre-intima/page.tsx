@@ -53,7 +53,7 @@ export default function SobreIntima() {
                     </div>
                     <div className="space-y-4">
                         <h2 className="text-3xl font-bold text-primary">Nuestros Valores</h2>
-                        <ul className="text-white text-lg list-outside space-y-2 pl-6 text-left">
+                        <ul className="text-white text-lg list-outside space-y-2 text-left">
                           <li className="text-justify"><strong>Empatía Radical:</strong> Nos esforzamos por ponernos en el lugar de cada pareja, entendiendo que cada relación es un mundo único. Escuchamos sus historias y validamos sus experiencias sin juicio.</li>
                           <li className="text-justify"><strong>Innovación Constante:</strong> El mundo de la intimidad está siempre evolucionando. Estamos comprometidos con la creación continua de juegos y herramientas que sean relevantes, emocionantes y verdaderamente útiles.</li>
                           <li className="text-justify"><strong>Inclusión y Diversidad:</strong> Celebramos el amor en todas sus formas. Nuestros recursos están diseñados para ser inclusivos y respetuosos con todas las orientaciones sexuales, identidades de género y tipos de relación.</li>
