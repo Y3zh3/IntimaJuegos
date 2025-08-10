@@ -63,6 +63,30 @@ export function Dashboard() {
       dialogTitle: "Mapa del Tesoro Corporal",
       dialogDescription: "El cuerpo de su pareja es un mapa lleno de tesoros por descubrir. Con esta guía, explorarán cada rincón con besos, caricias y masajes, encontrando nuevos puntos de placer que no sabían que existían. ¡La aventura está a punto de comenzar!",
       buttonText: "Iniciar Aventura"
+    },
+    {
+      title: "Secretos Compartidos",
+      category: "Conexión Emocional",
+      description: "Un juego de cartas para revelar secretos y fortalecer la confianza mutua.",
+      dialogTitle: "Secretos Compartidos",
+      dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
+      buttonText: "Contar un secreto"
+    },
+    {
+      title: "Guion Erótico Colaborativo",
+      category: "Explorar Fantasías",
+      description: "Escriban juntos una historia erótica y luego, si se atreven, llévenla a la realidad.",
+      dialogTitle: "Guion Erótico Colaborativo",
+      dialogDescription: "Tomen turnos para escribir un párrafo de una historia erótica. Dejen volar su imaginación y creen un relato único que los excite a ambos. La diversión está tanto en el proceso creativo como en el resultado final.",
+      buttonText: "Empezar a escribir"
+    },
+    {
+      title: "Cita a Ciegas en Casa",
+      category: "Reavivar la Intimidad",
+      description: "Organicen una cita sorpresa en casa, planeando cada detalle sin que el otro lo sepa.",
+      dialogTitle: "Cita a Ciegas en Casa",
+      dialogDescription: "Uno de los dos planea una velada especial en casa: la cena, la música, la atmósfera. El otro solo tiene que dejarse sorprender. Una forma perfecta de romper la rutina y demostrar cuánto se cuidan.",
+      buttonText: "Planear la cita"
     }
   ];
 
@@ -109,7 +133,7 @@ export function Dashboard() {
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
-            <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3">
+            <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3">
               {games.map((game) => (
                 <Card key={game.title} className="flex flex-col">
                   <CardHeader>
