@@ -118,6 +118,12 @@ const nextConfig: NextConfig = {
         hostname: 'm.media-amazon.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'us.123rf.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
