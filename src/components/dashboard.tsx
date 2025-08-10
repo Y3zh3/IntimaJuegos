@@ -106,9 +106,9 @@ export function Dashboard() {
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
         <Link href="/" className="flex items-center gap-2">
             <SparklesIcon className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold text-foreground">IntimaJuegos</h1>
+            <h1 className="text-3xl font-bold text-foreground">IntimaJuegos</h1>
         </Link>
-        <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
+        <nav className="hidden items-center gap-6 text-base font-medium md:flex">
             <Link href="/" className="text-foreground transition-colors hover:text-primary">Inicio</Link>
             <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
             <Link href="/guia-para-parejas" className="text-muted-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
