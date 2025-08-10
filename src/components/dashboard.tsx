@@ -26,7 +26,7 @@ export function Dashboard() {
       dialogTitle: "Conversaciones de Corazón",
       dialogDescription: "La intimidad no es solo física. Con estas tarjetas de conversación, podrán explorar sus sentimientos, sueños y recuerdos más profundos. Es una forma hermosa de conectar a nivel emocional y fortalecer el vínculo que los une.",
       buttonText: "Empezar a hablar",
-      image: "https://placehold.co/400x310.png",
+      image: "https://png.pngtree.com/png-clipart/20220911/original/pngtree-heart-emoji-in-dialog-chat-box-png-image_8539164.png",
       imageHint: "couple talking"
     },
     {
@@ -189,5 +189,3 @@ export function Dashboard() {
     </div>
   );
 }
-
-    
