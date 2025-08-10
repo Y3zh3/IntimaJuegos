@@ -137,7 +137,7 @@ export function Dashboard() {
             <div className="mx-auto max-w-7xl">
               <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-4">
                 {games.slice(0, 8).map((game) => (
-                    <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
+                    <Card key={game.title} className="flex flex-col h-full border-transparent hover:border-primary transition-colors overflow-hidden">
                     <div className="relative">
                         <Image
                         src={game.image}
