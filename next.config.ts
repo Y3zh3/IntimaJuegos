@@ -136,6 +136,12 @@ const nextConfig: NextConfig = {
         hostname: 'vader-prod.s3.amazonaws.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.made-in-china.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

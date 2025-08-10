@@ -23,7 +23,7 @@ const products: Product[] = [
     id: '2',
     name: 'Vara Mágica Celestial',
     price: 'S/ 359.99',
-    image: 'https://placehold.co/400x420.png',
+    image: 'https://image.made-in-china.com/202f0j00eqBuvQgsaEzh/Huge-Powerful-Massage-Vibrator-5-Modes-Erotic-Toy-Clitoris-Stimulator-AV-Magic-Wand-Massager-Adult-Masturbator-Sex-Toy-for-Women.webp',
     imageHint: 'wand vibrator',
     review: 'Potente, versátil y sorprendentemente silencioso. Ideal para masajes corporales que terminan en una experiencia celestial. Un imprescindible en cualquier colección.',
     longDescription: 'Conocida por sus vibraciones profundas y retumbantes, la Vara Mágica es una leyenda. Su cabezal flexible de silicona distribuye las vibraciones de manera uniforme, perfecta tanto para aliviar la tensión muscular como para alcanzar orgasmos increíbles. No te dejes engañar por su tamaño, su poder es celestial.'
