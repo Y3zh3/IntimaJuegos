@@ -156,7 +156,7 @@ export default function GuiaParaParejas() {
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32">
           <div className="container px-4 md:px-6">
-            <div className="mx-auto max-w-3xl">
+            <div className="mx-auto max-w-3xl transform md:translate-x-8">
               <Accordion type="single" collapsible className="w-full">
                 <div className="grid gap-8 sm:grid-cols-1">
                   {articles.map((article) => (
