@@ -25,7 +25,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             alt={product.name}
             width={400}
             height={400}
-            className="h-48 w-full object-cover"
+            className="h-36 w-full object-cover"
             data-ai-hint={product.imageHint}
           />
         </div>
@@ -33,7 +33,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           <CardTitle className="text-lg font-semibold text-foreground">{product.name}</CardTitle>
         </CardHeader>
         <CardContent className="p-4 pt-0 flex flex-col flex-grow text-center">
-          <p className="text-muted-foreground text-sm mt-4 flex-grow">{product.review}</p>
+          <p className="text-muted-foreground text-sm mt-4">{product.review}</p>
           <div className="flex items-center justify-between mt-4">
             <p className="text-xl font-bold text-primary">{product.price}</p>
             <DialogTrigger asChild>
