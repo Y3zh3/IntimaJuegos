@@ -33,9 +33,9 @@ export default function SobreIntima() {
         <section className="w-full py-12">
             <div className="container mx-auto max-w-3xl px-4 md:px-6">
                 <div className="flex flex-col items-center space-y-4 text-center">
-                    <h1 className="text-3xl sm:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
                 </div>
-                <div className="space-y-6 mt-6">
+                <div className="mt-6 space-y-6">
                     <p className="text-lg text-muted-foreground text-justify">
                         En IntimaJuegos, creemos que el placer y la conexión emocional son pilares fundamentales de una vida plena y una relación saludable. Nacimos de la convicción de que la intimidad es un universo por explorar, y que la comunicación es la brújula que guía esa exploración.
                     </p>
