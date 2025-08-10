@@ -144,7 +144,7 @@ export function Dashboard() {
             </div>
             <div className="mx-auto max-w-7xl">
               <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-4">
-                {games.map((game) => (
+                {games.slice(0, 8).map((game) => (
                     <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
                     <div className="relative">
                         <Image
@@ -156,11 +156,11 @@ export function Dashboard() {
                         data-ai-hint={game.imageHint}
                         />
                     </div>
-                    <CardHeader className="p-4">
+                    <CardHeader className="p-4 text-center">
                         <CardTitle>{game.title}</CardTitle>
                         <CardDescription>{game.category}</CardDescription>
                     </CardHeader>
-                    <CardContent className="flex flex-col flex-grow p-4 pt-0">
+                    <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
                         <p className="text-muted-foreground mb-4 flex-grow text-sm">{game.description}</p>
                         <div className="mt-auto">
                         <Dialog>
