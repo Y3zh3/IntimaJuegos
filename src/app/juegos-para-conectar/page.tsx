@@ -31,18 +31,20 @@ export default function JuegosParaConectar() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-6 text-center">
-            <div className="container px-4 md:px-6">
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Juguetes para Explorar</h2>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
-                    Nuestra selección de juguetes para la curiosidad y el placer.
-                </p>
+        <section className="w-full py-12">
+            <div className="px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                    <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juguetes para Explorar</h2>
+                    <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        Nuestra selección de juguetes para la curiosidad y el placer.
+                    </p>
+                </div>
+                <div className="mx-auto max-w-7xl">
+                    <div className="py-12">
+                        <ProductGrid />
+                    </div>
+                </div>
             </div>
-        </section>
-        <section className="w-full pb-12">
-          <div className="mx-auto max-w-7xl px-4 md:px-6">
-              <ProductGrid />
-          </div>
         </section>
       </main>
        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">

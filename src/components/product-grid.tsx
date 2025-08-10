@@ -81,47 +81,48 @@ const products = [
 
 export default function ProductGrid() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-      {products.map((product) => (
+    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
+      {products.slice(0, 8).map((product) => (
         <Card key={product.name} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
-          <div className="relative">
+        <div className="relative">
             <Image
-              src={product.image}
-              alt={product.name}
-              width={400}
-              height={300}
-              className="h-48 w-full object-cover"
-              data-ai-hint={product.imageHint}
+            src={product.image}
+            alt={product.name}
+            width={400}
+            height={300}
+            className="h-48 w-full object-cover"
+            data-ai-hint={product.imageHint}
             />
-          </div>
-          <CardHeader className="p-4 pt-2 text-center">
+        </div>
+        <CardHeader className="p-4 text-center">
             <CardTitle>{product.name}</CardTitle>
-          </CardHeader>
-          <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
+            <CardDescription>{product.price}</CardDescription>
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
             <p className="text-muted-foreground mb-4 flex-grow text-sm">{product.review}</p>
             <div className="mt-auto">
-              <Dialog>
+            <Dialog>
                 <DialogTrigger asChild>
-                  <Button className="w-full">Detalles</Button>
+                <Button className="w-full">Detalles</Button>
                 </DialogTrigger>
                 <DialogContent>
-                  <DialogHeader>
+                <DialogHeader>
                     <DialogTitle>{product.name}</DialogTitle>
                     <DialogDescription>
-                      {product.longDescription}
+                    {product.longDescription}
                     </DialogDescription>
-                  </DialogHeader>
-                  <div className="flex items-center justify-between mt-4">
+                </DialogHeader>
+                <div className="flex items-center justify-between mt-4">
                     <p className="text-2xl font-bold text-primary">{product.price}</p>
                     <Button>
-                      <ShoppingCartIcon className="mr-2 h-4 w-4" />
-                      Añadir al Carrito
+                    <ShoppingCartIcon className="mr-2 h-4 w-4" />
+                    Añadir al Carrito
                     </Button>
-                  </div>
+                </div>
                 </DialogContent>
-              </Dialog>
+            </Dialog>
             </div>
-          </CardContent>
+        </CardContent>
         </Card>
       ))}
     </div>
