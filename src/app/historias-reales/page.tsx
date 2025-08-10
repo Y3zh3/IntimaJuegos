@@ -15,7 +15,7 @@ export default function HistoriasReales() {
       years: "Llevamos 5 años juntos",
       story: "Después de la llegada de los niños, sentíamos que nos habíamos distanciado. El juego 'Conversaciones de Corazón' nos dio el espacio para volver a hablar de nosotros, de nuestros sueños... fue como volver a conocernos. ¡Gracias!",
       fallback: "M&L",
-      image: "https://placehold.co/80x80.png",
+      image: "https://www.dzoom.org.es/wp-content/uploads/2020/02/portada-foto-perfil-redes-sociales-consejos.jpg",
       imageHint: "happy couple"
     },
     {

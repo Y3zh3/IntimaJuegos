@@ -160,6 +160,12 @@ const nextConfig: NextConfig = {
         hostname: 'tolivmarket-production.s3.sa-east-1.amazonaws.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.dzoom.org.es',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
