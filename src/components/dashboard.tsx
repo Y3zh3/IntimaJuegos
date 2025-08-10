@@ -24,7 +24,7 @@ export function Dashboard() {
       dialogTitle: "Conversaciones de Corazón",
       dialogDescription: "La intimidad no es solo física. Con estas tarjetas de conversación, podrán explorar sus sentimientos, sueños y recuerdos más profundos. Es una forma hermosa de conectar a nivel emocional y fortalecer el vínculo que los une.",
       buttonText: "Empezar a hablar",
-      image: "https://placehold.co/400x300.png",
+      image: "https://placehold.co/400x310.png",
       imageHint: "couple talking"
     },
     {
@@ -34,8 +34,8 @@ export function Dashboard() {
       dialogTitle: "Verdad o Atrevimiento Íntimo",
       dialogDescription: "Prepárense para una noche de revelaciones y risas. Con preguntas y desafíos que van de lo tierno a lo muy picante, este juego es perfecto para conocerse mejor y añadir una chispa de emoción. ¿Se atreverán a decir la verdad o cumplirán el desafío?",
       buttonText: "Jugar ahora",
-      image: "https://placehold.co/400x300.png",
-      imageHint: "truth or dare game"
+      image: "https://placehold.co/400x320.png",
+      imageHint: "truth dare game"
     },
     {
       title: "Ruleta de Fantasías",
@@ -44,7 +44,7 @@ export function Dashboard() {
       dialogTitle: "Ruleta de Fantasías",
       dialogDescription: "¿Buscan salir de la rutina? Dejen que la ruleta elija por ustedes. Cada giro desvela una nueva fantasía o un escenario para explorar juntos. Desde masajes sensuales hasta juegos de roles, nunca sabrán qué les depara la suerte.",
       buttonText: "Probar suerte",
-      image: "https://placehold.co/400x300.png",
+      image: "https://placehold.co/400x330.png",
       imageHint: "fantasy roulette"
     },
     {
@@ -54,7 +54,7 @@ export function Dashboard() {
       dialogTitle: "Escenario de Roles Erótico",
       dialogDescription: "Desde un encuentro casual en un bar hasta una sesión con el profesor particular. Elijan uno de nuestros escenarios o creen el suyo propio. Es la oportunidad perfecta para experimentar con nuevas dinámicas y liberar su lado más creativo en la intimidad.",
       buttonText: "Crear personaje",
-      image: "https://placehold.co/400x300.png",
+      image: "https://placehold.co/400x340.png",
       imageHint: "erotic roleplay"
     },
     {
@@ -64,7 +64,7 @@ export function Dashboard() {
       dialogTitle: "Desafío de los Sentidos",
       dialogDescription: "Venden los ojos a su pareja y prepárense para un viaje sensorial. Usen diferentes texturas, sabores y aromas para despertar sensaciones inolvidables. Este juego agudizará sus sentidos y les hará redescubrir el placer del tacto.",
       buttonText: "Explorar",
-      image: "https://placehold.co/400x300.png",
+      image: "https://placehold.co/400x350.png",
       imageHint: "sensory challenge"
     },
     {
@@ -74,7 +74,7 @@ export function Dashboard() {
       dialogTitle: "Mapa del Tesoro Corporal",
       dialogDescription: "El cuerpo de su pareja es un mapa lleno de tesoros por descubrir. Con esta guía, explorarán cada rincón con besos, caricias y masajes, encontrando nuevos puntos de placer que no sabían que existían. ¡La aventura está a punto de comenzar!",
       buttonText: "Iniciar Aventura",
-      image: "https://placehold.co/400x300.png",
+      image: "https://placehold.co/400x360.png",
       imageHint: "body map"
     },
     {
@@ -84,7 +84,7 @@ export function Dashboard() {
       dialogTitle: "Secretos Compartidos",
       dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
       buttonText: "Contar un secreto",
-      image: "https://placehold.co/400x300.png",
+      image: "https://placehold.co/400x370.png",
       imageHint: "shared secrets"
     },
     {
@@ -94,7 +94,7 @@ export function Dashboard() {
       dialogTitle: "Guion Erótico Colaborativo",
       dialogDescription: "Tomen turnos para escribir un párrafo de una historia erótica. Dejen volar su imaginación y creen un relato único que los excite a ambos. La diversión está tanto en el proceso creativo como en el resultado final.",
       buttonText: "Empezar a escribir",
-      image: "https://placehold.co/400x300.png",
+      image: "https://placehold.co/400x380.png",
       imageHint: "erotic script"
     },
     {
@@ -104,7 +104,7 @@ export function Dashboard() {
       dialogTitle: "Cita a Ciegas en Casa",
       dialogDescription: "Uno de los dos planea una velada especial en casa: la cena, la música, la atmósfera. El otro solo tiene que dejarse sorprender. Una forma perfecta de romper la rutina y demostrar cuánto se cuidan.",
       buttonText: "Planear la cita",
-      image: "https://placehold.co/400x300.png",
+      image: "https://placehold.co/400x390.png",
       imageHint: "blind date"
     }
   ];
@@ -203,3 +203,5 @@ export function Dashboard() {
     </div>
   );
 }
+
+    
