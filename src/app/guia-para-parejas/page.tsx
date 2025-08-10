@@ -14,14 +14,6 @@ export default function GuiaParaParejas() {
       description: "Aprende a expresar tus necesidades y a escuchar a tu pareja de una manera que construya puentes, no muros.",
       content: (
         <>
-            <Image
-              src="https://placehold.co/800x400.png"
-              alt="Pareja conversando"
-              width={800}
-              height={400}
-              className="mt-2 mb-6 rounded-lg object-cover"
-              data-ai-hint="couple talking intimately"
-            />
           <p>
             La comunicación es la base de cualquier relación sana y duradera. Sin embargo, no siempre es fácil expresar lo que sentimos o necesitamos, especialmente en temas de intimidad. La comunicación afectiva se trata de crear un espacio seguro donde ambos se sientan escuchados, validados y comprendidos.
           </p>
@@ -46,14 +38,6 @@ export default function GuiaParaParejas() {
       description: "Desde citas temáticas en casa hasta aventuras improvisadas. ¡Reaviva la chispa con estas ideas creativas!",
        content: (
         <>
-            <Image
-              src="https://placehold.co/800x400.png"
-              alt="Pareja en una aventura"
-              width={800}
-              height={400}
-              className="mt-2 mb-6 rounded-lg object-cover"
-              data-ai-hint="couple adventure fun"
-            />
             <p>La rutina puede ser cómoda, pero también puede apagar la chispa de la emoción en una relación. Salir de ella no siempre requiere grandes gestos o viajes caros. Aquí tienes 5 ideas para reconectar y crear nuevos recuerdos juntos.</p>
             <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. Noche de Cita Temática en Casa</h3>
             <p>Elijan un país que les gustaría visitar. Preparen una cena con platos típicos de ese lugar, pongan música de la región y vean una película de ese país. ¡Transformen su salón en un destino exótico por una noche!</p>
@@ -74,14 +58,6 @@ export default function GuiaParaParejas() {
       description: "Una guía paso a paso para compartir tus deseos más íntimos de forma segura y respetuosa.",
        content: (
         <>
-            <Image
-              src="https://placehold.co/800x400.png"
-              alt="Pareja susurrando secretos"
-              width={800}
-              height={400}
-              className="mt-2 mb-6 rounded-lg object-cover"
-              data-ai-hint="couple whispering secrets"
-            />
             <p>Hablar de fantasías sexuales puede ser intimidante, pero es una de las herramientas más poderosas para profundizar la intimidad y la confianza. La clave está en crear un espacio de seguridad y curiosidad mutua. Aquí te dejamos una guía.</p>
             <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. Empieza por el "Por Qué"</h3>
             <p>Antes de saltar al "qué", hablen del "por qué". Pueden empezar diciendo algo como: "He estado pensando en lo mucho que me excita nuestra conexión y me encantaría que exploráramos juntos nuevas formas de disfrutarla. ¿Estarías abierto/a a hablar sobre ello?". Esto enmarca la conversación desde un lugar de unión, no de carencia.</p>
@@ -102,14 +78,6 @@ export default function GuiaParaParejas() {
       description: "Mantener la individualidad es clave para una relación sana. Descubre cómo equilibrar el tiempo juntos y el tiempo a solas.",
        content: (
         <>
-            <Image
-              src="https://placehold.co/800x400.png"
-              alt="Persona disfrutando de tiempo a solas"
-              width={800}
-              height={400}
-              className="mt-2 mb-6 rounded-lg object-cover"
-              data-ai-hint="person alone reading"
-            />
             <p>En el torbellino del amor romántico, es fácil querer pasar cada segundo junto a la pareja. Sin embargo, una de las claves para una relación duradera y saludable es, paradójicamente, el espacio personal. Mantener la individualidad no es una señal de distancia, sino de fortaleza.</p>
             <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">¿Qué es el Espacio Personal?</h3>
             <p>No se trata solo de estar físicamente en habitaciones separadas. Es el tiempo y la libertad para cultivar tus propias aficiones, amistades e intereses. Es tener la oportunidad de extrañarse, de volver a la relación con nuevas experiencias y perspectivas para compartir.</p>
@@ -131,14 +99,6 @@ export default function GuiaParaParejas() {
       description: "Las discusiones son inevitables, pero se puede aprender a discutir de forma constructiva. Herramientas para fortalecer la relación.",
        content: (
         <>
-            <Image
-              src="https://placehold.co/800x400.png"
-              alt="Pareja resolviendo un conflicto"
-              width={800}
-              height={400}
-              className="mt-2 mb-6 rounded-lg object-cover"
-              data-ai-hint="couple conflict resolution"
-            />
             <p>Todas las parejas discuten. Es una parte inevitable de la convivencia. La diferencia entre una pareja que se fortalece y una que se debilita no es la ausencia de conflictos, sino cómo los manejan. Aprender a "discutir mejor" es una habilidad que se puede desarrollar.</p>
             <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. No es "Tú vs. Yo", es "Nosotros vs. el Problema"</h3>
             <p>Cambien la perspectiva. En lugar de verse como adversarios, siéntensen (literalmente) del mismo lado de la mesa y pongan el problema en el otro lado. Esto fomenta un enfoque de equipo para encontrar una solución, en lugar de una batalla por ver quién gana.</p>
@@ -157,14 +117,6 @@ export default function GuiaParaParejas() {
       description: "El amor no solo se demuestra en grandes ocasiones. Pequeños gestos diarios pueden tener un impacto enorme en la conexión.",
        content: (
         <>
-            <Image
-              src="https://placehold.co/800x400.png"
-              alt="Pareja compartiendo un momento tierno"
-              width={800}
-              height={400}
-              className="mt-2 mb-6 rounded-lg object-cover"
-              data-ai-hint="couple tender moment"
-            />
             <p>Los aniversarios, cumpleaños y San Valentín son maravillosos, pero el verdadero tejido de una relación sólida se construye en el día a día. Son los pequeños gestos, las acciones cotidianas y aparentemente insignificantes, las que más nutren el amor y la conexión. Aquí tienes algunas ideas.</p>
             <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. El Beso de los 6 Segundos</h3>
             <p>Los expertos dicen que un beso de al menos seis segundos libera oxitocina, la "hormona del amor", y crea un momento de conexión real. Conviertan en un hábito darse un beso de seis segundos al despedirse por la mañana y al reencontrarse por la tarde.</p>
