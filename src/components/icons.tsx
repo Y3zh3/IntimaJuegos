@@ -17,43 +17,7 @@ export const HeartIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const FlameIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <path d="M12.5 5.5C12.5 5.5 8 8.5 8 13.5c0 3.314 2.686 6 6 6s6-2.686 6-6c0-5-4.5-8-4.5-8zM12.5 5.5C12.5 5.5 15 4 16.5 2" />
-    <path d="M10.5 12.5c0-1.657-1.343-3-3-3s-3 1.343-3 3c0 2.21 1.79 4 4 4" />
-  </svg>
-);
-
-export const EyeIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5z" />
-    <circle cx="12" cy="12" r="3" />
-  </svg>
-);
-
-export const SettingsIcon = (props: SVGProps<SVGSVGElement>) => (
+export const SparklesIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg 
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -66,13 +30,15 @@ export const SettingsIcon = (props: SVGProps<SVGSVGElement>) => (
         strokeLinejoin="round"
         {...props}
     >
-        <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 0 2l-.15.08a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.38a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1 0-2l.15-.08a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/>
-        <circle cx="12" cy="12" r="3"/>
+        <path d="M9.93 2.07a2 2 0 0 1 3.14 0l1.93 2.89a1 1 0 0 0 .83.54h3.5a2 2 0 0 1 1.57 3.14l-2.4 3.6a1 1 0 0 0 0 1.18l2.4 3.6a2 2 0 0 1-1.57 3.14h-3.5a1 1 0 0 0-.83.54l-1.93 2.89a2 2 0 0 1-3.14 0l-1.93-2.89a1 1 0 0 0-.83-.54H2.5a2 2 0 0 1-1.57-3.14l2.4-3.6a1 1 0 0 0 0-1.18l-2.4-3.6A2 2 0 0 1 2.5 5.5h3.5a1 1 0 0 0 .83-.54L9.93 2.07z"/>
+        <path d="M12 8v8"/>
+        <path d="M8.5 10.5l7 3"/>
+        <path d="M8.5 13.5l7-3"/>
     </svg>
 );
 
-export const TrophyIcon = (props: SVGProps<SVGSVGElement>) => (
-    <svg
+export const ShoppingCartIcon = (props: SVGProps<SVGSVGElement>) => (
+    <svg 
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
@@ -84,11 +50,27 @@ export const TrophyIcon = (props: SVGProps<SVGSVGElement>) => (
         strokeLinejoin="round"
         {...props}
     >
-        <path d="M12 2L9 5h6l-3-3z"/>
-        <path d="M9 5v5c0 1.1.9 2 2 2h2c1.1 0 2-.9 2-2V5"/>
-        <path d="M17 12v5H7v-5"/>
-        <path d="M7 17h10"/>
-        <path d="M12 17v5"/>
-        <path d="M10 22h4"/>
+        <circle cx="8" cy="21" r="1"/>
+        <circle cx="19" cy="21" r="1"/>
+        <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.16"/>
+    </svg>
+);
+
+export const MenuIcon = (props: SVGProps<SVGSVGElement>) => (
+    <svg 
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        {...props}
+    >
+        <line x1="4" x2="20" y1="12" y2="12"/>
+        <line x1="4" x2="20" y1="6" y2="6"/>
+        <line x1="4" x2="20" y1="18" y2="18"/>
     </svg>
 );

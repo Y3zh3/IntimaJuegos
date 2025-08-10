@@ -11,8 +11,8 @@ const alegreya = Alegreya({
 });
 
 export const metadata: Metadata = {
-  title: 'AmorEsJuego',
-  description: 'Una app para que las parejas se conecten y crezcan.',
+  title: 'Intima Juegos',
+  description: 'Explora un mundo de placer con nuestra colección de juguetes.',
 };
 
 export default function RootLayout({
