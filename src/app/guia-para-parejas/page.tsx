@@ -159,7 +159,7 @@ export default function GuiaParaParejas() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12">
+        <section className="w-full pt-8">
           <div className="flex flex-col items-center px-4 md:px-6">
             <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary text-center">Guía para Parejas</h1>
             <p className="mt-4 max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
@@ -201,3 +201,5 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
+
+    

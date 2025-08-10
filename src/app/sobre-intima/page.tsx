@@ -30,7 +30,7 @@ export default function SobreIntima() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12">
+        <section className="w-full pt-8">
             <div className="container mx-auto max-w-3xl px-4 md:px-6">
                 <div className="flex flex-col items-center space-y-4 text-center">
                     <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
@@ -81,3 +81,5 @@ export default function SobreIntima() {
     </div>
   );
 }
+
+    

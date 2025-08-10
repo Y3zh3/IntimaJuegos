@@ -30,7 +30,7 @@ export default function JuegosParaConectar() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12">
+        <section className="w-full pt-8">
             <div className="px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col items-center justify-center space-y-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juguetes para Explorar</h2>
@@ -56,3 +56,5 @@ export default function JuegosParaConectar() {
     </div>
   );
 }
+
+    
