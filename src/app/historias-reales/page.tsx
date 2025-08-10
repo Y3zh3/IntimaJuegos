@@ -43,7 +43,7 @@ export default function HistoriasReales() {
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
           <div className="grid gap-8 md:grid-cols-2 lg:gap-12 w-full">
-              <Card>
+              <Card className="border-transparent hover:border-primary transition-colors">
                 <CardHeader className="flex flex-row items-center gap-4">
                   <Avatar>
                     <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="happy couple" />
@@ -60,7 +60,7 @@ export default function HistoriasReales() {
                   </p>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-transparent hover:border-primary transition-colors">
                 <CardHeader className="flex flex-row items-center gap-4">
                   <Avatar>
                     <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="smiling couple" />
@@ -77,7 +77,7 @@ export default function HistoriasReales() {
                   </p>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-transparent hover:border-primary transition-colors">
                 <CardHeader className="flex flex-row items-center gap-4">
                   <Avatar>
                     <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="mature couple" />
@@ -94,7 +94,7 @@ export default function HistoriasReales() {
                   </p>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-transparent hover:border-primary transition-colors">
                 <CardHeader className="flex flex-row items-center gap-4">
                   <Avatar>
                     <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="young couple" />
@@ -111,7 +111,7 @@ export default function HistoriasReales() {
                   </p>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-transparent hover:border-primary transition-colors">
                 <CardHeader className="flex flex-row items-center gap-4">
                   <Avatar>
                     <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="laughing couple" />
@@ -128,7 +128,7 @@ export default function HistoriasReales() {
                   </p>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-transparent hover:border-primary transition-colors">
                 <CardHeader className="flex flex-row items-center gap-4">
                   <Avatar>
                     <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="couple outdoors" />
