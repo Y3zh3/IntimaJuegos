@@ -3,8 +3,7 @@ import Link from "next/link";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export default function GuiaParaParejas() {
   const articles = [
@@ -158,35 +157,36 @@ export default function GuiaParaParejas() {
         <section className="w-full pb-12 md:pb-24 lg:pb-32">
           <div className="px-4 md:px-6">
             <div className="mx-auto max-w-7xl">
+              <Accordion type="single" collapsible className="w-full">
                 <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                {articles.map((article) => (
-                    <Card key={article.title} className="flex flex-col border-transparent hover:border-primary transition-colors">
-                    <CardHeader>
-                        <CardTitle>{article.title}</CardTitle>
-                    </CardHeader>
-                    <CardContent className="flex-grow">
-                        <p className="text-muted-foreground">{article.description}</p>
-                    </CardContent>
-                    <CardFooter>
-                        <Dialog>
-                        <DialogTrigger asChild>
+                  {articles.map((article) => (
+                    <AccordionItem value={article.title} key={article.title} className="border-b-0">
+                       <Card className="flex flex-col border-transparent hover:border-primary transition-colors h-full">
+                        <CardHeader>
+                          <CardTitle>{article.title}</CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                          <p className="text-muted-foreground">{article.description}</p>
+                        </CardContent>
+                        <CardFooter>
+                           <AccordionTrigger className="w-full">
                             <Button variant="link" className="font-semibold text-primary p-0 h-auto">Leer más</Button>
-                        </DialogTrigger>
-                        <DialogContent className="sm:max-w-[600px]">
-                            <DialogHeader>
-                            <DialogTitle>{article.title}</DialogTitle>
-                            </DialogHeader>
-                            <ScrollArea className="max-h-[60vh] pr-6">
-                            <div className="text-sm text-muted-foreground prose prose-sm max-w-none">
+                          </AccordionTrigger>
+                        </CardFooter>
+                      </Card>
+                      <AccordionContent>
+                        <Card className="mt-2">
+                           <CardContent className="pt-6 text-left">
+                              <div className="text-sm text-muted-foreground prose prose-sm max-w-none">
                                 {article.longDescription}
-                            </div>
-                            </ScrollArea>
-                        </DialogContent>
-                        </Dialog>
-                    </CardFooter>
-                    </Card>
-                ))}
+                              </div>
+                           </CardContent>
+                        </Card>
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
                 </div>
+              </Accordion>
             </div>
           </div>
         </section>
