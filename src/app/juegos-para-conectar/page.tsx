@@ -1,92 +1,9 @@
 import Link from "next/link";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog"
+import ProductGrid from "@/components/product-grid";
 
 export default function JuegosParaConectar() {
-  const games = [
-    {
-      title: "Conversaciones de Corazón",
-      category: "Conexión Emocional",
-      description: "Más de 100 preguntas para encender la chispa y fortalecer la conexión emocional.",
-      dialogTitle: "Conversaciones de Corazón",
-      dialogDescription: "La intimidad no es solo física. Con estas tarjetas de conversación, podrán explorar sus sentimientos, sueños y recuerdos más profundos. Es una forma hermosa de conectar a nivel emocional y fortalecer el vínculo que los une.",
-      buttonText: "Empezar a hablar"
-    },
-    {
-      title: "Verdad o Atrevimiento Íntimo",
-      category: "Comunicación",
-      description: "Una versión picante del clásico juego para revelar sus secretos más profundos.",
-      dialogTitle: "Verdad o Atrevimiento Íntimo",
-      dialogDescription: "Prepárense para una noche de revelaciones y risas. Con preguntas y desafíos que van de lo tierno a lo muy picante, este juego es perfecto para conocerse mejor y añadir una chispa de emoción. ¿Se atreverán a decir la verdad o cumplirán el desafío?",
-      buttonText: "Jugar ahora"
-    },
-    {
-      title: "Ruleta de Fantasías",
-      category: "Explorar Fantasías",
-      description: "Dejen que el azar decida su próxima aventura. Giren la ruleta y cumplan la fantasía.",
-      dialogTitle: "Ruleta de Fantasías",
-      dialogDescription: "¿Buscan salir de la rutina? Dejen que la ruleta elija por ustedes. Cada giro desvela una nueva fantasía o un escenario para explorar juntos. Desde masajes sensuales hasta juegos de roles, nunca sabrán qué les depara la suerte.",
-      buttonText: "Probar suerte"
-    },
-    {
-      title: "Escenario de Roles Erótico",
-      category: "Explorar Fantasías",
-      description: "Elijan un escenario y dejen volar su imaginación. ¿Quién quieren ser esta noche?",
-      dialogTitle: "Escenario de Roles Erótico",
-      dialogDescription: "Desde un encuentro casual en un bar hasta una sesión con el profesor particular. Elijan uno de nuestros escenarios o creen el suyo propio. Es la oportunidad perfecta para experimentar con nuevas dinámicas y liberar su lado más creativo en la intimidad.",
-      buttonText: "Crear personaje"
-    },
-    {
-      title: "Desafío de los Sentidos",
-      category: "Reavivar la Intimidad",
-      description: "Un juego para explorar el tacto, el gusto y el olfato de formas nuevas y excitantes.",
-      dialogTitle: "Desafío de los Sentidos",
-      dialogDescription: "Venden los ojos a su pareja y prepárense para un viaje sensorial. Usen diferentes texturas, sabores y aromas para despertar sensaciones inolvidables. Este juego agudizará sus sentidos y les hará redescubrir el placer del tacto.",
-      buttonText: "Explorar"
-    },
-    {
-      title: "Mapa del Tesoro Corporal",
-      category: "Reavivar la Intimidad",
-      description: "Descubran nuevas zonas de placer en el cuerpo del otro con este juego guiado.",
-      dialogTitle: "Mapa del Tesoro Corporal",
-      dialogDescription: "El cuerpo de su pareja es un mapa lleno de tesoros por descubrir. Con esta guía, explorarán cada rincón con besos, caricias y masajes, encontrando nuevos puntos de placer que no sabían que existían. ¡La aventura está a punto de comenzar!",
-      buttonText: "Iniciar Aventura"
-    },
-    {
-      title: "Secretos Compartidos",
-      category: "Conexión Emocional",
-      description: "Un juego de cartas para revelar secretos y fortalecer la confianza mutua.",
-      dialogTitle: "Secretos Compartidos",
-      dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
-      buttonText: "Contar un secreto"
-    },
-    {
-      title: "Guion Erótico Colaborativo",
-      category: "Explorar Fantasías",
-      description: "Escriban juntos una historia erótica y luego, si se atreven, llévenla a la realidad.",
-      dialogTitle: "Guion Erótico Colaborativo",
-      dialogDescription: "Tomen turnos para escribir un párrafo de una historia erótica. Dejen volar su imaginación y creen un relato único que los excite a ambos. La diversión está tanto en el proceso creativo como en el resultado final.",
-      buttonText: "Empezar a escribir"
-    },
-    {
-      title: "Cita a Ciegas en Casa",
-      category: "Reavivar la Intimidad",
-      description: "Organicen una cita sorpresa en casa, planeando cada detalle sin que el otro lo sepa.",
-      dialogTitle: "Cita a Ciegas en Casa",
-      dialogDescription: "Uno de los dos planea una velada especial en casa: la cena, la música, la atmósfera. El otro solo tiene que dejarse sorprender. Una forma perfecta de romper la rutina y demostrar cuánto se cuidan.",
-      buttonText: "Planear la cita"
-    }
-  ];
-
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
@@ -115,40 +32,15 @@ export default function JuegosParaConectar() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
             <div className="container px-4 md:px-6 text-center">
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Juegos para Conectar</h2>
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Juguetes para Explorar</h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
-                    Explora nuestra selección de productos físicos y digitales diseñados para la intimidad y la diversión.
+                    Descubre nuestra selección de juguetes diseñados para el placer, la curiosidad y la conexión. Rompe el tabú y abre la puerta a nuevas experiencias.
                 </p>
             </div>
         </section>
         <section className="w-full pb-12">
-            <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 px-4 md:px-6">
-              {games.map((game) => (
-                <Card key={game.title} className="flex flex-col">
-                  <CardHeader>
-                    <CardTitle>{game.title}</CardTitle>
-                    <CardDescription>{game.category}</CardDescription>
-                  </CardHeader>
-                  <CardContent className="flex flex-col flex-grow">
-                    <p className="text-muted-foreground mb-4 flex-grow">{game.description}</p>
-                    <div className="mt-auto">
-                      <Dialog>
-                        <DialogTrigger asChild>
-                          <Button className="w-full">{game.buttonText}</Button>
-                        </DialogTrigger>
-                        <DialogContent>
-                          <DialogHeader>
-                            <DialogTitle>{game.dialogTitle}</DialogTitle>
-                            <DialogDescription>
-                              {game.dialogDescription}
-                            </DialogDescription>
-                          </DialogHeader>
-                        </DialogContent>
-                      </Dialog>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
+            <div className="container px-4 md:px-6">
+              <ProductGrid />
             </div>
         </section>
       </main>
