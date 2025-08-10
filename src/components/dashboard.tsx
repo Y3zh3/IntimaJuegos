@@ -153,7 +153,7 @@ export function Dashboard() {
                         <CardDescription>{game.category}</CardDescription>
                     </CardHeader>
                     <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
-                        <p className="text-muted-foreground mb-4 flex-grow text-sm">{game.description}</p>
+                        <p className="text-muted-foreground mb-4 text-sm">{game.description}</p>
                         <div className="mt-auto">
                         <Dialog>
                             <DialogTrigger asChild>
