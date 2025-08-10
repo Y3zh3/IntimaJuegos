@@ -32,7 +32,7 @@ const products: Product[] = [
     id: '3',
     name: 'Anillo del Placer Infinito',
     price: 'S/ 99.99',
-    image: 'https://placehold.co/400x430.png',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwHhT55_I3UpfzIkP-rE7Rr9iEzvxjo4f0cg&s',
     imageHint: 'cock ring',
     review: 'Añade un extra de resistencia para él y vibraciones excitantes para ella. Este anillo elástico y cómodo es perfecto para prolongar el placer compartido.',
     longDescription: 'Este anillo vibrador está diseñado para el placer mutuo. Se ajusta cómodamente en la base del pene, ayudando a mantener una erección más firme y duradera, mientras que su pequeño pero potente vibrador estimula el clítoris durante la penetración. ¡La receta para orgasmos simultáneos!'
