@@ -68,7 +68,7 @@ const products: Product[] = [
     id: '7',
     name: 'Dildo Realista de Silicona',
     price: 'S/ 319.99',
-    image: 'https://placehold.co/400x470.png',
+    image: 'https://m.media-amazon.com/images/I/71R1nZlMB0L._UF1000,1000_QL80_.jpg',
     imageHint: 'dildo',
     review: 'Fabricado con silicona de grado médico, su textura suave y su forma realista ofrecen un placer increíblemente natural. Flexible y con una potente ventosa.',
     longDescription: 'Diseñado para un placer realista y satisfactorio. Hecho de silicona premium, es suave al tacto pero firme. Su potente base de ventosa se adhiere a casi cualquier superficie plana, permitiendo un juego manos libres lleno de posibilidades. Es seguro para el cuerpo, libre de ftalatos y fácil de limpiar.'
