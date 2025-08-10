@@ -94,6 +94,12 @@ const nextConfig: NextConfig = {
         hostname: 'd28hgpri8am2if.cloudfront.net',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 's.yimg.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
