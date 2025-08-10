@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React, { useContext } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ShoppingCartIcon, SparklesIcon, MenuIcon } from './icons';
@@ -14,8 +14,10 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import Image from 'next/image';
+import { CartContext } from '@/context/cart-context';
 
 export function Dashboard() {
+  const { itemCount } = useContext(CartContext);
   const games = [
     {
       title: "Conversaciones de Corazón",
@@ -114,8 +116,13 @@ export function Dashboard() {
             <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon">
+            <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCartIcon className="h-6 w-6" />
+                {itemCount > 0 && (
+                  <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
+                    {itemCount}
+                  </span>
+                )}
                 <span className="sr-only">Carrito</span>
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
@@ -153,7 +160,7 @@ export function Dashboard() {
                         <CardDescription>{game.category}</CardDescription>
                     </CardHeader>
                     <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
-                        <p className="text-muted-foreground mb-4 text-sm">{game.description}</p>
+                        <p className="text-muted-foreground mb-4">{game.description}</p>
                         <div className="mt-auto">
                         <Dialog>
                             <DialogTrigger asChild>

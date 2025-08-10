@@ -1,11 +1,17 @@
+"use client";
+
+import React, { useContext } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
 import { ShoppingCartIcon } from 'lucide-react';
 import Image from 'next/image';
+import { CartContext, Product } from '@/context/cart-context';
+import { useToast } from "@/hooks/use-toast"
 
-const products = [
+const products: Product[] = [
   {
+    id: '1',
     name: 'El Conejito Juguetón',
     price: 'S/ 279.99',
     image: 'https://placehold.co/400x410.png',
@@ -14,6 +20,7 @@ const products = [
     longDescription: 'Este vibrador de doble estimulación es famoso por una razón. Mientras el eje principal se encarga del placer interno, el estimulador de clítoris con forma de conejo ofrece vibraciones intensas justo donde más lo necesitas. Fabricado con silicona suave y segura para el cuerpo, es recargable por USB y resistente al agua.'
   },
   {
+    id: '2',
     name: 'Vara Mágica Celestial',
     price: 'S/ 359.99',
     image: 'https://placehold.co/400x420.png',
@@ -22,6 +29,7 @@ const products = [
     longDescription: 'Conocida por sus vibraciones profundas y retumbantes, la Vara Mágica es una leyenda. Su cabezal flexible de silicona distribuye las vibraciones de manera uniforme, perfecta tanto para aliviar la tensión muscular como para alcanzar orgasmos increíbles. No te dejes engañar por su tamaño, su poder es celestial.'
   },
   {
+    id: '3',
     name: 'Anillo del Placer Infinito',
     price: 'S/ 99.99',
     image: 'https://placehold.co/400x430.png',
@@ -30,6 +38,7 @@ const products = [
     longDescription: 'Este anillo vibrador está diseñado para el placer mutuo. Se ajusta cómodamente en la base del pene, ayudando a mantener una erección más firme y duradera, mientras que su pequeño pero potente vibrador estimula el clítoris durante la penetración. ¡La receta para orgasmos simultáneos!'
   },
   {
+    id: '4',
     name: 'Balas de Bolsillo Secretas',
     price: 'S/ 139.99',
     image: 'https://placehold.co/400x440.png',
@@ -38,6 +47,7 @@ const products = [
     longDescription: 'Pequeña, discreta y sorprendentemente poderosa. Esta bala vibradora es tu aliada para el placer en solitario o en pareja. Su punta precisa es ideal para la estimulación del clítoris y otras zonas erógenas. Llévala en tu bolso y ten un secreto excitante siempre a mano.'
   },
   {
+    id: '5',
     name: 'Kit de Bondage para Principiantes',
     price: 'S/ 199.99',
     image: 'https://placehold.co/400x450.png',
@@ -46,6 +56,7 @@ const products = [
     longDescription: 'Si sienten curiosidad por el bondage, este es el punto de partida perfecto. Incluye unas esposas suaves, una mordaza de bola y una venda para los ojos. Todos los materiales son seguros para el cuerpo y están diseñados para la comodidad, permitiéndoles explorar el juego de poder de forma segura y consensuada.'
   },
   {
+    id: '6',
     name: 'Huevo Vibrador a Distancia',
     price: 'S/ 239.99',
     image: 'https://placehold.co/400x460.png',
@@ -54,6 +65,7 @@ const products = [
     longDescription: 'La emoción del juego público (o privado) a un nuevo nivel. Este huevo vibrador se controla con un mando a distancia, permitiendo que tu pareja decida cuándo y cómo vibra. Úsalo en una cena romántica o mientras hacen las compras. El secreto y la anticipación los volverán locos.'
   },
   {
+    id: '7',
     name: 'Dildo Realista de Silicona',
     price: 'S/ 319.99',
     image: 'https://placehold.co/400x470.png',
@@ -62,6 +74,7 @@ const products = [
     longDescription: 'Diseñado para un placer realista y satisfactorio. Hecho de silicona premium, es suave al tacto pero firme. Su potente base de ventosa se adhiere a casi cualquier superficie plana, permitiendo un juego manos libres lleno de posibilidades. Es seguro para el cuerpo, libre de ftalatos y fácil de limpiar.'
   },
   {
+    id: '8',
     name: 'Aceite de Masaje Sensual',
     price: 'S/ 79.99',
     image: 'https://placehold.co/400x480.png',
@@ -70,6 +83,7 @@ const products = [
     longDescription: 'Transforma cualquier noche en una experiencia sensorial. Este aceite de masaje no solo huele increíble, sino que también es comestible y tiene un sabor delicioso. Perfecto para masajes eróticos que recorren todo el cuerpo, dejando la piel suave, hidratada y lista para más.'
   },
   {
+    id: '9',
     name: 'Set de Plugs Anales de Silicona',
     price: 'S/ 159.99',
     image: 'https://placehold.co/400x490.png',
@@ -80,10 +94,21 @@ const products = [
 ];
 
 export default function ProductGrid() {
+  const { addToCart } = useContext(CartContext);
+  const { toast } = useToast()
+
+  const handleAddToCart = (product: Product) => {
+    addToCart(product);
+    toast({
+      title: "¡Producto añadido!",
+      description: `${product.name} ha sido añadido a tu carrito.`,
+    })
+  };
+
   return (
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
       {products.slice(0, 8).map((product) => (
-        <Card key={product.name} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
+        <Card key={product.name} className="flex flex-col h-full border-transparent hover:border-primary transition-colors overflow-hidden">
         <div className="relative">
             <Image
             src={product.image}
@@ -114,9 +139,9 @@ export default function ProductGrid() {
                 </DialogHeader>
                 <div className="flex items-center justify-between mt-4">
                     <p className="text-2xl font-bold text-primary">{product.price}</p>
-                    <Button>
-                    <ShoppingCartIcon className="mr-2 h-4 w-4" />
-                    Añadir al Carrito
+                    <Button onClick={() => handleAddToCart(product)}>
+                      <ShoppingCartIcon className="mr-2 h-4 w-4" />
+                      Añadir al Carrito
                     </Button>
                 </div>
                 </DialogContent>

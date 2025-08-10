@@ -1,9 +1,13 @@
+"use client";
 
 import Link from "next/link";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
+import { useContext } from "react";
+import { CartContext } from "@/context/cart-context";
 
 export default function SobreIntima() {
+  const { itemCount } = useContext(CartContext);
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
@@ -19,8 +23,13 @@ export default function SobreIntima() {
             <Link href="/sobre-intima" className="text-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon">
+            <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCartIcon className="h-6 w-6" />
+                {itemCount > 0 && (
+                  <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
+                    {itemCount}
+                  </span>
+                )}
                 <span className="sr-only">Carrito</span>
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">

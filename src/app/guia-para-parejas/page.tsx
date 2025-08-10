@@ -1,12 +1,16 @@
+"use client";
 
 import Link from "next/link";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
-import Image from "next/image";
+import { useContext } from "react";
+import { CartContext } from "@/context/cart-context";
+
 
 export default function GuiaParaParejas() {
+  const { itemCount } = useContext(CartContext);
   const articles = [
     {
       title: "El Arte de la Comunicación Afectiva",
@@ -148,8 +152,13 @@ export default function GuiaParaParejas() {
             <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon">
+            <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCartIcon className="h-6 w-6" />
+                {itemCount > 0 && (
+                  <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
+                    {itemCount}
+                  </span>
+                )}
                 <span className="sr-only">Carrito</span>
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
