@@ -89,7 +89,7 @@ export default function GuiaParaParejas() {
           <>
             <p className="mb-4">Todas las parejas discuten. Es una parte inevitable de la convivencia. La diferencia entre una pareja que se fortalece y una que se debilita no es la ausencia de conflictos, sino cómo los manejan. Aprender a "discutir mejor" es una habilidad que se puede desarrollar.</p>
             <h4 className="font-bold text-lg mb-2">1. No es "Tú vs. Yo", es "Nosotros vs. el Problema"</h4>
-            <p className="mb-4">Cambien la perspectiva. En lugar de verse como adversarios, siéntense (literalmente) del mismo lado de la mesa y pongan el problema en el otro lado. Esto fomenta un enfoque de equipo para encontrar una solución, en lugar de una batalla por ver quién gana.</p>
+            <p className="mb-4">Cambien la perspectiva. En lugar de verse como adversarios, siéntensen (literalmente) del mismo lado de la mesa y pongan el problema en el otro lado. Esto fomenta un enfoque de equipo para encontrar una solución, en lugar de una batalla por ver quién gana.</p>
             <h4 className="font-bold text-lg mb-2">2. Pausa de Emergencia</h4>
             <p className="mb-4">Cuando sientan que la conversación se está calentando demasiado y van a decir algo de lo que se arrepentirán, pidan una pausa. Acuerden una palabra clave o una señal. "Necesito un tiempo muerto de 20 minutos". Usen ese tiempo para calmarse, no para preparar nuevos argumentos. Luego, retomen la conversación.</p>
             <h4 className="font-bold text-lg mb-2">3. Evita las Palabras "Siempre" y "Nunca"</h4>
@@ -146,7 +146,7 @@ export default function GuiaParaParejas() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-16">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Guía para Parejas</h1>
@@ -156,7 +156,7 @@ export default function GuiaParaParejas() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20">
+        <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
           <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-6">
             {articles.map((article) => (
               <Card key={article.title} className="flex flex-col">
@@ -197,4 +197,5 @@ export default function GuiaParaParejas() {
       </footer>
     </div>
   );
-}
+
+    
