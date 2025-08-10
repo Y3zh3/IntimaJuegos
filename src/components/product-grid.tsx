@@ -5,49 +5,57 @@ const products = [
     name: 'El Conejito Juguetón',
     price: '€69.99',
     image: 'https://placehold.co/400x400.png',
-    imageHint: 'vibrator'
+    imageHint: 'vibrator',
+    review: 'Un clásico reinventado para un placer dual. Su diseño ergonómico y sus múltiples modos de vibración lo convierten en el compañero perfecto para explorar.'
   },
   {
     name: 'Vara Mágica Celestial',
     price: '€89.99',
     image: 'https://placehold.co/400x400.png',
-    imageHint: 'wand vibrator'
+    imageHint: 'wand vibrator',
+    review: 'Potente, versátil y sorprendentemente silencioso. Ideal para masajes corporales que terminan en una experiencia celestial. Un imprescindible en cualquier colección.'
   },
   {
     name: 'Anillo del Placer Infinito',
     price: '€24.99',
     image: 'https://placehold.co/400x400.png',
-    imageHint: 'cock ring'
+    imageHint: 'cock ring',
+    review: 'Añade un extra de resistencia para él y vibraciones excitantes para ella. Este anillo elástico y cómodo es perfecto para prolongar el placer compartido.'
   },
   {
     name: 'Balas de Bolsillo Secretas',
     price: '€34.99',
     image: 'https://placehold.co/400x400.png',
-    imageHint: 'bullet vibrator'
+    imageHint: 'bullet vibrator',
+    review: 'Discretas pero potentes. Estas pequeñas balas son perfectas para llevar la excitación a cualquier lugar o para añadir un estímulo preciso durante el juego.'
   },
     {
     name: 'Kit de Bondage para Principiantes',
     price: '€49.99',
     image: 'https://placehold.co/400x400.png',
-    imageHint: 'bondage kit'
+    imageHint: 'bondage kit',
+    review: 'Explora el poder del juego de sumisión y dominio con este kit suave y seguro. Incluye todo lo necesario para empezar a atar lazos más íntimos.'
   },
   {
     name: 'Huevo Vibrador a Distancia',
     price: '€59.99',
     image: 'https://placehold.co/400x400.png',
-    imageHint: 'remote egg'
+    imageHint: 'remote egg',
+    review: 'El juego perfecto para citas nocturnas o para añadir un secreto excitante a la vida cotidiana. Dale el control a tu pareja y prepárate para sorpresas.'
   },
    {
     name: 'Dildo Realista de Silicona',
     price: '€79.99',
     image: 'https://placehold.co/400x400.png',
-    imageHint: 'dildo'
+    imageHint: 'dildo',
+    review: 'Fabricado con silicona de grado médico, su textura suave y su forma realista ofrecen un placer increíblemente natural. Flexible y con una potente ventosa.'
   },
   {
     name: 'Aceite de Masaje Sensual',
     price: '€19.99',
     image: 'https://placehold.co/400x400.png',
-    imageHint: 'massage oil'
+    imageHint: 'massage oil',
+    review: 'Despierta los sentidos con este aceite de masaje comestible. Su aroma afrodisíaco y su tacto sedoso son el preludio perfecto para una noche de pasión.'
   },
 ];
 

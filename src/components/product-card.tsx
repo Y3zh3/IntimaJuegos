@@ -9,40 +9,32 @@ interface ProductCardProps {
     price: string;
     image: string;
     imageHint: string;
+    review: string;
   };
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <Card className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
-      <CardContent className="p-0">
-        <div className="relative">
-          <Image
-            src={product.image}
-            alt={product.name}
-            width={400}
-            height={400}
-            className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
-            data-ai-hint={product.imageHint}
-          />
-          <Button
-            variant="ghost"
-            size="icon"
-            className="absolute top-3 right-3 bg-card/60 hover:bg-card/90 text-primary rounded-full h-8 w-8"
-          >
-            <HeartIcon className="h-4 w-4" />
-          </Button>
+    <Card className="group flex flex-col overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+      <CardContent className="p-6 flex flex-col flex-grow">
+        <div className="flex justify-between items-start">
+            <h3 className="text-lg font-semibold text-foreground truncate pr-4">{product.name}</h3>
+            <Button
+                variant="ghost"
+                size="icon"
+                className="bg-card/60 hover:bg-card/90 text-primary rounded-full h-8 w-8 flex-shrink-0"
+            >
+                <HeartIcon className="h-4 w-4" />
+            </Button>
         </div>
-        <div className="p-4">
-          <h3 className="text-lg font-semibold text-foreground truncate">{product.name}</h3>
-          <p className="text-muted-foreground mt-1">★★★★☆</p>
-          <div className="flex items-center justify-between mt-4">
+        <p className="text-muted-foreground mt-1">★★★★☆</p>
+        <p className="text-muted-foreground mt-4 flex-grow">{product.review}</p>
+        <div className="flex items-center justify-between mt-4">
             <p className="text-xl font-bold text-primary">{product.price}</p>
             <Button size="sm">
-              <ShoppingCartIcon className="mr-2 h-4 w-4" />
-              Añadir
+                <ShoppingCartIcon className="mr-2 h-4 w-4" />
+                Añadir
             </Button>
-          </div>
         </div>
       </CardContent>
     </Card>
