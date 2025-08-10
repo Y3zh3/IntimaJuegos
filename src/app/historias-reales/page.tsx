@@ -85,7 +85,7 @@ export default function HistoriasReales() {
       </header>
       <main className="flex-1">
         <section className="w-full py-6 text-center">
-          <div className="w-full">
+          <div className="container px-4 md:px-6">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Historias que Conectan</h1>
             <p className="max-w-[900px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
@@ -94,14 +94,14 @@ export default function HistoriasReales() {
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
           <div className="container px-4 md:px-6">
-            <div className="grid gap-8 md:grid-cols-2 lg:gap-12 max-w-7xl mx-auto">
+            <div className="grid gap-8 md:grid-cols-2 lg:gap-12 max-w-5xl mx-auto">
               {testimonials.map((testimonial) => (
                 <Card key={testimonial.name} className="flex flex-col md:flex-row items-center gap-6 p-6 border-transparent hover:border-primary transition-colors overflow-hidden">
                   <Avatar className="w-24 h-24 flex-shrink-0">
                     <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.imageHint} />
                     <AvatarFallback>{testimonial.fallback}</AvatarFallback>
                   </Avatar>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col text-center md:text-left">
                     <h3 className="text-lg font-bold">{testimonial.name}</h3>
                     <p className="text-sm text-muted-foreground mb-2">{testimonial.years}</p>
                     <p className="text-muted-foreground text-sm">
