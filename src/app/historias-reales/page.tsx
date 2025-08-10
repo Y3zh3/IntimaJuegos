@@ -7,6 +7,8 @@ import { SparklesIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { CartSheet } from "@/components/cart-sheet";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
 
 export default function HistoriasReales() {
   const testimonials = [
@@ -91,19 +93,15 @@ export default function HistoriasReales() {
             </p>
           </div>
         </section>
-        <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-6">
               {testimonials.map((testimonial) => (
-                <Card key={testimonial.name} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
-                    <Image
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                      width={400}
-                      height={300}
-                      className="h-48 w-full object-cover"
-                      data-ai-hint={testimonial.imageHint}
-                    />
-                  <CardHeader>
+                <Card key={testimonial.name} className="flex flex-col items-center text-center border-transparent hover:border-primary transition-colors">
+                  <CardHeader className="items-center">
+                    <Avatar className="h-20 w-20 mb-4">
+                        <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.imageHint}/>
+                        <AvatarFallback>{testimonial.fallback}</AvatarFallback>
+                    </Avatar>
                     <CardTitle className="text-primary">{testimonial.name}</CardTitle>
                     <CardDescription>{testimonial.years}</CardDescription>
                   </CardHeader>
