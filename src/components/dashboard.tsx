@@ -53,7 +53,7 @@ export function Dashboard() {
             </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20">
+        <section className="w-full py-12 bg-muted/20">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Juegos en Pareja Digitales</h2>
@@ -227,11 +227,6 @@ export function Dashboard() {
             </div>
           </div>
         </section>
-
-        <div className="p-4 sm:p-6 lg:p-8">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary text-center mb-10">Nuestros Productos</h2>
-            <ProductGrid />
-        </div>
       </main>
        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-muted-foreground">&copy; 2024 Intima Juegos. Todos los derechos reservados.</p>
