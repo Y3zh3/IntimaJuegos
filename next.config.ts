@@ -52,6 +52,12 @@ const nextConfig: NextConfig = {
         hostname: 'soxo.com.pe',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.genially.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
