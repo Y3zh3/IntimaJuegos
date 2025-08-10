@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription as CardDescriptionComponent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ShoppingCartIcon, SparklesIcon, MenuIcon } from './icons';
 import ProductGrid from './product-grid';
@@ -86,6 +86,7 @@ export function Dashboard() {
                     <Card>
                       <CardHeader>
                         <CardTitle>Conversaciones de Corazón</CardTitle>
+                        <CardDescriptionComponent className="text-sm text-accent-foreground font-semibold pt-1">Conexión Emocional</CardDescriptionComponent>
                       </CardHeader>
                       <CardContent>
                         <p className="text-muted-foreground">Más de 100 preguntas para encender la chispa y fortalecer la conexión emocional.</p>
@@ -111,6 +112,7 @@ export function Dashboard() {
                     <Card>
                       <CardHeader>
                         <CardTitle>Verdad o Atrevimiento Íntimo</CardTitle>
+                        <CardDescriptionComponent className="text-sm text-accent-foreground font-semibold pt-1">Comunicación</CardDescriptionComponent>
                       </CardHeader>
                       <CardContent>
                         <p className="text-muted-foreground">Una versión picante del clásico juego para revelar sus secretos más profundos.</p>
@@ -136,6 +138,7 @@ export function Dashboard() {
                      <Card>
                       <CardHeader>
                         <CardTitle>Ruleta de Fantasías</CardTitle>
+                        <CardDescriptionComponent className="text-sm text-accent-foreground font-semibold pt-1">Explorar Fantasías</CardDescriptionComponent>
                       </CardHeader>
                       <CardContent>
                         <p className="text-muted-foreground">Dejen que el azar decida su próxima aventura. Giren la ruleta y cumplan la fantasía.</p>
@@ -157,6 +160,7 @@ export function Dashboard() {
                      <Card>
                       <CardHeader>
                         <CardTitle>Escenario de Roles Erótico</CardTitle>
+                        <CardDescriptionComponent className="text-sm text-accent-foreground font-semibold pt-1">Explorar Fantasías</CardDescriptionComponent>
                       </CardHeader>
                       <CardContent>
                         <p className="text-muted-foreground">Elijan un escenario y dejen volar su imaginación. ¿Quién quieren ser esta noche?</p>
@@ -182,6 +186,7 @@ export function Dashboard() {
                      <Card>
                       <CardHeader>
                         <CardTitle>Desafío de los Sentidos</CardTitle>
+                         <CardDescriptionComponent className="text-sm text-accent-foreground font-semibold pt-1">Reavivar la Intimidad</CardDescriptionComponent>
                       </CardHeader>
                       <CardContent>
                         <p className="text-muted-foreground">Un juego para explorar el tacto, el gusto y el olfato de formas nuevas y excitantes.</p>
@@ -203,6 +208,7 @@ export function Dashboard() {
                      <Card>
                       <CardHeader>
                         <CardTitle>Mapa del Tesoro Corporal</CardTitle>
+                        <CardDescriptionComponent className="text-sm text-accent-foreground font-semibold pt-1">Reavivar la Intimidad</CardDescriptionComponent>
                       </CardHeader>
                       <CardContent>
                         <p className="text-muted-foreground">Descubran nuevas zonas de placer en el cuerpo del otro con este juego guiado.</p>
