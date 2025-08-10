@@ -158,7 +158,7 @@ export default function GuiaParaParejas() {
           <div className="px-4 md:px-6">
             <div className="mx-auto max-w-7xl">
               <Accordion type="single" collapsible className="w-full">
-                <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-8 sm:grid-cols-1">
                   {articles.map((article) => (
                     <AccordionItem value={article.title} key={article.title} className="border-b-0">
                       <AccordionTrigger>
