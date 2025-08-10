@@ -136,7 +136,7 @@ export function Dashboard() {
       </header>
       <main className="flex-1">
         <section className="w-full pt-12 md:pt-24 text-center">
-            <div className="w-full">
+            <div className="container px-4 md:px-6">
                 <h2 className="text-4xl md:text-5xl font-bold sm:text-6xl text-primary tracking-normal">Juguetes para Explorar</h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
                     Nuestra selección de juguetes para la curiosidad y el placer.
@@ -145,14 +145,14 @@ export function Dashboard() {
         </section>
 
         <section className="w-full py-12">
-          <div>
+          <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juegos en Pareja Digitales</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
-            <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 px-4 md:px-6">
+            <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3">
               {games.map((game) => (
                 <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
                    <div className="relative">
@@ -203,5 +203,3 @@ export function Dashboard() {
     </div>
   );
 }
-
-    

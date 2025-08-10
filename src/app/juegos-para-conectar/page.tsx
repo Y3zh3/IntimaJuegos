@@ -30,8 +30,8 @@ export default function JuegosParaConectar() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-6">
-            <div className="w-full text-center">
+        <section className="w-full py-6 text-center">
+            <div className="container px-4 md:px-6">
                 <h2 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Juguetes para Explorar</h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
                     Nuestra selección de juguetes para la curiosidad y el placer.
@@ -39,7 +39,7 @@ export default function JuegosParaConectar() {
             </div>
         </section>
         <section className="w-full pb-12">
-            <div className="px-4 md:px-6">
+            <div className="container px-4 md:px-6">
               <ProductGrid />
             </div>
         </section>
