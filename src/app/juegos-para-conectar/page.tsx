@@ -40,7 +40,9 @@ export default function JuegosParaConectar() {
         </section>
         <section className="w-full pb-12">
             <div className="container px-4 md:px-6">
-              <ProductGrid />
+                <div className="max-w-7xl mx-auto">
+                    <ProductGrid />
+                </div>
             </div>
         </section>
       </main>
