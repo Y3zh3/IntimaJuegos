@@ -9,6 +9,7 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -151,7 +152,7 @@ export function Dashboard() {
                         <CardDescription>{game.category}</CardDescription>
                     </CardHeader>
                     <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
-                        <p className="text-muted-foreground mb-4 flex-grow">{game.description}</p>
+                        <p className="text-muted-foreground mb-4">{game.description}</p>
                         <div className="mt-auto">
                         <Dialog>
                             <DialogTrigger asChild>
@@ -164,6 +165,9 @@ export function Dashboard() {
                                 {game.dialogDescription}
                                 </DialogDescription>
                             </DialogHeader>
+                            <DialogFooter>
+                                <Button size="sm">Jugar ahora</Button>
+                            </DialogFooter>
                             </DialogContent>
                         </Dialog>
                         </div>
