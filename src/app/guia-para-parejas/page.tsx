@@ -167,26 +167,28 @@ export default function GuiaParaParejas() {
           </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32">
-            <div className="container max-w-3xl px-4 md:px-6">
-                <Accordion type="single" collapsible className="w-full">
-                    {articles.map((article) => (
-                        <AccordionItem key={article.slug} value={article.slug}>
-                        <AccordionTrigger className="w-full">
-                            <Card className="flex-grow text-left border-transparent shadow-none p-0 m-0 w-full">
-                                <CardContent className="p-0 m-0">
-                                    <h2 className="text-2xl font-bold text-primary">{article.title}</h2>
-                                    <p className="text-muted-foreground mt-1">{article.description}</p>
-                                </CardContent>
-                            </Card>
-                        </AccordionTrigger>
-                        <AccordionContent>
-                           <div className="prose prose-lg mx-auto mt-2 max-w-none text-foreground">
-                            {article.content}
-                           </div>
-                        </AccordionContent>
-                        </AccordionItem>
-                    ))}
-                </Accordion>
+            <div className="w-full flex justify-end pr-4 md:pr-6 lg:pr-12">
+                <div className="w-full max-w-3xl">
+                    <Accordion type="single" collapsible className="w-full">
+                        {articles.map((article) => (
+                            <AccordionItem key={article.slug} value={article.slug}>
+                            <AccordionTrigger className="w-full">
+                                <Card className="flex-grow text-left border-transparent shadow-none p-0 m-0 w-full">
+                                    <CardContent className="p-0 m-0">
+                                        <h2 className="text-2xl font-bold text-primary">{article.title}</h2>
+                                        <p className="text-muted-foreground mt-1">{article.description}</p>
+                                    </CardContent>
+                                </Card>
+                            </AccordionTrigger>
+                            <AccordionContent>
+                               <div className="prose prose-lg mx-auto mt-2 max-w-none text-foreground">
+                                {article.content}
+                               </div>
+                            </AccordionContent>
+                            </AccordionItem>
+                        ))}
+                    </Accordion>
+                </div>
             </div>
         </section>
       </main>
