@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -100,7 +101,7 @@ export default function HistoriasReales() {
                     <AvatarFallback>{testimonial.fallback}</AvatarFallback>
                   </Avatar>
                   <div className="flex flex-col">
-                    <h3 className="text-lg font-bold">{testimonial.name}</h3>
+                    <h3 className="text-lg font-bold text-primary">{testimonial.name}</h3>
                     <p className="text-sm text-muted-foreground mb-2">{testimonial.years}</p>
                     <p className="text-muted-foreground text-sm text-center">
                       "{testimonial.story}"
