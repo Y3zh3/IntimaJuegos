@@ -65,9 +65,9 @@ export default function GuiaParaParejas() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-16">
-          <div className="flex flex-col items-center px-4 md:px-6 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Guía para Parejas</h1>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
+          <div className="flex flex-col items-center px-4 text-center md:px-6">
+            <h1 className="text-4xl font-bold tracking-tighter text-primary sm:text-6xl md:text-5xl">Guía para Parejas</h1>
+            <p className="mx-auto max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
             </p>
           </div>
@@ -76,16 +76,16 @@ export default function GuiaParaParejas() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
               {articles.map((article) => (
-                <Card key={article.title} className="flex flex-col h-full border-transparent hover:border-primary transition-colors">
+                <Card key={article.slug} className="flex flex-col h-full border-transparent hover:border-primary transition-colors">
                   <CardHeader>
                     <CardTitle>{article.title}</CardTitle>
                   </CardHeader>
                   <CardContent className="flex-grow">
                     <CardDescription>{article.description}</CardDescription>
                   </CardContent>
-                  <CardFooter>
-                    <Link href={`/guia-para-parejas/${article.slug}`} className="w-full">
-                       <Button className="w-full">
+                  <CardFooter className="flex justify-end">
+                    <Link href={`/guia-para-parejas/${article.slug}`}>
+                       <Button size="sm">
                         Leer más
                         <ArrowRightIcon className="ml-2 h-4 w-4" />
                        </Button>
