@@ -57,7 +57,7 @@ export default function HistoriasReales() {
       years: "Llevamos 3 años juntos",
       story: "La 'Cita a Ciegas en Casa' se ha convertido en nuestro ritual mensual. Es increíble cómo algo tan simple puede traer tanta emoción y romanticismo a la relación. Nos turnamos para sorprender al otro y cada vez es mejor.",
       fallback: "E&V",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC3lke1PlpDlxBzxY1GYsNdkVihtDV59bspQ&s",
+      image: "https://i.pinimg.com/236x/c2/9c/40/c29c40fef515b859f19d99c9c96f5429.jpg",
       imageHint: "romantic couple"
     },
   ];
