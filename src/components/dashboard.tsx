@@ -3,9 +3,10 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ShoppingCartIcon, SparklesIcon, MenuIcon } from './icons';
+import { ShoppingCartIcon, SparklesIcon, MenuIcon, ArrowRightIcon } from './icons';
 import ProductGrid from './product-grid';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 export function Dashboard() {
@@ -42,7 +43,49 @@ export function Dashboard() {
                 </p>
             </div>
         </section>
+
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Juegos en Pareja Digitales</h2>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
+              </p>
+            </div>
+            <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 py-12 sm:grid-cols-2 lg:grid-cols-3">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Verdad o Atrevimiento Íntimo</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Una versión picante del clásico juego para revelar sus secretos más profundos.</p>
+                  <Button className="mt-4">Jugar ahora</Button>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Ruleta de Fantasías</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Dejen que el azar decida su próxima aventura. Giren la ruleta y cumplan la fantasía.</p>
+                  <Button className="mt-4">Probar suerte</Button>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Conversaciones de Corazón</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Más de 100 preguntas para encender la chispa y fortalecer la conexión emocional.</p>
+                  <Button className="mt-4">Empezar a hablar</Button>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         <div className="p-4 sm:p-6 lg:p-8">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary text-center mb-10">Nuestros Productos</h2>
             <ProductGrid />
         </div>
       </main>
