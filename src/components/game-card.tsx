@@ -49,10 +49,10 @@ const GameCard: React.FC<GameCardProps> = ({ prompt, onNext, onComplete }) => {
           <div className="absolute bottom-6 flex gap-4">
              <Button size="lg" variant="outline" onClick={handleComplete}>
                 <Check className="mr-2 h-5 w-5" />
-                Completed
+                Completado
             </Button>
             <Button size="lg" onClick={onNext} className="bg-primary hover:bg-primary/90">
-                Next Prompt
+                Siguiente
                 <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>

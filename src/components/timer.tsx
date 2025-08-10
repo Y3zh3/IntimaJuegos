@@ -44,14 +44,14 @@ const Timer = () => {
     <Card className="bg-transparent border-border/50">
       <CardContent className="p-4">
         <div className="text-center">
-            <p className="text-sm text-muted-foreground mb-2">Next Connection</p>
+            <p className="text-sm text-muted-foreground mb-2">Próxima Conexión</p>
             <div className="flex justify-center items-center gap-2 font-mono text-2xl font-bold text-foreground">
                 <div>{hours}</div>:
                 <div>{minutes}</div>:
                 <div>{secs}</div>
             </div>
             <Button variant="ghost" size="sm" onClick={handleReset} className="mt-2 text-muted-foreground">
-                <RefreshCw className="mr-2 h-4 w-4" /> Reset Timer
+                <RefreshCw className="mr-2 h-4 w-4" /> Reiniciar
             </Button>
         </div>
       </CardContent>

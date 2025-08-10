@@ -5,13 +5,13 @@ import GameCard from './game-card';
 import { useToast } from "@/hooks/use-toast"
 
 const prompts = [
-  "Share a favorite memory of just the two of you.",
-  "What's one thing you admire about your partner this week?",
-  "Describe a future dream you want to achieve together.",
-  "What is your partner's love language? Give an example.",
-  "Plan a surprise date for next week, big or small.",
-  "What's a song that makes you think of your partner?",
-  "If you could go anywhere in the world together right now, where would it be?",
+  "Comparte un recuerdo favorito de ustedes dos solos.",
+  "¿Qué es algo que admiras de tu pareja esta semana?",
+  "Describe un sueño futuro que quieran lograr juntos.",
+  "¿Cuál es el lenguaje de amor de tu pareja? Da un ejemplo.",
+  "Planea una cita sorpresa para la próxima semana, grande o pequeña.",
+  "¿Qué canción te hace pensar en tu pareja?",
+  "Si pudieran ir a cualquier parte del mundo juntos ahora mismo, ¿dónde sería?",
 ];
 
 const GameView: React.FC = () => {
@@ -24,16 +24,16 @@ const GameView: React.FC = () => {
   
   const handleComplete = () => {
     toast({
-      title: "Activity Completed!",
-      description: "You're building a stronger connection.",
+      title: "¡Actividad Completada!",
+      description: "Están construyendo una conexión más fuerte.",
     })
   }
 
   return (
     <div className="flex flex-col items-center justify-center h-full w-full py-12">
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground">Time to Connect</h1>
-        <p className="text-lg text-muted-foreground mt-2">Choose an activity to deepen your bond.</p>
+        <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground">Hora de Conectar</h1>
+        <p className="text-lg text-muted-foreground mt-2">Elige una actividad para profundizar su vínculo.</p>
       </div>
       <GameCard 
         prompt={prompts[promptIndex]} 

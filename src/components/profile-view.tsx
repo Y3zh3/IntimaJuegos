@@ -18,31 +18,31 @@ export default function ProfileView() {
   return (
      <div className="space-y-8">
       <div className="text-center">
-        <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground">Couple's Profile</h1>
-        <p className="text-lg text-muted-foreground mt-2">Discover and share what makes you both tick.</p>
+        <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground">Perfil de Pareja</h1>
+        <p className="text-lg text-muted-foreground mt-2">Descubran y compartan lo que los hace únicos.</p>
       </div>
     <Card>
       <CardHeader>
-        <CardTitle>Interest Profiler</CardTitle>
+        <CardTitle>Perfil de Intereses</CardTitle>
         <CardDescription>
-          Fill this out together to spark new ideas for dates and conversations.
+          Completen esto juntos para generar nuevas ideas para citas y conversaciones.
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
-                <Label htmlFor="partner1-name">Partner 1 Name</Label>
-                <Input id="partner1-name" placeholder="E.g., Alex" />
+                <Label htmlFor="partner1-name">Nombre Pareja 1</Label>
+                <Input id="partner1-name" placeholder="Ej., Alex" />
             </div>
              <div className="space-y-2">
-                <Label htmlFor="partner2-name">Partner 2 Name</Label>
-                <Input id="partner2-name" placeholder="E.g., Sam" />
+                <Label htmlFor="partner2-name">Nombre Pareja 2</Label>
+                <Input id="partner2-name" placeholder="Ej., Sam" />
             </div>
         </div>
         <div className="space-y-3">
-            <Label>What are your shared hobbies?</Label>
+            <Label>¿Cuáles son sus pasatiempos compartidos?</Label>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {["Cooking", "Hiking", "Movies", "Gaming", "Traveling", "Art"].map((hobby) => (
+                {["Cocinar", "Senderismo", "Películas", "Juegos", "Viajar", "Arte"].map((hobby) => (
                     <div key={hobby} className="flex items-center space-x-2">
                         <Checkbox id={`hobby-${hobby}`} />
                         <label
@@ -56,16 +56,16 @@ export default function ProfileView() {
             </div>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="date-ideas">What's a dream date you'd love to go on?</Label>
-          <Textarea id="date-ideas" placeholder="Describe the perfect date..." />
+          <Label htmlFor="date-ideas">¿Cuál es la cita de sus sueños que les encantaría tener?</Label>
+          <Textarea id="date-ideas" placeholder="Describe la cita perfecta..." />
         </div>
          <div className="space-y-2">
-          <Label htmlFor="shared-goal">What's a goal you want to achieve together in the next year?</Label>
-          <Input id="shared-goal" placeholder="E.g., Run a 5k, learn a new language..." />
+          <Label htmlFor="shared-goal">¿Qué meta quieren alcanzar juntos el próximo año?</Label>
+          <Input id="shared-goal" placeholder="Ej., Correr un 5k, aprender un nuevo idioma..." />
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="w-full md:w-auto">Save Profile</Button>
+        <Button className="w-full md:w-auto">Guardar Perfil</Button>
       </CardFooter>
     </Card>
     </div>

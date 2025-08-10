@@ -15,23 +15,23 @@ import * as React from "react"
 
 export default function SettingsView() {
     const [sliderValue, setSliderValue] = React.useState(2);
-    const intimacyLevels = ["Sweet & Simple", "Getting Warmer", "Deeper Connection", "Feeling Adventurous", "Hot & Spicy"]
+    const intimacyLevels = ["Dulce y Sencillo", "Entrando en Calor", "Conexión Profunda", "Aventureros", "Picante"]
 
   return (
      <div className="space-y-8">
         <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground">Game Settings</h1>
-            <p className="text-lg text-muted-foreground mt-2">Tailor the experience to your comfort and desires.</p>
+            <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground">Ajustes del Juego</h1>
+            <p className="text-lg text-muted-foreground mt-2">Adapta la experiencia a su comodidad y deseos.</p>
         </div>
         <Card>
         <CardHeader>
-            <CardTitle>Content Filters</CardTitle>
-            <CardDescription>Adjust the type of prompts you receive.</CardDescription>
+            <CardTitle>Filtros de Contenido</CardTitle>
+            <CardDescription>Ajusta el tipo de actividades que reciben.</CardDescription>
         </CardHeader>
         <CardContent className="space-y-8 pt-6">
             <div className="space-y-4">
                 <div className="flex justify-between items-center">
-                    <Label htmlFor="intimacy-level" className="text-lg">Intimacy Level</Label>
+                    <Label htmlFor="intimacy-level" className="text-lg">Nivel de Intimidad</Label>
                     <span className="w-auto text-right font-semibold text-primary">{intimacyLevels[sliderValue]}</span>
                 </div>
                 <Slider
@@ -45,24 +45,24 @@ export default function SettingsView() {
                 />
             </div>
             <div className="space-y-4">
-                <Label className="text-lg">Game Style</Label>
+                <Label className="text-lg">Estilo de Juego</Label>
                 <RadioGroup defaultValue="conversations" className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
                         <RadioGroupItem value="conversations" id="style-convo" className="peer sr-only" />
                         <Label htmlFor="style-convo" className="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary">
-                            Conversation Starters
+                            Inicio de Conversación
                         </Label>
                     </div>
                      <div>
                         <RadioGroupItem value="activities" id="style-activity" className="peer sr-only" />
                         <Label htmlFor="style-activity" className="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary">
-                            Shared Activities
+                            Actividades Compartidas
                         </Label>
                     </div>
                      <div>
                         <RadioGroupItem value="mix" id="style-mix" className="peer sr-only" />
                         <Label htmlFor="style-mix" className="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary">
-                            A Bit of Both
+                            Un Poco de Ambos
                         </Label>
                     </div>
                 </RadioGroup>

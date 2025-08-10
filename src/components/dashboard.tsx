@@ -11,10 +11,10 @@ import SettingsView from './settings-view';
 import Timer from './timer';
 
 const navItems = [
-  { id: 'game', label: 'Play', icon: FlameIcon },
-  { id: 'progress', label: 'Progress', icon: TrophyIcon },
-  { id: 'profile', label: 'Profile', icon: HeartIcon },
-  { id: 'settings', label: 'Settings', icon: SettingsIcon },
+  { id: 'game', label: 'Jugar', icon: FlameIcon },
+  { id: 'progress', label: 'Progreso', icon: TrophyIcon },
+  { id: 'profile', label: 'Perfil', icon: HeartIcon },
+  { id: 'settings', label: 'Ajustes', icon: SettingsIcon },
 ];
 
 export function Dashboard() {

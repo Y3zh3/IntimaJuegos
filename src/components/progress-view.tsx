@@ -11,17 +11,17 @@ import {
 } from "@/components/ui/chart"
 
 const chartData = [
-  { month: "January", activities: 12 },
-  { month: "February", activities: 15 },
-  { month: "March", activities: 18 },
-  { month: "April", activities: 22 },
-  { month: "May", activities: 20 },
-  { month: "June", activities: 25 },
+  { month: "Enero", activities: 12 },
+  { month: "Febrero", activities: 15 },
+  { month: "Marzo", activities: 18 },
+  { month: "Abril", activities: 22 },
+  { month: "Mayo", activities: 20 },
+  { month: "Junio", activities: 25 },
 ]
 
 const chartConfig = {
   activities: {
-    label: "Activities",
+    label: "Actividades",
     color: "hsl(var(--primary))",
   },
 }
@@ -30,13 +30,13 @@ export default function ProgressView() {
   return (
     <div className="space-y-8">
       <div className="text-center">
-        <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground">Our Journey</h1>
-        <p className="text-lg text-muted-foreground mt-2">A look at the beautiful moments we've shared.</p>
+        <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground">Nuestro Viaje</h1>
+        <p className="text-lg text-muted-foreground mt-2">Un vistazo a los hermosos momentos que hemos compartido.</p>
       </div>
       <Card>
         <CardHeader>
-          <CardTitle>Monthly Activities</CardTitle>
-          <CardDescription>Tracking your moments of connection month by month.</CardDescription>
+          <CardTitle>Actividades Mensuales</CardTitle>
+          <CardDescription>Siguiendo sus momentos de conexión mes a mes.</CardDescription>
         </CardHeader>
         <CardContent>
           <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
@@ -61,11 +61,11 @@ export default function ProgressView() {
       </Card>
        <Card>
         <CardHeader>
-          <CardTitle>Achievements</CardTitle>
-          <CardDescription>Celebrate your milestones together.</CardDescription>
+          <CardTitle>Logros</CardTitle>
+          <CardDescription>Celebren sus hitos juntos.</CardDescription>
         </CardHeader>
         <CardContent className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {["First Spark", "Week of Connection", "30 Day Challenge", "Shared Dream"].map(item => (
+            {["Primera Chispa", "Semana de Conexión", "Reto de 30 Días", "Sueño Compartido"].map(item => (
                 <div key={item} className="flex flex-col items-center justify-center p-4 bg-accent/20 rounded-lg text-center">
                     <div className="p-3 bg-accent rounded-full text-accent-foreground mb-2">🏆</div>
                     <p className="font-semibold text-foreground">{item}</p>
