@@ -21,6 +21,12 @@ const nextConfig: NextConfig = {
         hostname: 'png.pngtree.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.freepik.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
