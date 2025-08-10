@@ -106,6 +106,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.clarin.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'http2.mlstatic.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

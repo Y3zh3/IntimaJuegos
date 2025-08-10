@@ -47,7 +47,7 @@ export function Dashboard() {
       dialogTitle: "Ruleta de Fantasías",
       dialogDescription: "¿Buscan salir de la rutina? Dejen que la ruleta elija por ustedes. Cada giro desvela una nueva fantasía o un escenario para explorar juntos. Desde masajes sensuales hasta juegos de roles, nunca sabrán qué les depara la suerte.",
       buttonText: "Probar suerte",
-      image: "https://screens.cdn.wordwall.net/400/27af549e3d2f4c84a01ef650c3625db6_0",
+      image: "https://http2.mlstatic.com/D_NQ_NP_984363-MLU79116847456_092024-O.webp",
       imageHint: "fantasy roulette"
     },
     {
