@@ -1,16 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
+import { SparklesIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
-import { useContext } from "react";
-import { CartContext } from "@/context/cart-context";
+import { CartSheet } from "@/components/cart-sheet";
 
 
 export default function GuiaParaParejas() {
-  const { itemCount } = useContext(CartContext);
   const articles = [
     {
       title: "El Arte de la Comunicación Afectiva",
@@ -152,15 +150,7 @@ export default function GuiaParaParejas() {
             <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="relative">
-                <ShoppingCartIcon className="h-6 w-6" />
-                {itemCount > 0 && (
-                  <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
-                    {itemCount}
-                  </span>
-                )}
-                <span className="sr-only">Carrito</span>
-            </Button>
+            <CartSheet />
             <Button variant="ghost" size="icon" className="md:hidden">
                 <MenuIcon className="h-6 w-6" />
                 <span className="sr-only">Menú</span>
@@ -169,7 +159,7 @@ export default function GuiaParaParejas() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-16">
-          <div className="flex flex-col items-center px-4 text-center md:px-6">
+          <div className="container px-4 text-center md:px-6">
             <h1 className="text-4xl font-bold tracking-tighter text-primary sm:text-6xl md:text-5xl">Guía para Parejas</h1>
             <p className="mx-auto max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.

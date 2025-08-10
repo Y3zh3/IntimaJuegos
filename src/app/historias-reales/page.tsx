@@ -1,15 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
+import { SparklesIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { useContext } from "react";
-import { CartContext } from "@/context/cart-context";
+import { CartSheet } from "@/components/cart-sheet";
 
 export default function HistoriasReales() {
-  const { itemCount } = useContext(CartContext);
   const testimonials = [
     {
       name: "María & Leo",
@@ -76,15 +74,7 @@ export default function HistoriasReales() {
             <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
         </nav>
         <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="relative">
-                <ShoppingCartIcon className="h-6 w-6" />
-                {itemCount > 0 && (
-                  <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
-                    {itemCount}
-                  </span>
-                )}
-                <span className="sr-only">Carrito</span>
-            </Button>
+            <CartSheet />
             <Button variant="ghost" size="icon" className="md:hidden">
                 <MenuIcon className="h-6 w-6" />
                 <span className="sr-only">Menú</span>
