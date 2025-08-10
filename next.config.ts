@@ -190,6 +190,12 @@ const nextConfig: NextConfig = {
         hostname: 'marketplace.canva.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.vecteezy.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
