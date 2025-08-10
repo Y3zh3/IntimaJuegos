@@ -27,7 +27,7 @@ export function Dashboard() {
       dialogTitle: "Conversaciones de Corazón",
       dialogDescription: "La intimidad no es solo física. Con estas tarjetas de conversación, podrán explorar sus sentimientos, sueños y recuerdos más profundos. Es una forma hermosa de conectar a nivel emocional y fortalecer el vínculo que los une.",
       buttonText: "Empezar a hablar",
-      image: "https://us.123rf.com/450wm/puhhha/puhhha1510/puhhha151001567/46115749-feliz-sonriente-joven-en-el-amor-que-abraza-y-bes%C3%A1ndose-mientras-est%C3%A1-acostado-en-la-cama-escena.jpg?ver=6",
+      image: "https://us.123rf.com/450wm/lightfieldstudios/lightfieldstudios2101/lightfieldstudios210100019/161849967-joven-besando-y-abrazando-a-una-mujer-sensual-con-los-ojos-cerrados-en-la-cama.jpg?ver=6",
       imageHint: "couple talking"
     },
     {
