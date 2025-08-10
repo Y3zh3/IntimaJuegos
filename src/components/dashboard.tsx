@@ -106,19 +106,7 @@ export function Dashboard() {
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
-        <Link href="/" className="flex items-center gap-2">
-            <SparklesIcon className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl font-bold text-foreground">IntimaJuegos</h1>
-        </Link>
-        <nav className="hidden items-center gap-6 text-base font-medium md:flex">
-            <Link href="/" className="text-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
-            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juguetes Sexuales</Link>
-            <Link href="/guia-para-parejas" className="text-muted-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
-            <Link href="/historias-reales" className="text-muted-foreground transition-colors hover:text-primary">Historias Reales</Link>
-            <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
-        </nav>
-        <div className="flex items-center gap-4">
-            <CartSheet />
+        <div className="flex items-center gap-2">
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="md:hidden">
@@ -126,7 +114,7 @@ export function Dashboard() {
                     <span className="sr-only">Menú</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="left">
+              <SheetContent side="right">
                 <nav className="grid gap-6 text-lg font-medium">
                   <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
                     <SparklesIcon className="h-6 w-6 text-primary" />
@@ -140,6 +128,24 @@ export function Dashboard() {
                 </nav>
               </SheetContent>
             </Sheet>
+            <Link href="/" className="hidden items-center gap-2 md:flex">
+                <SparklesIcon className="h-8 w-8 text-primary" />
+                <h1 className="text-3xl font-bold text-foreground">IntimaJuegos</h1>
+            </Link>
+        </div>
+        <Link href="/" className="flex items-center gap-2 md:hidden">
+            <SparklesIcon className="h-8 w-8 text-primary" />
+            <h1 className="text-3xl font-bold text-foreground">IntimaJuegos</h1>
+        </Link>
+        <nav className="hidden items-center gap-6 text-base font-medium md:flex">
+            <Link href="/" className="text-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juguetes Sexuales</Link>
+            <Link href="/guia-para-parejas" className="text-muted-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
+            <Link href="/historias-reales" className="text-muted-foreground transition-colors hover:text-primary">Historias Reales</Link>
+            <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
+        </nav>
+        <div className="flex items-center gap-4">
+            <CartSheet />
         </div>
       </header>
       <main className="flex-1">
@@ -208,3 +214,5 @@ export function Dashboard() {
     </div>
   );
 }
+
+    

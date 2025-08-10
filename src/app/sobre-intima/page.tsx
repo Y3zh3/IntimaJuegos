@@ -11,7 +11,34 @@ export default function SobreIntima() {
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
-        <Link href="/" className="flex items-center gap-2">
+        <div className="flex items-center gap-2">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" className="md:hidden">
+                  <MenuIcon className="h-6 w-6" />
+                  <span className="sr-only">Menú</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right">
+              <nav className="grid gap-6 text-lg font-medium">
+                <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
+                  <SparklesIcon className="h-6 w-6 text-primary" />
+                  <span className="text-foreground">IntimaJuegos</span>
+                </Link>
+                <Link href="/" className="text-muted-foreground hover:text-foreground">Juegos para Conectar</Link>
+                <Link href="/juegos-para-conectar" className="text-muted-foreground hover:text-foreground">Juguetes Sexuales</Link>
+                <Link href="/guia-para-parejas" className="text-muted-foreground hover:text-foreground">Guía para Parejas</Link>
+                <Link href="/historias-reales" className="text-muted-foreground hover:text-foreground">Historias Reales</Link>
+                <Link href="/sobre-intima" className="text-foreground hover:text-foreground">Sobre Íntima</Link>
+              </nav>
+            </SheetContent>
+          </Sheet>
+          <Link href="/" className="hidden items-center gap-2 md:flex">
+              <SparklesIcon className="h-8 w-8 text-primary" />
+              <h1 className="text-3xl font-bold text-foreground">IntimaJuegos</h1>
+          </Link>
+        </div>
+        <Link href="/" className="flex items-center gap-2 md:hidden">
             <SparklesIcon className="h-8 w-8 text-primary" />
             <h1 className="text-3xl font-bold text-foreground">IntimaJuegos</h1>
         </Link>
@@ -24,27 +51,6 @@ export default function SobreIntima() {
         </nav>
         <div className="flex items-center gap-4">
             <CartSheet />
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" className="md:hidden">
-                    <MenuIcon className="h-6 w-6" />
-                    <span className="sr-only">Menú</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="left">
-                <nav className="grid gap-6 text-lg font-medium">
-                  <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
-                    <SparklesIcon className="h-6 w-6 text-primary" />
-                    <span className="text-foreground">IntimaJuegos</span>
-                  </Link>
-                  <Link href="/" className="text-muted-foreground hover:text-foreground">Juegos para Conectar</Link>
-                  <Link href="/juegos-para-conectar" className="text-muted-foreground hover:text-foreground">Juguetes Sexuales</Link>
-                  <Link href="/guia-para-parejas" className="text-muted-foreground hover:text-foreground">Guía para Parejas</Link>
-                  <Link href="/historias-reales" className="text-muted-foreground hover:text-foreground">Historias Reales</Link>
-                  <Link href="/sobre-intima" className="text-foreground hover:text-foreground">Sobre Íntima</Link>
-                </nav>
-              </SheetContent>
-            </Sheet>
         </div>
       </header>
       <main className="flex-1">
@@ -99,3 +105,5 @@ export default function SobreIntima() {
     </div>
   );
 }
+
+    
