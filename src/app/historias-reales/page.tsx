@@ -93,25 +93,23 @@ export default function HistoriasReales() {
           </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
-          <div className="container px-4 md:px-6">
-            <div className="mx-auto max-w-4xl">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-                {testimonials.map((testimonial) => (
-                    <Card key={testimonial.name} className="flex flex-col items-center gap-6 p-6 border-transparent hover:border-primary transition-colors overflow-hidden text-center">
-                    <Avatar className="h-20 w-20 flex-shrink-0">
-                        <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.imageHint} />
-                        <AvatarFallback>{testimonial.fallback}</AvatarFallback>
-                    </Avatar>
-                    <div className="flex flex-col">
-                        <h3 className="text-lg font-bold">{testimonial.name}</h3>
-                        <p className="text-sm text-muted-foreground mb-2">{testimonial.years}</p>
-                        <p className="text-muted-foreground text-sm text-center">
-                        "{testimonial.story}"
-                        </p>
-                    </div>
-                    </Card>
-                ))}
-                </div>
+          <div className="container mx-auto max-w-4xl px-4 md:px-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+              {testimonials.map((testimonial) => (
+                <Card key={testimonial.name} className="flex flex-col items-center gap-6 p-6 border-transparent hover:border-primary transition-colors overflow-hidden text-center">
+                  <Avatar className="h-20 w-20 flex-shrink-0">
+                    <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.imageHint} />
+                    <AvatarFallback>{testimonial.fallback}</AvatarFallback>
+                  </Avatar>
+                  <div className="flex flex-col">
+                    <h3 className="text-lg font-bold">{testimonial.name}</h3>
+                    <p className="text-sm text-muted-foreground mb-2">{testimonial.years}</p>
+                    <p className="text-muted-foreground text-sm text-center">
+                      "{testimonial.story}"
+                    </p>
+                  </div>
+                </Card>
+              ))}
             </div>
           </div>
         </section>
