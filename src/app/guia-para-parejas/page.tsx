@@ -57,7 +57,7 @@ export default function GuiaParaParejas() {
                   <p className="text-muted-foreground">
                     Aprende a expresar tus necesidades y a escuchar a tu pareja de una manera que construya puentes, no muros.
                   </p>
-                  <Link href="#" className="font-semibold text-primary">Leer más</Link>
+                  <Link href="/guia-para-parejas/comunicacion-afectiva" className="font-semibold text-primary">Leer más</Link>
                 </div>
               </div>
               <div className="flex flex-col gap-4">
