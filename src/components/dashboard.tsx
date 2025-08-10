@@ -13,6 +13,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import Image from 'next/image';
 
 export function Dashboard() {
   const games = [
@@ -22,7 +23,9 @@ export function Dashboard() {
       description: "Más de 100 preguntas para encender la chispa y fortalecer la conexión emocional.",
       dialogTitle: "Conversaciones de Corazón",
       dialogDescription: "La intimidad no es solo física. Con estas tarjetas de conversación, podrán explorar sus sentimientos, sueños y recuerdos más profundos. Es una forma hermosa de conectar a nivel emocional y fortalecer el vínculo que los une.",
-      buttonText: "Empezar a hablar"
+      buttonText: "Empezar a hablar",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "couple talking"
     },
     {
       title: "Verdad o Atrevimiento Íntimo",
@@ -30,7 +33,9 @@ export function Dashboard() {
       description: "Una versión picante del clásico juego para revelar sus secretos más profundos.",
       dialogTitle: "Verdad o Atrevimiento Íntimo",
       dialogDescription: "Prepárense para una noche de revelaciones y risas. Con preguntas y desafíos que van de lo tierno a lo muy picante, este juego es perfecto para conocerse mejor y añadir una chispa de emoción. ¿Se atreverán a decir la verdad o cumplirán el desafío?",
-      buttonText: "Jugar ahora"
+      buttonText: "Jugar ahora",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "truth or dare game"
     },
     {
       title: "Ruleta de Fantasías",
@@ -38,7 +43,9 @@ export function Dashboard() {
       description: "Dejen que el azar decida su próxima aventura. Giren la ruleta y cumplan la fantasía.",
       dialogTitle: "Ruleta de Fantasías",
       dialogDescription: "¿Buscan salir de la rutina? Dejen que la ruleta elija por ustedes. Cada giro desvela una nueva fantasía o un escenario para explorar juntos. Desde masajes sensuales hasta juegos de roles, nunca sabrán qué les depara la suerte.",
-      buttonText: "Probar suerte"
+      buttonText: "Probar suerte",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "fantasy roulette"
     },
     {
       title: "Escenario de Roles Erótico",
@@ -46,7 +53,9 @@ export function Dashboard() {
       description: "Elijan un escenario y dejen volar su imaginación. ¿Quién quieren ser esta noche?",
       dialogTitle: "Escenario de Roles Erótico",
       dialogDescription: "Desde un encuentro casual en un bar hasta una sesión con el profesor particular. Elijan uno de nuestros escenarios o creen el suyo propio. Es la oportunidad perfecta para experimentar con nuevas dinámicas y liberar su lado más creativo en la intimidad.",
-      buttonText: "Crear personaje"
+      buttonText: "Crear personaje",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "erotic roleplay"
     },
     {
       title: "Desafío de los Sentidos",
@@ -54,7 +63,9 @@ export function Dashboard() {
       description: "Un juego para explorar el tacto, el gusto y el olfato de formas nuevas y excitantes.",
       dialogTitle: "Desafío de los Sentidos",
       dialogDescription: "Venden los ojos a su pareja y prepárense para un viaje sensorial. Usen diferentes texturas, sabores y aromas para despertar sensaciones inolvidables. Este juego agudizará sus sentidos y les hará redescubrir el placer del tacto.",
-      buttonText: "Explorar"
+      buttonText: "Explorar",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "sensory challenge"
     },
     {
       title: "Mapa del Tesoro Corporal",
@@ -62,7 +73,9 @@ export function Dashboard() {
       description: "Descubran nuevas zonas de placer en el cuerpo del otro con este juego guiado.",
       dialogTitle: "Mapa del Tesoro Corporal",
       dialogDescription: "El cuerpo de su pareja es un mapa lleno de tesoros por descubrir. Con esta guía, explorarán cada rincón con besos, caricias y masajes, encontrando nuevos puntos de placer que no sabían que existían. ¡La aventura está a punto de comenzar!",
-      buttonText: "Iniciar Aventura"
+      buttonText: "Iniciar Aventura",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "body map"
     },
     {
       title: "Secretos Compartidos",
@@ -70,7 +83,9 @@ export function Dashboard() {
       description: "Un juego de cartas para revelar secretos y fortalecer la confianza mutua.",
       dialogTitle: "Secretos Compartidos",
       dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
-      buttonText: "Contar un secreto"
+      buttonText: "Contar un secreto",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "shared secrets"
     },
     {
       title: "Guion Erótico Colaborativo",
@@ -78,7 +93,9 @@ export function Dashboard() {
       description: "Escriban juntos una historia erótica y luego, si se atreven, llévenla a la realidad.",
       dialogTitle: "Guion Erótico Colaborativo",
       dialogDescription: "Tomen turnos para escribir un párrafo de una historia erótica. Dejen volar su imaginación y creen un relato único que los excite a ambos. La diversión está tanto en el proceso creativo como en el resultado final.",
-      buttonText: "Empezar a escribir"
+      buttonText: "Empezar a escribir",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "erotic script"
     },
     {
       title: "Cita a Ciegas en Casa",
@@ -86,7 +103,9 @@ export function Dashboard() {
       description: "Organicen una cita sorpresa en casa, planeando cada detalle sin que el otro lo sepa.",
       dialogTitle: "Cita a Ciegas en Casa",
       dialogDescription: "Uno de los dos planea una velada especial en casa: la cena, la música, la atmósfera. El otro solo tiene que dejarse sorprender. Una forma perfecta de romper la rutina y demostrar cuánto se cuidan.",
-      buttonText: "Planear la cita"
+      buttonText: "Planear la cita",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "blind date"
     }
   ];
 
@@ -135,7 +154,17 @@ export function Dashboard() {
             </div>
             <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 px-4 md:px-6">
               {games.map((game) => (
-                <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors">
+                <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
+                   <div className="relative">
+                    <Image
+                      src={game.image}
+                      alt={game.title}
+                      width={400}
+                      height={300}
+                      className="h-60 w-full object-cover"
+                      data-ai-hint={game.imageHint}
+                    />
+                  </div>
                   <CardHeader>
                     <CardTitle>{game.title}</CardTitle>
                     <CardDescription>{game.category}</CardDescription>

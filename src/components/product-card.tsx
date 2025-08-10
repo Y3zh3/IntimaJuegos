@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '@/components/ui/dialog';
 import { ShoppingCartIcon } from 'lucide-react';
+import Image from 'next/image';
 
 interface ProductCardProps {
   product: {
@@ -9,6 +10,8 @@ interface ProductCardProps {
     price: string;
     review: string;
     longDescription: string;
+    image: string;
+    imageHint: string;
   };
 }
 
@@ -16,6 +19,16 @@ export default function ProductCard({ product }: ProductCardProps) {
   return (
     <Dialog>
       <Card className="group flex flex-col overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out border-transparent hover:border-primary">
+        <div className="relative">
+          <Image
+            src={product.image}
+            alt={product.name}
+            width={400}
+            height={400}
+            className="h-60 w-full object-cover"
+            data-ai-hint={product.imageHint}
+          />
+        </div>
         <CardHeader>
           <CardTitle className="text-lg font-semibold text-foreground truncate pr-4">{product.name}</CardTitle>
         </CardHeader>
