@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
@@ -76,6 +77,40 @@ export default function HistoriasReales() {
                 <CardContent>
                   <p className="text-muted-foreground">
                     "Siempre nos costó hablar de fantasías. Nos daba vergüenza. La 'Ruleta de Fantasías' lo hizo divertido, casual, ¡un juego! Nos reímos mucho y descubrimos cosas nuevas del otro que nunca hubiéramos imaginado."
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader className="flex flex-row items-center gap-4">
+                  <Avatar>
+                    <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="mature couple" />
+                    <AvatarFallback>S&D</AvatarFallback>
+                  </Avatar>
+                  <div>
+                    <h3 className="text-lg font-bold">Sofía & David</h3>
+                    <p className="text-sm text-muted-foreground">Llevamos 8 años juntos</p>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    "Estábamos en una rutina terrible. 'El Desafío de los Sentidos' nos obligó a parar y a reconectar de una forma que no hacíamos en años. Fue increíblemente poderoso."
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader className="flex flex-row items-center gap-4">
+                  <Avatar>
+                    <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="young couple" />
+                    <AvatarFallback>J&L</AvatarFallback>
+                  </Avatar>
+                  <div>
+                    <h3 className="text-lg font-bold">Javier & Laura</h3>
+                    <p className="text-sm text-muted-foreground">Llevamos 1 año juntos</p>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    "Somos una pareja joven y creíamos que nos comunicábamos bien, pero 'Secretos Compartidos' nos llevó a un nivel de honestidad y confianza que no esperábamos. Súper recomendado."
                   </p>
                 </CardContent>
               </Card>
