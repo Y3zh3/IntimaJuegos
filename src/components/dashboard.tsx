@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from 'react';
@@ -56,7 +57,7 @@ export function Dashboard() {
       dialogTitle: "Escenario de Roles Erótico",
       dialogDescription: "Desde un encuentro casual en un bar hasta una sesión con el profesor particular. Elijan uno de nuestros escenarios o creen el suyo propio. Es la oportunidad perfecta para experimentar con nuevas dinámicas y liberar su lado más creativo en la intimidad.",
       buttonText: "Crear personaje",
-      image: "https://placehold.co/400x340.png",
+      image: "https://i.etsystatic.com/37509785/r/il/73397c/6499791195/il_1080xN.6499791195_gla3.jpg",
       imageHint: "erotic roleplay"
     },
     {

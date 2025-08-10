@@ -1,3 +1,4 @@
+
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
@@ -37,6 +38,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'screens.cdn.wordwall.net',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.etsystatic.com',
         port: '',
         pathname: '/**',
       }
