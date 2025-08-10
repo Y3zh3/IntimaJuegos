@@ -13,7 +13,7 @@ export default function HistoriasReales() {
       years: "Llevamos 5 años juntos",
       story: "Después de la llegada de los niños, sentíamos que nos habíamos distanciado. El juego 'Conversaciones de Corazón' nos dio el espacio para volver a hablar de nosotros, de nuestros sueños... fue como volver a conocernos. ¡Gracias!",
       fallback: "M&L",
-      image: "https://placehold.co/100x100.png",
+      image: "https://placehold.co/80x80.png",
       imageHint: "happy couple"
     },
     {
@@ -21,7 +21,7 @@ export default function HistoriasReales() {
       years: "Llevamos 2 años juntos",
       story: "Siempre nos costó hablar de fantasías. Nos daba vergüenza. La 'Ruleta de Fantasías' lo hizo divertido, casual, ¡un juego! Nos reímos mucho y descubrimos cosas nuevas del otro que nunca hubiéramos imaginado.",
       fallback: "A&C",
-      image: "https://placehold.co/100x100.png",
+      image: "https://placehold.co/80x80.png",
       imageHint: "laughing couple"
     },
     {
@@ -29,7 +29,7 @@ export default function HistoriasReales() {
       years: "Llevamos 8 años juntos",
       story: "Estábamos en una rutina terrible. 'El Desafío de los Sentidos' nos obligó a parar y a reconectar de una forma que no hacíamos en años. Fue increíblemente poderoso.",
       fallback: "S&D",
-      image: "https://placehold.co/100x100.png",
+      image: "https://placehold.co/80x80.png",
       imageHint: "intimate couple"
     },
     {
@@ -37,7 +37,7 @@ export default function HistoriasReales() {
       years: "Llevamos 1 año juntos",
       story: "Somos una pareja joven y creíamos que nos comunicábamos bien, pero 'Secretos Compartidos' nos llevó a un nivel de honestidad y confianza que no esperábamos. Súper recomendado.",
       fallback: "J&L",
-      image: "https://placehold.co/100x100.png",
+      image: "https://placehold.co/80x80.png",
       imageHint: "young couple"
     },
     {
@@ -45,7 +45,7 @@ export default function HistoriasReales() {
       years: "Llevamos 10 años juntos",
       story: "Creíamos que lo habíamos probado todo, pero el 'Guion Erótico Colaborativo' fue una sorpresa total. Escribir juntos fue tan excitante como el resultado. Nos desbloqueó una creatividad que no sabíamos que teníamos.",
       fallback: "P&M",
-      image: "https://placehold.co/100x100.png",
+      image: "https://placehold.co/80x80.png",
       imageHint: "creative couple"
     },
     {
@@ -53,7 +53,7 @@ export default function HistoriasReales() {
       years: "Llevamos 3 años juntos",
       story: "La 'Cita a Ciegas en Casa' se ha convertido en nuestro ritual mensual. Es increíble cómo algo tan simple puede traer tanta emoción y romanticismo a la relación. Nos turnamos para sorprender al otro y cada vez es mejor.",
       fallback: "E&V",
-      image: "https://placehold.co/100x100.png",
+      image: "https://placehold.co/80x80.png",
       imageHint: "romantic couple"
     },
   ];
@@ -97,7 +97,7 @@ export default function HistoriasReales() {
             <div className="grid gap-8 md:grid-cols-2 lg:gap-12 max-w-5xl mx-auto">
               {testimonials.map((testimonial) => (
                 <Card key={testimonial.name} className="flex flex-col md:flex-row items-center gap-6 p-6 border-transparent hover:border-primary transition-colors overflow-hidden">
-                  <Avatar className="w-24 h-24 flex-shrink-0">
+                  <Avatar className="w-20 h-20 flex-shrink-0">
                     <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.imageHint} />
                     <AvatarFallback>{testimonial.fallback}</AvatarFallback>
                   </Avatar>
