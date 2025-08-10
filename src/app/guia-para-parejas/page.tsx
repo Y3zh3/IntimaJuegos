@@ -146,12 +146,14 @@ export default function GuiaParaParejas() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full text-center py-6">
-          <div className="container px-4 md:px-6">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Guía para Parejas</h1>
-            <p className="max-w-[900px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
-            </p>
+        <section className="w-full py-12 md:py-16">
+          <div className="container px-4 md:px-6 flex flex-col items-center">
+            <div className="text-center">
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Guía para Parejas</h1>
+                <p className="max-w-[900px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
+                </p>
+            </div>
           </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32">
@@ -198,5 +200,3 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
-
-    
