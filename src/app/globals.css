@@ -47,12 +47,12 @@ body {
     --secondary: 333 20% 15%;
     --secondary-foreground: 0 0% 98%;
     --muted: 333 20% 15%;
-    --muted-foreground: 0 0% 98%;
+    --muted-foreground: 240 3.8% 60%;
     --accent: 333 20% 15%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 333 20% 15%;
+    --border: 333 20% 25%;
     --input: 333 20% 15%;
     --ring: 333 91% 55%;
     --chart-1: 333 91% 55%;
