@@ -125,15 +125,7 @@ export function Dashboard() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full pt-12 md:pt-24 text-center">
-            <div className="container px-4 md:px-6">
-                <h2 className="text-4xl md:text-5xl font-bold sm:text-6xl text-primary tracking-normal">Juguetes para Explorar</h2>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
-                    Nuestra selección de juguetes para la curiosidad y el placer.
-                </p>
-            </div>
-        </section>
-
+        
         <section className="w-full py-12">
           <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
