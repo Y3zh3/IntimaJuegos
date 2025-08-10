@@ -40,11 +40,9 @@ export default function JuegosParaConectar() {
             </div>
         </section>
         <section className="w-full pb-12">
-            <div className="container px-4 md:px-6">
-                <div className="mx-auto max-w-7xl">
-                    <ProductGrid />
-                </div>
-            </div>
+          <div className="mx-auto max-w-7xl px-4 md:px-6">
+              <ProductGrid />
+          </div>
         </section>
       </main>
        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
