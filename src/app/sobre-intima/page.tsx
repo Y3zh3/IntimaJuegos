@@ -32,11 +32,11 @@ export default function SobreIntima() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
             <div className="container mx-auto max-w-3xl px-4 md:px-6">
-                <div className="space-y-10">
+                <div className="space-y-6">
                     <div className="flex flex-col items-center space-y-8 text-center">
-                        <h1 className="text-3xl sm:text-5xl md:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
+                        <h1 className="text-3xl sm:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
                     </div>
-                    <p className="text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify pt-4">
+                    <p className="text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify">
                         En IntimaJuegos, creemos que el placer y la conexión emocional son pilares fundamentales de una vida plena y una relación saludable. Nacimos de la convicción de que la intimidad es un universo por explorar, y que la comunicación es la brújula que guía esa exploración.
                     </p>
                     <div className="space-y-4 text-center">
@@ -54,11 +54,11 @@ export default function SobreIntima() {
                     <div className="space-y-4">
                         <h2 className="text-3xl font-bold text-primary text-center">Nuestros Valores</h2>
                         <ul className="text-white text-lg list-outside space-y-2 text-justify">
-                          <li className="relative pl-6 before:content-['•'] before:absolute before:left-0 before:text-primary"><strong>Empatía Radical:</strong> Nos esforzamos por ponernos en el lugar de cada pareja, entendiendo que cada relación es un mundo único. Escuchamos sus historias y validamos sus experiencias sin juicio.</li>
-                          <li className="relative pl-6 before:content-['•'] before:absolute before:left-0 before:text-primary"><strong>Innovación Constante:</strong> El mundo de la intimidad está siempre evolucionando. Estamos comprometidos con la creación continua de juegos y herramientas que sean relevantes, emocionantes y verdaderamente útiles.</li>
-                          <li className="relative pl-6 before:content-['•'] before:absolute before:left-0 before:text-primary"><strong>Inclusión y Diversidad:</strong> Celebramos el amor en todas sus formas. Nuestros recursos están diseñados para ser inclusivos y respetuosos con todas las orientaciones sexuales, identidades de género y tipos de relación.</li>
-                          <li className="relative pl-6 before:content-['•'] before:absolute before:left-0 before:text-primary"><strong>Educación sin Tabúes:</strong> Creemos que el conocimiento es poder. Nuestra meta es derribar los mitos y la desinformación en torno a la sexualidad, ofreciendo contenido claro, honesto y basado en la evidencia.</li>
-                          <li className="relative pl-6 before:content-['•'] before:absolute before:left-0 before:text-primary"><strong>La Diversión como Herramienta:</strong> Estamos convencidos de que la conexión emocional y el placer no tienen por qué ser serios o solemnes. La risa, el juego y la alegría son herramientas potentísimas para fortalecer los lazos.</li>
+                          <li className="relative text-justify"><strong>Empatía Radical:</strong> Nos esforzamos por ponernos en el lugar de cada pareja, entendiendo que cada relación es un mundo único. Escuchamos sus historias y validamos sus experiencias sin juicio.</li>
+                          <li className="relative text-justify"><strong>Innovación Constante:</strong> El mundo de la intimidad está siempre evolucionando. Estamos comprometidos con la creación continua de juegos y herramientas que sean relevantes, emocionantes y verdaderamente útiles.</li>
+                          <li className="relative text-justify"><strong>Inclusión y Diversidad:</strong> Celebramos el amor en todas sus formas. Nuestros recursos están diseñados para ser inclusivos y respetuosos con todas las orientaciones sexuales, identidades de género y tipos de relación.</li>
+                          <li className="relative text-justify"><strong>Educación sin Tabúes:</strong> Creemos que el conocimiento es poder. Nuestra meta es derribar los mitos y la desinformación en torno a la sexualidad, ofreciendo contenido claro, honesto y basado en la evidencia.</li>
+                          <li className="relative text-justify"><strong>La Diversión como Herramienta:</strong> Estamos convencidos de que la conexión emocional y el placer no tienen por qué ser serios o solemnes. La risa, el juego y la alegría son herramientas potentísimas para fortalecer los lazos.</li>
                         </ul>
                     </div>
                     <div className="space-y-4 text-center">
