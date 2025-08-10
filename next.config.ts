@@ -76,6 +76,12 @@ const nextConfig: NextConfig = {
         hostname: 'secure.gravatar.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'imgv2-1-f.scribdassets.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

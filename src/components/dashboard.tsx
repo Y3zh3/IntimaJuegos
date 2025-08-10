@@ -67,7 +67,7 @@ export function Dashboard() {
       dialogTitle: "Desafío de los Sentidos",
       dialogDescription: "Venden los ojos a su pareja y prepárense para un viaje sensorial. Usen diferentes texturas, sabores y aromas para despertar sensaciones inolvidables. Este juego agudizará sus sentidos y les hará redescubrir el placer del tacto.",
       buttonText: "Explorar",
-      image: "https://secure.gravatar.com/blavatar/d166060475b4785f9bc6f10a5eadda4dde76718ddb2587ea785dedbb0095800e?s=200&ts=1753528898",
+      image: "https://img.genially.com/5eba59bab1cf15728228c430/552e8de3-03d8-493c-b9c8-7b28f64eefa5.jpeg",
       imageHint: "sensory challenge"
     },
     {
@@ -87,7 +87,7 @@ export function Dashboard() {
       dialogTitle: "Secretos Compartidos",
       dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
       buttonText: "Contar un secreto",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrRvIRhsN9oN8hUWXYzUVr0GWqjEEfyz-3FQ&s",
+      image: "https://imgv2-1-f.scribdassets.com/img/document/203782749/149x198/3ac2421f4b/1638109366?v=1",
       imageHint: "shared secrets"
     },
     {
