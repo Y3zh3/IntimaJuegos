@@ -70,6 +70,12 @@ const nextConfig: NextConfig = {
         hostname: 'static.skillshare.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'secure.gravatar.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

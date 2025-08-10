@@ -67,7 +67,7 @@ export function Dashboard() {
       dialogTitle: "Desafío de los Sentidos",
       dialogDescription: "Venden los ojos a su pareja y prepárense para un viaje sensorial. Usen diferentes texturas, sabores y aromas para despertar sensaciones inolvidables. Este juego agudizará sus sentidos y les hará redescubrir el placer del tacto.",
       buttonText: "Explorar",
-      image: "https://img.genially.com/5eba59bab1cf15728228c430/552e8de3-03d8-493c-b9c8-7b28f64eefa5.jpeg",
+      image: "https://secure.gravatar.com/blavatar/d166060475b4785f9bc6f10a5eadda4dde76718ddb2587ea785dedbb0095800e?s=200&ts=1753528898",
       imageHint: "sensory challenge"
     },
     {
