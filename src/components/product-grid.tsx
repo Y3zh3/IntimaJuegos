@@ -50,7 +50,7 @@ const products: Product[] = [
     id: '5',
     name: 'Kit de Bondage para Principiantes',
     price: 'S/ 199.99',
-    image: 'https://placehold.co/400x450.png',
+    image: 'https://m.media-amazon.com/images/I/71HxGvjmZZL._UF1000,1000_QL80_.jpg',
     imageHint: 'bondage kit',
     review: 'Explora el poder del juego de sumisión y dominio con este kit suave y seguro. Incluye todo lo necesario para empezar a atar lazos más íntimos.',
     longDescription: 'Si sienten curiosidad por el bondage, este es el punto de partida perfecto. Incluye unas esposas suaves, una mordaza de bola y una venda para los ojos. Todos los materiales son seguros para el cuerpo y están diseñados para la comodidad, permitiéndoles explorar el juego de poder de forma segura y consensuada.'
