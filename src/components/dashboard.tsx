@@ -111,17 +111,17 @@ export function Dashboard() {
             </div>
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
               {games.map((game) => (
-                <Card key={game.title}>
+                <Card key={game.title} className="flex flex-col">
                   <CardHeader>
                     <CardTitle>{game.title}</CardTitle>
                     <CardDescription>{game.category}</CardDescription>
                   </CardHeader>
-                  <CardContent className="flex flex-col justify-between h-full">
-                    <p className="text-muted-foreground mb-4">{game.description}</p>
-                    <div className="flex items-center justify-between mt-auto">
+                  <CardContent className="flex flex-col flex-grow">
+                    <p className="text-muted-foreground mb-4 flex-grow">{game.description}</p>
+                    <div className="mt-auto">
                       <Dialog>
                         <DialogTrigger asChild>
-                          <Button>{game.buttonText}</Button>
+                          <Button className="w-full">{game.buttonText}</Button>
                         </DialogTrigger>
                         <DialogContent>
                           <DialogHeader>
