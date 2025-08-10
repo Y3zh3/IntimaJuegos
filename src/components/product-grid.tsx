@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useContext } from 'react';
-import { Card, CardContent, CardHeader, CardTitle, CardFooter, CardDescription } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
 import { ShoppingCartIcon } from 'lucide-react';
@@ -132,7 +132,7 @@ export default function ProductGrid() {
                 </DialogTrigger>
                 <DialogContent>
                 <DialogHeader>
-                    <DialogTitle>{product.name}</DialogTitle>
+                    <DialogTitle className="text-primary">{product.name}</DialogTitle>
                     <DialogDescription>
                     {product.longDescription}
                     </DialogDescription>
