@@ -162,7 +162,7 @@ export default function GuiaParaParejas() {
         <section className="w-full py-12 md:py-16">
           <div className="container px-4 text-center md:px-6">
             <h1 className="text-4xl font-bold tracking-tighter text-primary sm:text-6xl md:text-5xl">Guía para Parejas</h1>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="mx-auto mt-4 max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
             </p>
           </div>
@@ -201,5 +201,3 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
-
-    
