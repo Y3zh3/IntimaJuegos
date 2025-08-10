@@ -145,52 +145,50 @@ export function Dashboard() {
         </section>
 
         <section className="w-full py-12">
-          <div className="container px-4 md:px-6">
+          <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juegos en Pareja Digitales</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
-            <div className="mx-auto max-w-7xl">
-                <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3">
-                {games.map((game) => (
-                    <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
-                    <div className="relative">
-                        <Image
-                        src={game.image}
-                        alt={game.title}
-                        width={400}
-                        height={300}
-                        className="h-60 w-full object-cover"
-                        data-ai-hint={game.imageHint}
-                        />
-                    </div>
-                    <CardHeader>
-                        <CardTitle>{game.title}</CardTitle>
-                        <CardDescription>{game.category}</CardDescription>
-                    </CardHeader>
-                    <CardContent className="flex flex-col flex-grow">
-                        <p className="text-muted-foreground mb-4 flex-grow">{game.description}</p>
-                        <div className="mt-auto">
-                        <Dialog>
-                            <DialogTrigger asChild>
-                            <Button className="w-full">{game.buttonText}</Button>
-                            </DialogTrigger>
-                            <DialogContent>
-                            <DialogHeader>
-                                <DialogTitle>{game.dialogTitle}</DialogTitle>
-                                <DialogDescription>
-                                {game.dialogDescription}
-                                </DialogDescription>
-                            </DialogHeader>
-                            </DialogContent>
-                        </Dialog>
-                        </div>
-                    </CardContent>
-                    </Card>
-                ))}
-                </div>
+            <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3">
+              {games.map((game) => (
+                  <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
+                  <div className="relative">
+                      <Image
+                      src={game.image}
+                      alt={game.title}
+                      width={400}
+                      height={300}
+                      className="h-60 w-full object-cover"
+                      data-ai-hint={game.imageHint}
+                      />
+                  </div>
+                  <CardHeader>
+                      <CardTitle>{game.title}</CardTitle>
+                      <CardDescription>{game.category}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="flex flex-col flex-grow">
+                      <p className="text-muted-foreground mb-4 flex-grow">{game.description}</p>
+                      <div className="mt-auto">
+                      <Dialog>
+                          <DialogTrigger asChild>
+                          <Button className="w-full">{game.buttonText}</Button>
+                          </DialogTrigger>
+                          <DialogContent>
+                          <DialogHeader>
+                              <DialogTitle>{game.dialogTitle}</DialogTitle>
+                              <DialogDescription>
+                              {game.dialogDescription}
+                              </DialogDescription>
+                          </DialogHeader>
+                          </DialogContent>
+                      </Dialog>
+                      </div>
+                  </CardContent>
+                  </Card>
+              ))}
             </div>
           </div>
         </section>
