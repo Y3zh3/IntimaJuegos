@@ -87,14 +87,14 @@ export default function HistoriasReales() {
         <section className="w-full py-12 md:py-16">
           <div className="flex flex-col items-center px-4 md:px-6 text-center">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Historias que Conectan</h1>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
               Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
             </p>
           </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
           <div className="container px-4 md:px-6">
-            <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-w-4xl">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
                 {testimonials.map((testimonial) => (
                     <Card key={testimonial.name} className="flex flex-col items-center gap-6 p-6 border-transparent hover:border-primary transition-colors overflow-hidden text-center">
@@ -105,7 +105,7 @@ export default function HistoriasReales() {
                     <div className="flex flex-col">
                         <h3 className="text-lg font-bold">{testimonial.name}</h3>
                         <p className="text-sm text-muted-foreground mb-2">{testimonial.years}</p>
-                        <p className="text-muted-foreground text-sm text-justify">
+                        <p className="text-muted-foreground text-sm text-center">
                         "{testimonial.story}"
                         </p>
                     </div>
