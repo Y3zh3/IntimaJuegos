@@ -33,7 +33,7 @@ export default function HistoriasReales() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-16">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Historias que Conectan</h1>
@@ -43,7 +43,7 @@ export default function HistoriasReales() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20">
+        <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
           <div className="container px-4 md:px-6">
             <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
               <Card>
@@ -111,6 +111,40 @@ export default function HistoriasReales() {
                 <CardContent>
                   <p className="text-muted-foreground">
                     "Somos una pareja joven y creíamos que nos comunicábamos bien, pero 'Secretos Compartidos' nos llevó a un nivel de honestidad y confianza que no esperábamos. Súper recomendado."
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader className="flex flex-row items-center gap-4">
+                  <Avatar>
+                    <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="laughing couple" />
+                    <AvatarFallback>P&M</AvatarFallback>
+                  </Avatar>
+                  <div>
+                    <h3 className="text-lg font-bold">Paula & Marcos</h3>
+                    <p className="text-sm text-muted-foreground">Llevamos 10 años juntos</p>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    "Creíamos que lo habíamos probado todo, pero el 'Guion Erótico Colaborativo' fue una sorpresa total. Escribir juntos fue tan excitante como el resultado. Nos desbloqueó una creatividad que no sabíamos que teníamos."
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader className="flex flex-row items-center gap-4">
+                  <Avatar>
+                    <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="couple outdoors" />
+                    <AvatarFallback>E&V</AvatarFallback>
+                  </Avatar>
+                  <div>
+                    <h3 className="text-lg font-bold">Elena & Victor</h3>
+                    <p className="text-sm text-muted-foreground">Llevamos 3 años juntos</p>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    "La 'Cita a Ciegas en Casa' se ha convertido en nuestro ritual mensual. Es increíble cómo algo tan simple puede traer tanta emoción y romanticismo a la relación. Nos turnamos para sorprender al otro y cada vez es mejor."
                   </p>
                 </CardContent>
               </Card>
