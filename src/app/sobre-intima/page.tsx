@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -30,7 +31,7 @@ export default function SobreIntima() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
-            <div className="w-full text-center">
+            <div className="w-full text-center px-4 md:px-6">
                 <div className="flex flex-col items-center space-y-8">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Nuestra Razón de Ser</h1>
                     <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -49,6 +50,16 @@ export default function SobreIntima() {
                         <p className="text-muted-foreground text-lg">
                             Nuestra misión es simple pero poderosa: <strong>ofrecer herramientas, juegos y recursos que inspiren a las parejas a conectar de manera más profunda.</strong> No vendemos solo productos; ofrecemos experiencias. Cada juego ha sido cuidadosamente diseñado para ser un puente: un puente para iniciar conversaciones difíciles, para reír juntos, para explorar fantasías y para redescubrirse mutuamente en un espacio de confianza y diversión.
                         </p>
+                    </div>
+                    <div className="space-y-4">
+                        <h2 className="text-3xl font-bold text-primary">Nuestros Valores</h2>
+                        <ul className="text-muted-foreground text-lg text-left list-disc list-inside space-y-2">
+                          <li><strong>Empatía Radical:</strong> Nos esforzamos por ponernos en el lugar de cada pareja, entendiendo que cada relación es un mundo único. Escuchamos sus historias y validamos sus experiencias sin juicio.</li>
+                          <li><strong>Innovación Constante:</strong> El mundo de la intimidad está siempre evolucionando. Estamos comprometidos con la creación continua de juegos y herramientas que sean relevantes, emocionantes y verdaderamente útiles.</li>
+                          <li><strong>Inclusión y Diversidad:</strong> Celebramos el amor en todas sus formas. Nuestros recursos están diseñados para ser inclusivos y respetuosos con todas las orientaciones sexuales, identidades de género y tipos de relación.</li>
+                          <li><strong>Educación sin Tabúes:</strong> Creemos que el conocimiento es poder. Nuestra meta es derribar los mitos y la desinformación en torno a la sexualidad, ofreciendo contenido claro, honesto y basado en la evidencia.</li>
+                          <li><strong>La Diversión como Herramienta:</strong> Estamos convencidos de que la conexión emocional y el placer no tienen por qué ser serios o solemnes. La risa, el juego y la alegría son herramientas potentísimas para fortalecer los lazos.</li>
+                        </ul>
                     </div>
                     <div className="space-y-4">
                         <h2 className="text-3xl font-bold text-primary">Nuestro Compromiso</h2>
@@ -70,3 +81,4 @@ export default function SobreIntima() {
     </div>
   );
 }
+
