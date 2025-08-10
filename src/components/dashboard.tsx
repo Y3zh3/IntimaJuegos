@@ -37,7 +37,7 @@ export function Dashboard() {
       dialogTitle: "Verdad o Atrevimiento Íntimo",
       dialogDescription: "Prepárense para una noche de revelaciones y risas. Con preguntas y desafíos que van de lo tierno a lo muy picante, este juego es perfecto para conocerse mejor y añadir una chispa de emoción. ¿Se atreverán a decir la verdad o cumplirán el desafío?",
       buttonText: "Jugar ahora",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkHHDnB_4ZtOOmXlJM0v8Ofv-6uDj-T-5M2Q&s",
+      image: "https://soxo.com.pe/wp-content/uploads/soxo_verdadreto_3.jpg",
       imageHint: "truth dare game"
     },
     {

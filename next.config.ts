@@ -46,6 +46,12 @@ const nextConfig: NextConfig = {
         hostname: 'i.etsystatic.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'soxo.com.pe',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
