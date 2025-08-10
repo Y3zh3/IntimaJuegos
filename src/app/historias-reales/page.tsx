@@ -44,8 +44,8 @@ export default function HistoriasReales() {
           </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
-          <div className="container px-4 md:px-6">
-            <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
+          <div className="px-4 md:px-6">
+            <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
               <Card>
                 <CardHeader className="flex flex-row items-center gap-4">
                   <Avatar>
