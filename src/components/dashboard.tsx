@@ -97,7 +97,7 @@ export function Dashboard() {
       dialogTitle: "Guion Erótico Colaborativo",
       dialogDescription: "Tomen turnos para escribir un párrafo de una historia erótica. Dejen volar su imaginación y creen un relato único que los excite a ambos. La diversión está tanto en el proceso creativo como en el resultado final.",
       buttonText: "Empezar a escribir",
-      image: "https://placehold.co/400x380.png",
+      image: "https://static.skillshare.com/uploads/parentClasses/f97c30cdaccfe5fdcb3740693dd09034/b8fbadf4",
       imageHint: "erotic script"
     }
   ];
@@ -190,5 +190,3 @@ export function Dashboard() {
     </div>
   );
 }
-
-    

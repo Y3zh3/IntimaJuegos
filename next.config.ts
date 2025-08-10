@@ -64,6 +64,12 @@ const nextConfig: NextConfig = {
         hostname: 'w7.pngwing.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.skillshare.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
