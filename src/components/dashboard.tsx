@@ -135,7 +135,7 @@ export function Dashboard() {
             </div>
             <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 px-4 md:px-6">
               {games.map((game) => (
-                <Card key={game.title} className="flex flex-col">
+                <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors">
                   <CardHeader>
                     <CardTitle>{game.title}</CardTitle>
                     <CardDescription>{game.category}</CardDescription>

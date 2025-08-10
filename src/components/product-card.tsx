@@ -15,7 +15,7 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   return (
     <Dialog>
-      <Card className="group flex flex-col overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+      <Card className="group flex flex-col overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out border-transparent hover:border-primary">
         <CardHeader>
           <CardTitle className="text-lg font-semibold text-foreground truncate pr-4">{product.name}</CardTitle>
         </CardHeader>
