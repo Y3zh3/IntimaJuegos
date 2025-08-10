@@ -152,7 +152,7 @@ export function Dashboard() {
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
-            <div className="max-w-7xl mx-auto">
+            <div className="mx-auto max-w-7xl">
                 <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3">
                 {games.map((game) => (
                     <Card key={game.title} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">

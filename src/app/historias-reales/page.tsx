@@ -94,11 +94,11 @@ export default function HistoriasReales() {
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
           <div className="container px-4 md:px-6">
-            <div className="max-w-7xl mx-auto">
+            <div className="mx-auto max-w-7xl">
                 <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
                 {testimonials.map((testimonial) => (
                     <Card key={testimonial.name} className="flex flex-col md:flex-row items-center gap-6 p-6 border-transparent hover:border-primary transition-colors overflow-hidden">
-                    <Avatar className="w-20 h-20 flex-shrink-0">
+                    <Avatar className="h-20 w-20 flex-shrink-0">
                         <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.imageHint} />
                         <AvatarFallback>{testimonial.fallback}</AvatarFallback>
                     </Avatar>
