@@ -103,7 +103,7 @@ export default function HistoriasReales() {
                       alt={`Imagen de ${testimonial.name}`}
                       width={400}
                       height={300}
-                      className="h-48 w-full object-cover"
+                      className="h-56 w-full object-cover"
                       data-ai-hint={testimonial.imageHint}
                     />
                   </div>
