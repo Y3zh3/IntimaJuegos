@@ -142,6 +142,12 @@ const nextConfig: NextConfig = {
         hostname: 'image.made-in-china.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 's.alicdn.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

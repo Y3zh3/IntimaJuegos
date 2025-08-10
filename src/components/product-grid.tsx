@@ -41,7 +41,7 @@ const products: Product[] = [
     id: '4',
     name: 'Balas de Bolsillo Secretas',
     price: 'S/ 139.99',
-    image: 'https://placehold.co/400x440.png',
+    image: 'https://s.alicdn.com/@sc04/kf/H4ee3aa2f9dbb43fea503915df1f5869fr/Wholesale-Price-Remote-Control-Wireless-Mp3-Bullet-Vibrator-20-Frequency-Mini-Mp3-Player-Love-Eggs-Vibrator-Women-Sex-Toy.png_300x300.jpg',
     imageHint: 'bullet vibrator',
     review: 'Discretas pero potentes. Estas pequeñas balas son perfectas para llevar la excitación a cualquier lugar o para añadir un estímulo preciso durante el juego.',
     longDescription: 'Pequeña, discreta y sorprendentemente poderosa. Esta bala vibradora es tu aliada para el placer en solitario o en pareja. Su punta precisa es ideal para la estimulación del clítoris y otras zonas erógenas. Llévala en tu bolso y ten un secreto excitante siempre a mano.'
