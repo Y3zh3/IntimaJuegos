@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
 import { ShoppingCartIcon } from 'lucide-react';
@@ -25,7 +25,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             alt={product.name}
             width={400}
             height={400}
-            className="h-36 w-full object-cover"
+            className="h-48 w-full object-cover"
             data-ai-hint={product.imageHint}
           />
         </div>
@@ -33,17 +33,17 @@ export default function ProductCard({ product }: ProductCardProps) {
           <CardTitle className="text-lg font-semibold text-foreground">{product.name}</CardTitle>
         </CardHeader>
         <CardContent className="p-4 pt-0 flex flex-col flex-grow text-center">
-          <p className="text-muted-foreground text-sm mt-4">{product.review}</p>
-          <div className="flex items-center justify-between mt-4">
-            <p className="text-xl font-bold text-primary">{product.price}</p>
-            <DialogTrigger asChild>
-              <Button className="w-full" size="sm">
-                <ShoppingCartIcon className="mr-2 h-4 w-4" />
-                Detalles
-              </Button>
-            </DialogTrigger>
-          </div>
+          <p className="text-muted-foreground text-sm flex-grow">{product.review}</p>
         </CardContent>
+        <CardFooter className="p-4 pt-0 text-center flex-col gap-4">
+          <p className="text-xl font-bold text-primary">{product.price}</p>
+          <DialogTrigger asChild>
+            <Button className="w-full" size="sm">
+              <ShoppingCartIcon className="mr-2 h-4 w-4" />
+              Detalles
+            </Button>
+          </DialogTrigger>
+        </CardFooter>
       </Card>
       <DialogContent>
         <DialogHeader>
