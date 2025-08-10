@@ -17,15 +17,15 @@ export default function GuiaParaParejas() {
           <p>
             La comunicación es la base de cualquier relación sana y duradera. Sin embargo, no siempre es fácil expresar lo que sentimos o necesitamos, especialmente en temas de intimidad. La comunicación afectiva se trata de crear un espacio seguro donde ambos se sientan escuchados, validados y comprendidos.
           </p>
-          <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. Escucha Activa: El Primer Paso</h3>
+          <h3 className="text-xl font-bold mt-4 mb-2">1. Escucha Activa: El Primer Paso</h3>
           <p>
             Antes de hablar, aprende a escuchar. La escucha activa significa prestar total atención a tu pareja, sin interrumpir ni planear tu respuesta. Asiente, haz contacto visual y muestra que estás presente. A veces, lo único que necesitamos es que nos escuchen.
           </p>
-          <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">2. Habla desde el "Yo"</h3>
+          <h3 className="text-xl font-bold mt-4 mb-2">2. Habla desde el "Yo"</h3>
           <p>
             En lugar de decir "Tú nunca haces esto", prueba con "Yo me siento triste cuando...". Hablar desde tus propios sentimientos evita que tu pareja se ponga a la defensiva y abre la puerta a una conversación más constructiva.
           </p>
-          <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">3. Elige el Momento y el Lugar Adecuado</h3>
+          <h3 className="text-xl font-bold mt-4 mb-2">3. Elige el Momento y el Lugar Adecuado</h3>
           <p>
             No intentes tener conversaciones importantes cuando ambos estén cansados, estresados o en medio de una discusión. Busca un momento de calma, donde puedan hablar sin interrupciones. Un ambiente relajado facilita la apertura emocional.
           </p>
@@ -39,15 +39,15 @@ export default function GuiaParaParejas() {
        content: (
         <>
             <p>La rutina puede ser cómoda, pero también puede apagar la chispa de la emoción en una relación. Salir de ella no siempre requiere grandes gestos o viajes caros. Aquí tienes 5 ideas para reconectar y crear nuevos recuerdos juntos.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. Noche de Cita Temática en Casa</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">1. Noche de Cita Temática en Casa</h3>
             <p>Elijan un país que les gustaría visitar. Preparen una cena con platos típicos de ese lugar, pongan música de la región y vean una película de ese país. ¡Transformen su salón en un destino exótico por una noche!</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">2. El Tarro de las Citas</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">2. El Tarro de las Citas</h3>
             <p>Escriban en pequeños papeles diferentes ideas para citas (baratas, caras, en casa, al aire libre). Doblen los papeles y métanlos en un tarro. Una vez a la semana o al mes, saquen un papel al azar y comprométanse a realizar la cita que salga.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">3. Aprendan Algo Nuevo Juntos</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">3. Aprendan Algo Nuevo Juntos</h3>
             <p>Inscríbanse en una clase de algo que ninguno de los dos domine: baile, cocina, cerámica, un nuevo idioma. Ser principiantes juntos es una forma divertida de apoyarse mutuamente, reírse de los errores y crecer como equipo.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">4. Micro-Aventura Improvisada</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">4. Micro-Aventura Improvisada</h3>
             <p>Un sábado por la mañana, suban al coche sin un destino fijo. Conduzcan durante una hora en una dirección que no suelen tomar y exploren el primer pueblo o paraje natural que les llame la atención. La espontaneidad es un gran antídoto contra la rutina.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">5. Día sin Tecnología</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">5. Día sin Tecnología</h3>
             <p>Elijan un día del fin de semana para apagar los teléfonos, la televisión y los ordenadores. Dediquen el día a hablar, jugar a juegos de mesa, leer juntos, pasear o simplemente estar presentes el uno para el otro sin distracciones digitales. Se sorprenderán de la calidad de la conexión que pueden lograr.</p>
         </>
       ),
@@ -59,15 +59,15 @@ export default function GuiaParaParejas() {
        content: (
         <>
             <p>Hablar de fantasías sexuales puede ser intimidante, pero es una de las herramientas más poderosas para profundizar la intimidad y la confianza. La clave está en crear un espacio de seguridad y curiosidad mutua. Aquí te dejamos una guía.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. Empieza por el "Por Qué"</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">1. Empieza por el "Por Qué"</h3>
             <p>Antes de saltar al "qué", hablen del "por qué". Pueden empezar diciendo algo como: "He estado pensando en lo mucho que me excita nuestra conexión y me encantaría que exploráramos juntos nuevas formas de disfrutarla. ¿Estarías abierto/a a hablar sobre ello?". Esto enmarca la conversación desde un lugar de unión, no de carencia.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">2. Normaliza el Tema</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">2. Normaliza el Tema</h3>
             <p>Recuerda (y recuérdale a tu pareja) que tener fantasías es completamente normal y humano. No significa que algo falte en la relación. Son simplemente una parte de la imaginación erótica. Pueden usar juegos como la "Ruleta de Fantasías" para que el tema surja de una forma más lúdica y menos directa.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">3. Establece Reglas de No-Juzgar</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">3. Establece Reglas de No-Juzgar</h3>
             <p>Antes de compartir, hagan un pacto: "Lo que compartamos aquí, se queda aquí, y la única regla es no juzgar". Esto crea un círculo de confianza. La reacción inicial es crucial. Escucha con la mente abierta, aunque la fantasía de tu pareja te sorprenda.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">4. Usa la Técnica del "Me Gustaría..."</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">4. Usa la Técnica del "Me Gustaría..."</h3>
             <p>En lugar de exigir, propón. Usa frases como "Me gustaría probar..." o "A veces fantaseo con...". Hablar en un tono de curiosidad y exploración es mucho menos intimidante que un tono de demanda.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">5. Recuerda: Compartir no Obliga a Actuar</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">5. Recuerda: Compartir no Obliga a Actuar</h3>
             <p>El simple hecho de compartir una fantasía puede ser muy íntimo y excitante en sí mismo. Dejen claro que compartir no crea una obligación de llevarla a cabo. Pueden decidir juntos qué fantasías les gustaría explorar, cuáles prefieren mantener en la imaginación y cuáles no les interesan. El respeto por los límites del otro es fundamental.</p>
         </>
       ),
@@ -79,16 +79,16 @@ export default function GuiaParaParejas() {
        content: (
         <>
             <p>En el torbellino del amor romántico, es fácil querer pasar cada segundo junto a la pareja. Sin embargo, una de las claves para una relación duradera y saludable es, paradójicamente, el espacio personal. Mantener la individualidad no es una señal de distancia, sino de fortaleza.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">¿Qué es el Espacio Personal?</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">¿Qué es el Espacio Personal?</h3>
             <p>No se trata solo de estar físicamente en habitaciones separadas. Es el tiempo y la libertad para cultivar tus propias aficiones, amistades e intereses. Es tener la oportunidad de extrañarse, de volver a la relación con nuevas experiencias y perspectivas para compartir.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">Beneficios del Espacio Personal</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">Beneficios del Espacio Personal</h3>
             <ul className="list-disc pl-6 space-y-2">
                 <li><strong>Evita la codependencia:</strong> Fomenta la autonomía y la autoestima, recordándote que eres una persona completa por ti misma.</li>
                 <li><strong>Previene el resentimiento:</strong> Sacrificar constantemente tus propias necesidades puede generar resentimiento a largo plazo.</li>
                 <li><strong>Mantiene viva la atracción:</strong> Tener vidas propias los hace más interesantes el uno para el otro.</li>
                 <li><strong>Permite la autorreflexión:</strong> El tiempo a solas es crucial para procesar pensamientos y emociones.</li>
             </ul>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">Cómo Equilibrarlo</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">Cómo Equilibrarlo</h3>
             <p>La clave es la comunicación. Hablen abiertamente sobre sus necesidades de tiempo a solas y tiempo juntos. No lo planteen como una queja ("Necesito alejarme de ti"), sino como una necesidad personal ("Necesito un poco de tiempo para recargar energías con mi hobby"). Planifiquen tanto las citas en pareja como las actividades individuales. Respetar el espacio del otro es una de las mayores muestras de amor y confianza.</p>
         </>
       ),
@@ -100,13 +100,13 @@ export default function GuiaParaParejas() {
        content: (
         <>
             <p>Todas las parejas discuten. Es una parte inevitable de la convivencia. La diferencia entre una pareja que se fortalece y una que se debilita no es la ausencia de conflictos, sino cómo los manejan. Aprender a "discutir mejor" es una habilidad que se puede desarrollar.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. No es "Tú vs. Yo", es "Nosotros vs. el Problema"</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">1. No es "Tú vs. Yo", es "Nosotros vs. el Problema"</h3>
             <p>Cambien la perspectiva. En lugar de verse como adversarios, siéntensen (literalmente) del mismo lado de la mesa y pongan el problema en el otro lado. Esto fomenta un enfoque de equipo para encontrar una solución, en lugar de una batalla por ver quién gana.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">2. Pausa de Emergencia</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">2. Pausa de Emergencia</h3>
             <p>Cuando sientan que la conversación se está calentando demasiado y van a decir algo de lo que se arrepentirán, pidan una pausa. Acuerden una palabra clave o una señal. "Necesito un tiempo muerto de 20 minutos". Usen ese tiempo para calmarse, no para preparar nuevos argumentos. Luego, retomen la conversación.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">3. Evita las Palabras "Siempre" y "Nunca"</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">3. Evita las Palabras "Siempre" y "Nunca"</h3>
             <p>Estas palabras casi siempre son una exageración y ponen a la otra persona a la defensiva inmediatamente ("¿Ah, sí? ¿NUNCA saco la basura? La saqué el mes pasado"). Sean específicos sobre el incidente que les molesta en el presente.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">4. Técnica de la Repetición Empática</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">4. Técnica de la Repetición Empática</h3>
             <p>Antes de dar tu punto de vista, intenta repetir lo que tu pareja ha dicho para asegurarte de que la entiendes. "Lo que escucho es que te sientes solo/a cuando trabajo hasta tarde, ¿es correcto?". Esto no solo valida sus sentimientos, sino que también ralentiza la conversación y evita malentendidos.</p>
         </>
       ),
@@ -118,15 +118,15 @@ export default function GuiaParaParejas() {
        content: (
         <>
             <p>Los aniversarios, cumpleaños y San Valentín son maravillosos, pero el verdadero tejido de una relación sólida se construye en el día a día. Son los pequeños gestos, las acciones cotidianas y aparentemente insignificantes, las que más nutren el amor y la conexión. Aquí tienes algunas ideas.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">1. El Beso de los 6 Segundos</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">1. El Beso de los 6 Segundos</h3>
             <p>Los expertos dicen que un beso de al menos seis segundos libera oxitocina, la "hormona del amor", y crea un momento de conexión real. Conviertan en un hábito darse un beso de seis segundos al despedirse por la mañana y al reencontrarse por la tarde.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">2. Dejar el Último Bocado</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">2. Dejar el Último Bocado</h3>
             <p>Dejarle a tu pareja el último bocado de ese postre que tanto le gusta es una pequeña forma de decir "pienso en ti y tu placer es importante para mí".</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">3. Un Mensaje Inesperado</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">3. Un Mensaje Inesperado</h3>
             <p>Un simple "estoy pensando en ti" o "espero que tengas un buen día" a mitad de la jornada laboral puede hacer que la otra persona se sienta vista y querida.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">4. Agradecimiento Específico</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">4. Agradecimiento Específico</h3>
             <p>En lugar de un "gracias" genérico, sé específico. "Gracias por preparar el café esta mañana, de verdad que lo necesitaba". Reconocer el esfuerzo concreto hace que el agradecimiento sea mucho más potente.</p>
-            <h3 className="text-xl font-bold mt-4 mb-2 text-primary/90">5. Escuchar sin Interrupciones</h3>
+            <h3 className="text-xl font-bold mt-4 mb-2">5. Escuchar sin Interrupciones</h3>
             <p>Cuando tu pareja te cuente su día, guarda tu teléfono y préstale toda tu atención durante cinco minutos. Escuchar de verdad, sin intentar solucionar sus problemas (a menos que te lo pida), es un regalo inmenso.</p>
         </>
       ),
