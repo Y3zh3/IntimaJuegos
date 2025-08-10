@@ -87,7 +87,7 @@ export function Dashboard() {
       dialogTitle: "Secretos Compartidos",
       dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
       buttonText: "Contar un secreto",
-      image: "https://placehold.co/400x370.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrRvIRhsN9oN8hUWXYzUVr0GWqjEEfyz-3FQ&s",
       imageHint: "shared secrets"
     },
     {
@@ -190,3 +190,5 @@ export function Dashboard() {
     </div>
   );
 }
+
+    
