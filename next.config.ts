@@ -58,6 +58,12 @@ const nextConfig: NextConfig = {
         hostname: 'img.genially.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'w7.pngwing.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
