@@ -87,7 +87,7 @@ export function Dashboard() {
       dialogTitle: "Secretos Compartidos",
       dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
       buttonText: "Contar un secreto",
-      image: "https://imgv2-1-f.scribdassets.com/img/document/203782749/149x198/3ac2421f4b/1638109366?v=1",
+      image: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780892815883/secretos-sexuales-9780892815883_hr.jpg",
       imageHint: "shared secrets"
     },
     {

@@ -88,6 +88,12 @@ const nextConfig: NextConfig = {
         hostname: 'i.ytimg.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'd28hgpri8am2if.cloudfront.net',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
