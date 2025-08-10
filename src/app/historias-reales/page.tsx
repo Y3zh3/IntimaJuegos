@@ -1,12 +1,63 @@
 
 import Link from "next/link";
+import Image from "next/image";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
-
 export default function HistoriasReales() {
+  const testimonials = [
+    {
+      name: "María & Leo",
+      years: "Llevamos 5 años juntos",
+      story: "Después de la llegada de los niños, sentíamos que nos habíamos distanciado. El juego 'Conversaciones de Corazón' nos dio el espacio para volver a hablar de nosotros, de nuestros sueños... fue como volver a conocernos. ¡Gracias!",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "happy couple",
+      fallback: "M&L",
+    },
+    {
+      name: "Ana & Carlos",
+      years: "Llevamos 2 años juntos",
+      story: "Siempre nos costó hablar de fantasías. Nos daba vergüenza. La 'Ruleta de Fantasías' lo hizo divertido, casual, ¡un juego! Nos reímos mucho y descubrimos cosas nuevas del otro que nunca hubiéramos imaginado.",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "smiling couple",
+      fallback: "A&C",
+    },
+    {
+      name: "Sofía & David",
+      years: "Llevamos 8 años juntos",
+      story: "Estábamos en una rutina terrible. 'El Desafío de los Sentidos' nos obligó a parar y a reconectar de una forma que no hacíamos en años. Fue increíblemente poderoso.",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "mature couple",
+      fallback: "S&D",
+    },
+    {
+      name: "Javier & Laura",
+      years: "Llevamos 1 año juntos",
+      story: "Somos una pareja joven y creíamos que nos comunicábamos bien, pero 'Secretos Compartidos' nos llevó a un nivel de honestidad y confianza que no esperábamos. Súper recomendado.",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "young couple",
+      fallback: "J&L",
+    },
+    {
+      name: "Paula & Marcos",
+      years: "Llevamos 10 años juntos",
+      story: "Creíamos que lo habíamos probado todo, pero el 'Guion Erótico Colaborativo' fue una sorpresa total. Escribir juntos fue tan excitante como el resultado. Nos desbloqueó una creatividad que no sabíamos que teníamos.",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "laughing couple",
+      fallback: "P&M",
+    },
+    {
+      name: "Elena & Victor",
+      years: "Llevamos 3 años juntos",
+      story: "La 'Cita a Ciegas en Casa' se ha convertido en nuestro ritual mensual. Es increíble cómo algo tan simple puede traer tanta emoción y romanticismo a la relación. Nos turnamos para sorprender al otro y cada vez es mejor.",
+      image: "https://placehold.co/400x300.png",
+      imageHint: "couple outdoors",
+      fallback: "E&V",
+    },
+  ];
+
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
@@ -42,110 +93,37 @@ export default function HistoriasReales() {
           </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-muted/20">
-          <div className="px-4 md:px-6">
+          <div className="container px-4 md:px-6">
             <div className="grid gap-8 md:grid-cols-2 lg:gap-12 w-full">
-                <Card className="border-transparent hover:border-primary transition-colors">
+              {testimonials.map((testimonial) => (
+                <Card key={testimonial.name} className="flex flex-col border-transparent hover:border-primary transition-colors overflow-hidden">
+                  <div className="relative">
+                    <Image
+                      src={testimonial.image}
+                      alt={`Imagen de ${testimonial.name}`}
+                      width={400}
+                      height={300}
+                      className="h-60 w-full object-cover"
+                      data-ai-hint={testimonial.imageHint}
+                    />
+                  </div>
                   <CardHeader className="flex flex-row items-center gap-4">
                     <Avatar>
-                      <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="happy couple" />
-                      <AvatarFallback>M&L</AvatarFallback>
+                      <AvatarImage src="https://placehold.co/100x100.png" />
+                      <AvatarFallback>{testimonial.fallback}</AvatarFallback>
                     </Avatar>
                     <div>
-                      <h3 className="text-lg font-bold">María & Leo</h3>
-                      <p className="text-sm text-muted-foreground">Llevamos 5 años juntos</p>
+                      <h3 className="text-lg font-bold">{testimonial.name}</h3>
+                      <p className="text-sm text-muted-foreground">{testimonial.years}</p>
                     </div>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      "Después de la llegada de los niños, sentíamos que nos habíamos distanciado. El juego 'Conversaciones de Corazón' nos dio el espacio para volver a hablar de nosotros, de nuestros sueños... fue como volver a conocernos. ¡Gracias!"
+                      "{testimonial.story}"
                     </p>
                   </CardContent>
                 </Card>
-                <Card className="border-transparent hover:border-primary transition-colors">
-                  <CardHeader className="flex flex-row items-center gap-4">
-                    <Avatar>
-                      <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="smiling couple" />
-                      <AvatarFallback>A&C</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <h3 className="text-lg font-bold">Ana & Carlos</h3>
-                      <p className="text-sm text-muted-foreground">Llevamos 2 años juntos</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">
-                      "Siempre nos costó hablar de fantasías. Nos daba vergüenza. La 'Ruleta de Fantasías' lo hizo divertido, casual, ¡un juego! Nos reímos mucho y descubrimos cosas nuevas del otro que nunca hubiéramos imaginado."
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="border-transparent hover:border-primary transition-colors">
-                  <CardHeader className="flex flex-row items-center gap-4">
-                    <Avatar>
-                      <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="mature couple" />
-                      <AvatarFallback>S&D</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <h3 className="text-lg font-bold">Sofía & David</h3>
-                      <p className="text-sm text-muted-foreground">Llevamos 8 años juntos</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">
-                      "Estábamos en una rutina terrible. 'El Desafío de los Sentidos' nos obligó a parar y a reconectar de una forma que no hacíamos en años. Fue increíblemente poderoso."
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="border-transparent hover:border-primary transition-colors">
-                  <CardHeader className="flex flex-row items-center gap-4">
-                    <Avatar>
-                      <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="young couple" />
-                      <AvatarFallback>J&L</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <h3 className="text-lg font-bold">Javier & Laura</h3>
-                      <p className="text-sm text-muted-foreground">Llevamos 1 año juntos</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">
-                      "Somos una pareja joven y creíamos que nos comunicábamos bien, pero 'Secretos Compartidos' nos llevó a un nivel de honestidad y confianza que no esperábamos. Súper recomendado."
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="border-transparent hover:border-primary transition-colors">
-                  <CardHeader className="flex flex-row items-center gap-4">
-                    <Avatar>
-                      <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="laughing couple" />
-                      <AvatarFallback>P&M</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <h3 className="text-lg font-bold">Paula & Marcos</h3>
-                      <p className="text-sm text-muted-foreground">Llevamos 10 años juntos</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">
-                      "Creíamos que lo habíamos probado todo, pero el 'Guion Erótico Colaborativo' fue una sorpresa total. Escribir juntos fue tan excitante como el resultado. Nos desbloqueó una creatividad que no sabíamos que teníamos."
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="border-transparent hover:border-primary transition-colors">
-                  <CardHeader className="flex flex-row items-center gap-4">
-                    <Avatar>
-                      <AvatarImage src="https://placehold.co/100x100.png" data-ai-hint="couple outdoors" />
-                      <AvatarFallback>E&V</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <h3 className="text-lg font-bold">Elena & Victor</h3>
-                      <p className="text-sm text-muted-foreground">Llevamos 3 años juntos</p>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">
-                      "La 'Cita a Ciegas en Casa' se ha convertido en nuestro ritual mensual. Es increíble cómo algo tan simple puede traer tanta emoción y romanticismo a la relación. Nos turnamos para sorprender al otro y cada vez es mejor."
-                    </p>
-                  </CardContent>
-                </Card>
+              ))}
             </div>
           </div>
         </section>
