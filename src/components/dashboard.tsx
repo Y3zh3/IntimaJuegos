@@ -80,6 +80,33 @@ export function Dashboard() {
                   <Button className="mt-4">Empezar a hablar</Button>
                 </CardContent>
               </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Desafío de los Sentidos</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Un juego para explorar el tacto, el gusto y el olfato de formas nuevas y excitantes.</p>
+                  <Button className="mt-4">Explorar</Button>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Escenario de Roles Erótico</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Elijan un escenario y dejen volar su imaginación. ¿Quién quieren ser esta noche?</p>
+                  <Button className="mt-4">Crear personaje</Button>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Mapa del Tesoro Corporal</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Descubran nuevas zonas de placer en el cuerpo del otro con este juego guiado.</p>
+                  <Button className="mt-4">Iniciar Aventura</Button>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
