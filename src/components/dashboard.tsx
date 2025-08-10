@@ -117,7 +117,7 @@ export function Dashboard() {
       </header>
       <main className="flex-1">
         <section className="w-full pt-12 md:pt-24">
-            <div className="container px-4 md:px-6 text-center">
+            <div className="px-4 md:px-6 text-center">
                 <h2 className="text-4xl md:text-5xl font-bold sm:text-6xl text-primary tracking-normal">Conecta desde el Placer y la Confianza</h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
                     Íntima Juegos nace para ayudarte a hablar, sentir y explorar el deseo con tu pareja desde el respeto, la empatía y la diversión.

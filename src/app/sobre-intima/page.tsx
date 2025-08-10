@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { SparklesIcon, ShoppingCartIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
 export default function SobreIntima() {
   return (
@@ -32,28 +31,28 @@ export default function SobreIntima() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
-            <div className="container px-4 md:px-6">
+            <div className="px-4 md:px-6">
                 <div className="flex flex-col items-center space-y-8 text-center">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tighter sm:text-6xl text-primary">Nuestra Razón de Ser</h1>
                     <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                         En Íntima Juegos, creemos que el placer y la conexión emocional son pilares fundamentales de una vida plena y una relación saludable. Nacimos de la convicción de que la intimidad es un universo por explorar, y que la comunicación es la brújula que guía esa exploración.
                     </p>
                 </div>
-                <div className="mx-auto max-w-3xl space-y-10 pt-12">
+                <div className="mx-auto max-w-3xl space-y-10 pt-12 text-center">
                     <div className="space-y-4">
-                        <h2 className="text-3xl font-bold text-center text-primary">Nuestra Filosofía</h2>
+                        <h2 className="text-3xl font-bold text-primary">Nuestra Filosofía</h2>
                         <p className="text-muted-foreground text-lg">
                             Vivimos en un mundo que a menudo nos enseña a reprimir nuestros deseos y a sentir vergüenza por nuestra curiosidad. Nosotros queremos cambiar esa narrativa. Nuestra filosofía se basa en tres principios: <strong>Curiosidad sin Juicios, Comunicación con Empatía y Placer con Consciencia.</strong> Creemos que cada pareja tiene el derecho de descubrir qué les da placer, de hablar sobre ello abiertamente y de disfrutarlo de una manera segura y respetuosa.
                         </p>
                     </div>
                     <div className="space-y-4">
-                        <h2 className="text-3xl font-bold text-center text-primary">Nuestra Misión</h2>
+                        <h2 className="text-3xl font-bold text-primary">Nuestra Misión</h2>
                         <p className="text-muted-foreground text-lg">
                             Nuestra misión es simple pero poderosa: <strong>ofrecer herramientas, juegos y recursos que inspiren a las parejas a conectar de manera más profunda.</strong> No vendemos solo productos; ofrecemos experiencias. Cada juego ha sido cuidadosamente diseñado para ser un puente: un puente para iniciar conversaciones difíciles, para reír juntos, para explorar fantasías y para redescubrirse mutuamente en un espacio de confianza y diversión.
                         </p>
                     </div>
                     <div className="space-y-4">
-                        <h2 className="text-3xl font-bold text-center text-primary">Nuestro Compromiso</h2>
+                        <h2 className="text-3xl font-bold text-primary">Nuestro Compromiso</h2>
                         <p className="text-muted-foreground text-lg">
                             Somos un equipo apasionado por el bienestar sexual y la inteligencia emocional. Tu seguridad y confianza son nuestra máxima prioridad. Por eso, nos comprometemos a ofrecer productos de la más alta calidad, fabricados con materiales seguros para el cuerpo, y a proporcionar información clara y honesta. Queremos que te sientas con poder, confianza y libertad para descubrir tus deseos en un espacio que hemos creado para ti.
                         </p>
