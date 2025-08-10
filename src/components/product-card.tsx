@@ -33,7 +33,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             <p className="text-xl font-bold text-primary">{product.price}</p>
             <Button size="sm">
                 <ShoppingCartIcon className="mr-2 h-4 w-4" />
-                Añadir
+                Detalles
             </Button>
         </div>
       </CardContent>
