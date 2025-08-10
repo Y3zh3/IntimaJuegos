@@ -111,8 +111,8 @@ export function Dashboard() {
             <h1 className="text-3xl font-bold text-foreground">IntimaJuegos</h1>
         </Link>
         <nav className="hidden items-center gap-6 text-base font-medium md:flex">
-            <Link href="/" className="text-foreground transition-colors hover:text-primary">Inicio</Link>
-            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/" className="text-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juguetes Sexuales</Link>
             <Link href="/guia-para-parejas" className="text-muted-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
             <Link href="/historias-reales" className="text-muted-foreground transition-colors hover:text-primary">Historias Reales</Link>
             <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
@@ -132,8 +132,8 @@ export function Dashboard() {
                     <SparklesIcon className="h-6 w-6 text-primary" />
                     <span className="text-foreground">IntimaJuegos</span>
                   </Link>
-                  <Link href="/" className="text-foreground hover:text-foreground">Inicio</Link>
-                  <Link href="/juegos-para-conectar" className="text-muted-foreground hover:text-foreground">Juegos para Conectar</Link>
+                  <Link href="/" className="text-foreground hover:text-foreground">Juegos para Conectar</Link>
+                  <Link href="/juegos-para-conectar" className="text-muted-foreground hover:text-foreground">Juguetes Sexuales</Link>
                   <Link href="/guia-para-parejas" className="text-muted-foreground hover:text-foreground">Guía para Parejas</Link>
                   <Link href="/historias-reales" className="text-muted-foreground hover:text-foreground">Historias Reales</Link>
                   <Link href="/sobre-intima" className="text-muted-foreground hover:text-foreground">Sobre Íntima</Link>
@@ -147,7 +147,7 @@ export function Dashboard() {
         <section className="w-full pt-8">
           <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juegos en Pareja Digitales</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juegos Digitales para Parejas</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
@@ -208,3 +208,5 @@ export function Dashboard() {
     </div>
   );
 }
+
+    

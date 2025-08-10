@@ -145,8 +145,8 @@ export default function GuiaParaParejas() {
             <h1 className="text-3xl font-bold text-foreground">IntimaJuegos</h1>
         </Link>
         <nav className="hidden items-center gap-6 text-base font-medium md:flex">
-            <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Inicio</Link>
-            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/" className="text-muted-foreground transition-colors hover:text-primary">Juegos para Conectar</Link>
+            <Link href="/juegos-para-conectar" className="text-muted-foreground transition-colors hover:text-primary">Juguetes Sexuales</Link>
             <Link href="/guia-para-parejas" className="text-foreground transition-colors hover:text-primary">Guía para Parejas</Link>
             <Link href="/historias-reales" className="text-muted-foreground transition-colors hover:text-primary">Historias Reales</Link>
             <Link href="/sobre-intima" className="text-muted-foreground transition-colors hover:text-primary">Sobre Íntima</Link>
@@ -166,8 +166,8 @@ export default function GuiaParaParejas() {
                     <SparklesIcon className="h-6 w-6 text-primary" />
                     <span className="text-foreground">IntimaJuegos</span>
                   </Link>
-                  <Link href="/" className="text-muted-foreground hover:text-foreground">Inicio</Link>
-                  <Link href="/juegos-para-conectar" className="text-muted-foreground hover:text-foreground">Juegos para Conectar</Link>
+                  <Link href="/" className="text-muted-foreground hover:text-foreground">Juegos para Conectar</Link>
+                  <Link href="/juegos-para-conectar" className="text-muted-foreground hover:text-foreground">Juguetes Sexuales</Link>
                   <Link href="/guia-para-parejas" className="text-foreground hover:text-foreground">Guía para Parejas</Link>
                   <Link href="/historias-reales" className="text-muted-foreground hover:text-foreground">Historias Reales</Link>
                   <Link href="/sobre-intima" className="text-muted-foreground hover:text-foreground">Sobre Íntima</Link>
@@ -219,3 +219,5 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
+
+    
