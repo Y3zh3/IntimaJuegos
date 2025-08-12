@@ -157,9 +157,9 @@ export function Dashboard() {
               <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juegos Digitales para Parejas</h2>
               <div className="my-4 w-full">
                 <Link href="/juegos-para-conectar">
-                  <div className="relative aspect-[4/1] w-full overflow-hidden">
+                  <div className="relative h-[450px] w-full overflow-hidden">
                     <Image
-                      src="https://placehold.co/1200x300.png"
+                      src="https://placehold.co/1200x450.png"
                       alt="Banner de juguetes sexuales"
                       layout="fill"
                       objectFit="cover"
@@ -191,6 +191,9 @@ export function Dashboard() {
                         <CardDescription>{game.category}</CardDescription>
                     </CardHeader>
                     <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
+                        <p className="flex-grow text-muted-foreground text-sm mb-4">
+                          {game.description}
+                        </p>
                         <div className="mt-auto">
                         <Dialog>
                             <DialogTrigger asChild>
