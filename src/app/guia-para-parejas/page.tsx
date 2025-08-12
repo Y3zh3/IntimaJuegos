@@ -200,7 +200,7 @@ export default function GuiaParaParejas() {
                 </div>
               </Link>
             </div>
-            <p className="mt-4 max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center mt-10">
             Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
             </p>
           </div>

@@ -74,7 +74,7 @@ export default function SobreIntima() {
                     </div>
                 </div>
                 <div className="mt-6 space-y-6">
-                    <p className="text-lg text-muted-foreground text-justify">
+                    <p className="text-lg text-muted-foreground text-justify mt-10">
                         En IntimaJuegos, creemos que el placer y la conexión emocional son pilares fundamentales de una vida plena y una relación saludable. Nacimos de la convicción de que la intimidad es un universo por explorar, y que la comunicación es la brújula que guía esa exploración.
                     </p>
                     <div className="space-y-4 text-center">

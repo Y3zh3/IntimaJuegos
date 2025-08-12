@@ -73,7 +73,7 @@ export default function JuegosParaConectar() {
                         </div>
                       </Link>
                     </div>
-                    <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-10">
                         Nuestra selección de juguetes para la curiosidad y el placer.
                     </p>
                 </div>

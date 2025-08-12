@@ -25,7 +25,6 @@ export function Dashboard() {
     const games = [
     {
       title: "Conversaciones de Corazón",
-      category: "Conexión Emocional",
       description: "Más de 100 preguntas para encender la chispa y fortalecer la conexión emocional.",
       dialogTitle: "Conversaciones de Corazón",
       dialogDescription: "La intimidad no es solo física. Con estas tarjetas de conversación, podrán explorar sus sentimientos, sueños y recuerdos más profundos. Es una forma hermosa de conectar a nivel emocional y fortalecer el vínculo que los une.",
@@ -36,7 +35,6 @@ export function Dashboard() {
     },
     {
       title: "Verdad o Atrevimiento Íntimo",
-      category: "Comunicación",
       description: "Una versión picante del clásico juego para revelar sus secretos más profundos.",
       dialogTitle: "Verdad o Atrevimiento Íntimo",
       dialogDescription: "Prepárense para una noche de revelaciones y risas. Con preguntas y desafíos que van de lo tierno a lo muy picante, este juego es perfecto para conocerse mejor y añadir una chispa de emoción. ¿Se atreverán a decir la verdad o cumplirán el desafío?",
@@ -47,7 +45,6 @@ export function Dashboard() {
     },
     {
       title: "Ruleta de Fantasías",
-      category: "Explorar Fantasías",
       description: "Dejen que el azar decida su próxima aventura. Giren la ruleta y cumplan la fantasía.",
       dialogTitle: "Ruleta de Fantasías",
       dialogDescription: "¿Buscan salir de la rutina? Dejen que la ruleta elija por ustedes. Cada giro desvela una nueva fantasía o un escenario para explorar juntos. Desde masajes sensuales hasta juegos de roles, nunca sabrán qué les depara la suerte.",
@@ -58,7 +55,6 @@ export function Dashboard() {
     },
     {
       title: "Escenario de Roles Erótico",
-      category: "Explorar Fantasías",
       description: "Elijan un escenario y dejen volar su imaginación. ¿Quién quieren ser esta noche?",
       dialogTitle: "Escenario de Roles Erótico",
       dialogDescription: "Desde un encuentro casual en un bar hasta una sesión con el profesor particular. Elijan uno de nuestros escenarios o creen el suyo propio. Es la oportunidad perfecta para experimentar con nuevas dinámicas y liberar su lado más creativo en la intimidad.",
@@ -69,7 +65,6 @@ export function Dashboard() {
     },
     {
       title: "Desafío de los Sentidos",
-      category: "Reavivar la Intimidad",
       description: "Un juego para explorar el tacto, el gusto y el olfato de formas nuevas y excitantes.",
       dialogTitle: "Desafío de los Sentidos",
       dialogDescription: "Venden los ojos a su pareja y prepárense para un viaje sensorial. Usen diferentes texturas, sabores y aromas para despertar sensaciones inolvidables. Este juego agudizará sus sentidos y les hará redescubrir el placer del tacto.",
@@ -80,7 +75,6 @@ export function Dashboard() {
     },
     {
       title: "Mapa del Tesoro Corporal",
-      category: "Reavivar la Intimidad",
       description: "Descubran nuevas zonas de placer en el cuerpo del otro con este juego guiado.",
       dialogTitle: "Mapa del Tesoro Corporal",
       dialogDescription: "El cuerpo de su pareja es un mapa lleno de tesoros por descubrir. Con esta guía, explorarán cada rincón con besos, caricias y masajes, encontrando nuevos puntos de placer que no sabían que existían. ¡La aventura está a punto de comenzar!",
@@ -91,7 +85,6 @@ export function Dashboard() {
     },
     {
       title: "Secretos Compartidos",
-      category: "Conexión Emocional",
       description: "Un juego de cartas para revelar secretos y fortalecer la confianza mutua.",
       dialogTitle: "Secretos Compartidos",
       dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
@@ -102,7 +95,6 @@ export function Dashboard() {
     },
     {
       title: "Guion Erótico Colaborativo",
-      category: "Explorar Fantasías",
       description: "Escriban juntos una historia erótica y luego, si se atreven, llévenla a la realidad.",
       dialogTitle: "Guion Erótico Colaborativo",
       dialogDescription: "Tomen turnos para escribir un párrafo de una historia erótica. Dejen volar su imaginación y creen un relato único que los excite a ambos. La diversión está tanto en el proceso creativo como en el resultado final.",
@@ -176,7 +168,7 @@ export function Dashboard() {
                   </div>
                 </Link>
               </div>
-              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-10">
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
@@ -200,7 +192,7 @@ export function Dashboard() {
                     <div className="mt-auto">
                       <Dialog>
                         <DialogTrigger asChild>
-                          <Button size="sm" className="w-full text-xs">{game.buttonText}</Button>
+                          <Button size="sm" className="w-full text-xs">Detalles</Button>
                         </DialogTrigger>
                         <DialogContent>
                           <DialogHeader>

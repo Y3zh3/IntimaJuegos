@@ -124,7 +124,7 @@ export default function HistoriasReales() {
                 </div>
               </Link>
             </div>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto mt-10">
               Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
             </p>
           </div>
