@@ -9,6 +9,40 @@ import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import Image from "next/image";
 
 export default function SobreIntima() {
+
+  const teamMembers = [
+    {
+      name: "Jesus Barreto",
+      role: "Chief Technology and Information Officer",
+      image: "https://placehold.co/150x150.png",
+      imageHint: "profile picture"
+    },
+    {
+      name: "Yessenia Hernández",
+      role: "Chief Executive Officer",
+      image: "https://placehold.co/150x150.png",
+      imageHint: "profile picture"
+    },
+    {
+      name: "José González",
+      role: "Chief Operating Officer",
+      image: "https://placehold.co/150x150.png",
+      imageHint: "profile picture"
+    },
+    {
+      name: "Cristina Lopez",
+      role: "Chief Marketing Officer",
+      image: "https://placehold.co/150x150.png",
+      imageHint: "profile picture"
+    },
+    {
+      name: "Laura Mendoza",
+      role: "Head of Product",
+      image: "https://placehold.co/150x150.png",
+      imageHint: "profile picture"
+    }
+  ];
+
   return (
     <div className="flex flex-col min-h-screen w-full bg-background font-body">
       <header className="sticky top-0 z-10 flex h-16 items-center justify-between border-b border-border/20 bg-background/50 px-4 backdrop-blur-sm md:px-6">
@@ -59,25 +93,32 @@ export default function SobreIntima() {
           <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
-              <div className="my-4 w-full">
-                <Link href="/juegos-para-conectar">
-                  <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-lg">
-                    <Image
-                      src="https://ingenioproductivo.wordpress.com/wp-content/uploads/2014/06/909053_47827595-1.jpg"
-                      alt="Banner sobre nosotros"
-                      layout="fill"
-                      objectFit="contain"
-                      className="rounded-lg"
-                      data-ai-hint="inspiration lightbulb"
-                    />
-                  </div>
-                </Link>
-              </div>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify mt-10">
                 En IntimaJuegos, creemos que el placer y la conexión emocional son pilares fundamentales de una vida plena y una relación saludable. Nacimos de la convicción de que la intimidad es un universo por explorar, y que la comunicación es la brújula que guía esa exploración.
               </p>
             </div>
-            <div className="mt-6 space-y-6 max-w-3xl mx-auto">
+            <div className="mt-12 space-y-12 max-w-4xl mx-auto">
+              <div className="space-y-4 text-center">
+                <h2 className="text-3xl font-bold text-primary">Nuestro Equipo</h2>
+                <div className="flex flex-wrap justify-center gap-8 md:gap-12 pt-4">
+                  {teamMembers.map((member) => (
+                    <div key={member.name} className="flex flex-col items-center text-center">
+                      <div className="relative w-32 h-32">
+                        <Image
+                          src={member.image}
+                          alt={`Foto de ${member.name}`}
+                          layout="fill"
+                          objectFit="cover"
+                          className="rounded-full"
+                          data-ai-hint={member.imageHint}
+                        />
+                      </div>
+                      <h3 className="mt-4 text-lg font-bold text-foreground">{member.name}</h3>
+                      <p className="text-sm text-muted-foreground">{member.role}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
               <div className="space-y-4 text-center">
                 <h2 className="text-3xl font-bold text-primary">Nuestra Filosofía</h2>
                 <p className="text-lg text-muted-foreground text-justify">
@@ -120,7 +161,3 @@ export default function SobreIntima() {
     </div>
   );
 }
-
-    
-
-    
