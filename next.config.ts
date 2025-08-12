@@ -202,6 +202,12 @@ const nextConfig: NextConfig = {
         hostname: 'cdnx.jumpseller.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.ecestaticos.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
