@@ -173,47 +173,42 @@ export function Dashboard() {
               </p>
             </div>
             <div className="container mx-auto px-4 md:px-6">
-              <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-4">
+              <div className="grid grid-cols-1 gap-8 py-12 sm:grid-cols-2 md:grid-cols-4">
                 {games.slice(0, 8).map((game) => (
-                    <Card key={game.title} className="flex flex-col h-full border-transparent hover:border-primary transition-colors overflow-hidden">
-                    <div className="relative">
-                        <Image
+                  <Card key={game.title} className="flex flex-col h-full items-center justify-center text-center border-transparent hover:border-primary transition-all duration-300 ease-in-out overflow-hidden hover:rounded-lg">
+                    <div className="relative w-24 h-24 mt-4">
+                      <Image
                         src={game.image}
                         alt={game.title}
-                        width={400}
-                        height={300}
-                        className="h-48 w-full object-cover"
+                        layout="fill"
+                        className="object-cover rounded-full"
                         data-ai-hint={game.imageHint}
-                        />
+                      />
                     </div>
-                    <CardHeader className="p-4 text-center">
-                        <CardTitle>{game.title}</CardTitle>
-                        <CardDescription>{game.category}</CardDescription>
+                    <CardHeader className="p-2 text-center">
+                      <CardTitle className="text-sm">{game.title}</CardTitle>
                     </CardHeader>
-                    <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
-                        <p className="flex-grow text-muted-foreground text-sm mb-4">
-                          {game.description}
-                        </p>
-                        <div className="mt-auto">
+                    <CardContent className="flex flex-col flex-grow p-2 pt-0 text-center justify-center">
+                      <div className="mt-auto">
                         <Dialog>
-                            <DialogTrigger asChild>
-                            <Button className="w-full">{game.buttonText}</Button>
-                            </DialogTrigger>
-                            <DialogContent>
+                          <DialogTrigger asChild>
+                            <Button size="sm" className="w-full text-xs">{game.buttonText}</Button>
+                          </DialogTrigger>
+                          <DialogContent>
                             <DialogHeader>
-                                <DialogTitle>{game.dialogTitle}</DialogTitle>
-                                <DialogDescription>
+                              <DialogTitle>{game.dialogTitle}</DialogTitle>
+                              <DialogDescription>
                                 {game.dialogDescription}
-                                </DialogDescription>
+                              </DialogDescription>
                             </DialogHeader>
                             <DialogFooter>
-                                <Button size="sm">Jugar ahora</Button>
+                              <Button size="sm">Jugar ahora</Button>
                             </DialogFooter>
-                            </DialogContent>
+                          </DialogContent>
                         </Dialog>
-                        </div>
+                      </div>
                     </CardContent>
-                    </Card>
+                  </Card>
                 ))}
               </div>
             </div>
