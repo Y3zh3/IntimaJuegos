@@ -64,12 +64,12 @@ export default function JuegosParaConectar() {
                 <Link href="/juegos-para-conectar">
                   <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-lg">
                     <Image
-                      src="https://images.ecestaticos.com/kL4cRkcIccu47bmz2ZU4SgifghA=/0x87:1697x1041/1600x900/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/93c/d92/139/93cd921390f261b41391cdd29ef2e81e.jpg"
-                      alt="Banner de juguetes sexuales"
+                      src="https://img.freepik.com/foto-gratis/pareja-riendo-mirandose_23-2147737265.jpg"
+                      alt="Banner de juegos para conectar"
                       layout="fill"
                       objectFit="contain"
                       className="rounded-lg"
-                      data-ai-hint="sex toys banner"
+                      data-ai-hint="laughing couple"
                     />
                   </div>
                 </Link>
@@ -96,7 +96,3 @@ export default function JuegosParaConectar() {
     </div>
   );
 }
-
-    
-
-    
