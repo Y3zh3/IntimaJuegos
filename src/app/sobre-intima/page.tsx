@@ -101,7 +101,25 @@ export default function SobreIntima() {
               <div className="space-y-4 text-center">
                 <h2 className="text-3xl font-bold text-primary">Nuestro Equipo</h2>
                 <div className="flex flex-wrap justify-center gap-8 md:gap-12 pt-4">
-                  {teamMembers.map((member) => (
+                  {teamMembers.slice(0, 3).map((member) => (
+                    <div key={member.name} className="flex flex-col items-center text-center">
+                      <div className="relative w-32 h-32">
+                        <Image
+                          src={member.image}
+                          alt={`Foto de ${member.name}`}
+                          layout="fill"
+                          objectFit="cover"
+                          className="rounded-full"
+                          data-ai-hint={member.imageHint}
+                        />
+                      </div>
+                      <h3 className="mt-4 text-lg font-bold text-foreground">{member.name}</h3>
+                      <p className="text-sm text-muted-foreground">{member.role}</p>
+                    </div>
+                  ))}
+                </div>
+                 <div className="flex flex-wrap justify-center gap-8 md:gap-12 pt-4">
+                  {teamMembers.slice(3, 5).map((member) => (
                     <div key={member.name} className="flex flex-col items-center text-center">
                       <div className="relative w-32 h-32">
                         <Image
