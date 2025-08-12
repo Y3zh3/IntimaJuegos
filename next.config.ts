@@ -196,6 +196,12 @@ const nextConfig: NextConfig = {
         hostname: 'static.vecteezy.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdnx.jumpseller.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
