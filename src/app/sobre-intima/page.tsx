@@ -13,31 +13,26 @@ export default function SobreIntima() {
   const teamMembers = [
     {
       name: "Yessenia Hernández",
-      role: "Chief Executive Officer",
-      image: "https://placehold.co/150x150.png",
+      image: "https://i.imgur.com/0rgs4S0.png",
       imageHint: "profile picture"
     },
     {
       name: "Jesus Barreto",
-      role: "Chief Technology and Information Officer",
-      image: "https://placehold.co/150x150.png",
+      image: "https://i.imgur.com/Z5EqBpJ.png",
       imageHint: "profile picture"
     },
     {
       name: "Cristina Lopez",
-      role: "Chief Marketing Officer",
-      image: "https://placehold.co/150x150.png",
+      image: "https://i.imgur.com/JkrQPnX.jpeg",
       imageHint: "profile picture"
     },
     {
       name: "José González",
-      role: "Chief Operating Officer",
-      image: "https://placehold.co/150x150.png",
+      image: "https://i.imgur.com/e4BKX8y.jpeg",
       imageHint: "profile picture"
     },
     {
       name: "Sofia Chumbimune",
-      role: "Head of Product",
       image: "https://placehold.co/150x150.png",
       imageHint: "profile picture"
     }
