@@ -159,11 +159,11 @@ export function Dashboard() {
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
-            <div className="container mx-auto px-4 md:px-6 mt-8">
+            <div className="mt-8">
                 <Link href="/juegos-para-conectar">
-                <div className="relative aspect-[3/1] w-full overflow-hidden rounded-lg">
+                <div className="relative aspect-[4/1] w-full overflow-hidden">
                     <Image
-                    src="https://placehold.co/1200x400.png"
+                    src="https://placehold.co/1200x300.png"
                     alt="Banner de juguetes sexuales"
                     layout="fill"
                     objectFit="cover"
@@ -172,7 +172,7 @@ export function Dashboard() {
                 </div>
                 </Link>
             </div>
-            <div className="mx-auto max-w-7xl">
+            <div className="container mx-auto px-4 md:px-6">
               <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-4">
                 {games.slice(0, 8).map((game) => (
                     <Card key={game.title} className="flex flex-col h-full border-transparent hover:border-primary transition-colors overflow-hidden">
