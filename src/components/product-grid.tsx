@@ -107,7 +107,7 @@ export default function ProductGrid() {
   };
 
   return (
-    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
+    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
       {products.slice(0, 8).map((product) => (
         <Card key={product.name} className="flex flex-col h-full border-transparent hover:border-primary transition-colors overflow-hidden">
         <div className="relative">
@@ -116,15 +116,15 @@ export default function ProductGrid() {
             alt={product.name}
             width={400}
             height={300}
-            className="h-48 w-full object-cover"
+            className="h-40 w-full object-cover"
             data-ai-hint={product.imageHint}
             />
         </div>
-        <CardHeader className="p-4 text-center">
+        <CardHeader className="p-3 text-center">
             <CardTitle>{product.name}</CardTitle>
             <CardDescription>{product.price}</CardDescription>
         </CardHeader>
-        <CardContent className="flex flex-col flex-grow p-4 pt-0 text-center">
+        <CardContent className="flex flex-col flex-grow p-3 pt-0 text-center">
             <div className="mt-auto">
             <Dialog>
                 <DialogTrigger asChild>
