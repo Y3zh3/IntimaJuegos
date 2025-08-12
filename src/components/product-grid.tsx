@@ -109,7 +109,7 @@ export default function ProductGrid() {
   return (
     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
       {products.slice(0, 8).map((product) => (
-        <Card key={product.name} className="flex flex-col h-full items-center justify-center text-center border-transparent hover:border-primary transition-colors overflow-hidden rounded-full aspect-square">
+        <Card key={product.name} className="flex flex-col h-full items-center justify-center text-center border-transparent hover:border-primary transition-all duration-300 ease-in-out overflow-hidden hover:rounded-lg">
           <div className="relative w-24 h-24 mt-4">
               <Image
                 src={product.image}
