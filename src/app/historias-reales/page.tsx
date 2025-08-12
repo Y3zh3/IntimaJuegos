@@ -116,7 +116,7 @@ export default function HistoriasReales() {
             </p>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20">
+        <section className="w-full pt-8 pb-12 md:pb-24 lg:pb-32 bg-muted/20">
             <div className="container mx-auto max-w-4xl px-4 md:px-6 space-y-8">
               {testimonials.map((testimonial) => (
                 <Card key={testimonial.name} className="w-full overflow-hidden transition-shadow hover:shadow-lg">
