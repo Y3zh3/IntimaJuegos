@@ -187,7 +187,7 @@ export default function GuiaParaParejas() {
         <section className="w-full pt-8">
           <div className="my-4 w-full">
             <Link href="/juegos-para-conectar">
-              <div className="relative h-[450px] w-full overflow-hidden">
+              <div className="relative h-[550px] w-full overflow-hidden">
                 <Image
                   src="https://mejorconsalud.as.com/wp-content/uploads/2018/03/pareja-besandose-sofa-mujer-hombre-768x512.jpg?auto=webp&quality=7500&width=1920&crop=16:9,smart,safe&format=webp&optimize=medium&dpr=2&fit=cover&fm=webp&q=75&w=1920&h=1080"
                   alt="Banner de guía para parejas"
@@ -241,6 +241,8 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
+
+    
 
     
 

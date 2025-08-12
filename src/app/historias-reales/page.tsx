@@ -111,7 +111,7 @@ export default function HistoriasReales() {
         <section className="w-full pt-8">
           <div className="my-4 w-full">
             <Link href="/juegos-para-conectar">
-              <div className="relative h-[450px] w-full overflow-hidden">
+              <div className="relative h-[550px] w-full overflow-hidden">
                 <Image
                   src="https://selecciones.com.ar/wp-content/uploads/2023/02/las-mejores-historias-de-amor-de-todos-los-tiempos-3990-mainImage-0.jpg"
                   alt="Banner de historias reales"
@@ -173,6 +173,8 @@ export default function HistoriasReales() {
     </div>
   );
 }
+
+    
 
     
 

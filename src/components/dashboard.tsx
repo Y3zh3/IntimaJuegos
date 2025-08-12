@@ -154,7 +154,7 @@ export function Dashboard() {
         <section className="w-full pt-8">
           <div className="my-4 w-full">
             <Link href="/juegos-para-conectar">
-              <div className="relative h-[450px] w-full overflow-hidden">
+              <div className="relative h-[550px] w-full overflow-hidden">
                 <Image
                   src="https://trome.com/resizer/v2/POIE635OING7VFSVNUPRBZTN7I.jpg?auth=215a50ebfc26bffea0feb05f6ff60b6c12caa5c3b5cbd7c1e7149ddcb3948e7c&width=6016&height=4016&quality=90&smart=true"
                   alt="Banner de juguetes sexuales"
@@ -233,3 +233,4 @@ export function Dashboard() {
 
     
 
+    

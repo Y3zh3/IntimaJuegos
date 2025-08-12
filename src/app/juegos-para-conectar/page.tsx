@@ -60,7 +60,7 @@ export default function JuegosParaConectar() {
         <section className="w-full pt-8">
           <div className="my-4 w-full">
             <Link href="/juegos-para-conectar">
-              <div className="relative h-[450px] w-full overflow-hidden">
+              <div className="relative h-[550px] w-full overflow-hidden">
                 <Image
                   src="https://img.freepik.com/foto-gratis/pareja-riendo-mirandose_23-2147737265.jpg"
                   alt="Banner de juegos para conectar"
@@ -96,3 +96,5 @@ export default function JuegosParaConectar() {
     </div>
   );
 }
+
+    
