@@ -172,7 +172,7 @@ export function Dashboard() {
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
-            <div className="grid grid-cols-1 gap-8 py-12 sm:grid-cols-2 md:grid-cols-3">
+            <div className="grid grid-cols-1 gap-8 py-12 sm:grid-cols-2 md:grid-cols-4">
               {games.slice(0, 8).map((game) => (
                 <Card key={game.title} className="flex flex-col h-full items-center justify-center text-center border-transparent hover:border-primary transition-all duration-300 ease-in-out overflow-hidden hover:rounded-lg">
                   <div className="relative w-40 h-40 mt-4">
@@ -192,7 +192,7 @@ export function Dashboard() {
                     <div className="mt-auto">
                       <Dialog>
                         <DialogTrigger asChild>
-                          <Button size="sm" className="w-full text-xs">Detalles</Button>
+                          <Button size="sm" className="w-full text-sm">Detalles</Button>
                         </DialogTrigger>
                         <DialogContent>
                           <DialogHeader>
@@ -234,4 +234,5 @@ export function Dashboard() {
     
 
     
+
 
