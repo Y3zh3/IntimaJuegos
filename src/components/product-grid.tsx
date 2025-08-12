@@ -128,7 +128,7 @@ export default function ProductGrid() {
             <div className="mt-auto">
             <Dialog>
                 <DialogTrigger asChild>
-                <Button size="sm" className="w-full">Detalles</Button>
+                <Button size="sm" className="w-full text-xs">Detalles</Button>
                 </DialogTrigger>
                 <DialogContent>
                 <DialogHeader>
