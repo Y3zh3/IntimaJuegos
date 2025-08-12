@@ -3,7 +3,7 @@
 "use client";
 
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { SparklesIcon, MenuIcon } from './icons';
 import Link from 'next/link';
@@ -151,7 +151,6 @@ export function Dashboard() {
         </div>
       </header>
       <main className="flex-1">
-        
         <section className="w-full pt-8">
           <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -159,6 +158,19 @@ export function Dashboard() {
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
+            </div>
+            <div className="container mx-auto px-4 md:px-6 mt-8">
+                <Link href="/juegos-para-conectar">
+                <div className="relative aspect-[3/1] w-full overflow-hidden rounded-lg">
+                    <Image
+                    src="https://placehold.co/1200x400.png"
+                    alt="Banner de juguetes sexuales"
+                    layout="fill"
+                    objectFit="cover"
+                    data-ai-hint="sex toys banner"
+                    />
+                </div>
+                </Link>
             </div>
             <div className="mx-auto max-w-7xl">
               <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-4">
@@ -202,21 +214,6 @@ export function Dashboard() {
                 ))}
               </div>
             </div>
-          </div>
-        </section>
-        <section className="w-full pb-12">
-          <div className="container mx-auto px-4 md:px-6">
-            <Link href="/juegos-para-conectar">
-              <div className="relative aspect-[3/1] w-full overflow-hidden rounded-lg">
-                <Image
-                  src="https://placehold.co/1200x400.png"
-                  alt="Banner de juguetes sexuales"
-                  layout="fill"
-                  objectFit="cover"
-                  data-ai-hint="sex toys banner"
-                />
-              </div>
-            </Link>
           </div>
         </section>
       </main>
