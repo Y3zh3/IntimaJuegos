@@ -66,7 +66,7 @@ export default function SobreIntima() {
                       src="https://ingenioproductivo.wordpress.com/wp-content/uploads/2014/06/909053_47827595-1.jpg"
                       alt="Banner sobre nosotros"
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       className="rounded-lg"
                       data-ai-hint="inspiration lightbulb"
                     />
@@ -120,5 +120,7 @@ export default function SobreIntima() {
     </div>
   );
 }
+
+    
 
     

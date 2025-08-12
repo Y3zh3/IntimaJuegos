@@ -67,7 +67,7 @@ export default function JuegosParaConectar() {
                       src="https://images.ecestaticos.com/kL4cRkcIccu47bmz2ZU4SgifghA=/0x87:1697x1041/1600x900/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/93c/d92/139/93cd921390f261b41391cdd29ef2e81e.jpg"
                       alt="Banner de juguetes sexuales"
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       className="rounded-lg"
                       data-ai-hint="sex toys banner"
                     />
@@ -96,5 +96,7 @@ export default function JuegosParaConectar() {
     </div>
   );
 }
+
+    
 
     

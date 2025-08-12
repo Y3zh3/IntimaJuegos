@@ -162,7 +162,7 @@ export function Dashboard() {
                       src="https://trome.com/resizer/v2/POIE635OING7VFSVNUPRBZTN7I.jpg?auth=215a50ebfc26bffea0feb05f6ff60b6c12caa5c3b5cbd7c1e7149ddcb3948e7c&width=6016&height=4016&quality=90&smart=true"
                       alt="Banner de juguetes sexuales"
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       className="rounded-lg"
                       data-ai-hint="sex toys banner"
                     />
@@ -229,5 +229,7 @@ export function Dashboard() {
     </div>
   );
 }
+
+    
 
     
