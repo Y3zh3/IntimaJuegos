@@ -180,50 +180,48 @@ export function Dashboard() {
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
             </div>
-            <div className="container mx-auto px-4 md:px-6">
-              <div className="grid grid-cols-1 gap-8 py-12 sm:grid-cols-2 md:grid-cols-4">
-                {games.slice(0, 8).map((game) => (
-                  <Card key={game.title} className="flex flex-col h-full items-center justify-center text-center border-transparent hover:border-primary transition-all duration-300 ease-in-out overflow-hidden hover:rounded-lg">
-                    <div className="relative w-40 h-40 mt-4">
-                      <Image
-                        src={game.image}
-                        alt={game.title}
-                        layout="fill"
-                        className="object-cover rounded-full"
-                        data-ai-hint={game.imageHint}
-                      />
+            <div className="grid grid-cols-1 gap-8 py-12 sm:grid-cols-2 md:grid-cols-4">
+              {games.slice(0, 8).map((game) => (
+                <Card key={game.title} className="flex flex-col h-full items-center justify-center text-center border-transparent hover:border-primary transition-all duration-300 ease-in-out overflow-hidden hover:rounded-lg">
+                  <div className="relative w-40 h-40 mt-4">
+                    <Image
+                      src={game.image}
+                      alt={game.title}
+                      layout="fill"
+                      className="object-cover rounded-full"
+                      data-ai-hint={game.imageHint}
+                    />
+                  </div>
+                  <CardHeader className="p-2 text-center">
+                    <CardTitle className="text-sm">{game.title}</CardTitle>
+                      <CardDescription>{game.price}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="flex flex-col flex-grow p-2 pt-0 text-center justify-center">
+                    <div className="mt-auto">
+                      <Dialog>
+                        <DialogTrigger asChild>
+                          <Button size="sm" className="w-full text-xs">{game.buttonText}</Button>
+                        </DialogTrigger>
+                        <DialogContent>
+                          <DialogHeader>
+                            <DialogTitle className="text-primary">{game.dialogTitle}</DialogTitle>
+                            <DialogDescription>
+                              {game.dialogDescription}
+                            </DialogDescription>
+                          </DialogHeader>
+                          <div className="flex items-center justify-between mt-4">
+                              <p className="text-2xl font-bold text-primary">{game.price}</p>
+                              <Button>
+                                  <ShoppingCartIcon className="mr-2 h-4 w-4" />
+                                  Añadir al Carrito
+                              </Button>
+                          </div>
+                        </DialogContent>
+                      </Dialog>
                     </div>
-                    <CardHeader className="p-2 text-center">
-                      <CardTitle className="text-sm">{game.title}</CardTitle>
-                       <CardDescription>{game.price}</CardDescription>
-                    </CardHeader>
-                    <CardContent className="flex flex-col flex-grow p-2 pt-0 text-center justify-center">
-                      <div className="mt-auto">
-                        <Dialog>
-                          <DialogTrigger asChild>
-                            <Button size="sm" className="w-full text-xs">{game.buttonText}</Button>
-                          </DialogTrigger>
-                          <DialogContent>
-                            <DialogHeader>
-                              <DialogTitle className="text-primary">{game.dialogTitle}</DialogTitle>
-                              <DialogDescription>
-                                {game.dialogDescription}
-                              </DialogDescription>
-                            </DialogHeader>
-                            <div className="flex items-center justify-between mt-4">
-                                <p className="text-2xl font-bold text-primary">{game.price}</p>
-                                <Button>
-                                    <ShoppingCartIcon className="mr-2 h-4 w-4" />
-                                    Añadir al Carrito
-                                </Button>
-                            </div>
-                          </DialogContent>
-                        </Dialog>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
         </section>
