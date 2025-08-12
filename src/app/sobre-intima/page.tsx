@@ -56,8 +56,8 @@ export default function SobreIntima() {
       </header>
       <main className="flex-1">
         <section className="w-full pt-8">
-            <div className="container mx-auto max-w-3xl px-4 md:px-6">
-                <div className="flex flex-col items-center space-y-4 text-center">
+            <div className="px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-col items-center justify-center space-y-4 text-center">
                     <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
                     <div className="my-4 w-full">
                         <Link href="/juegos-para-conectar">
@@ -73,7 +73,7 @@ export default function SobreIntima() {
                         </Link>
                     </div>
                 </div>
-                <div className="mt-6 space-y-6">
+                <div className="mt-6 space-y-6 max-w-3xl mx-auto">
                     <p className="text-lg text-muted-foreground text-justify mt-10">
                         En IntimaJuegos, creemos que el placer y la conexión emocional son pilares fundamentales de una vida plena y una relación saludable. Nacimos de la convicción de que la intimidad es un universo por explorar, y que la comunicación es la brújula que guía esa exploración.
                     </p>
@@ -123,3 +123,4 @@ export default function SobreIntima() {
     
 
     
+

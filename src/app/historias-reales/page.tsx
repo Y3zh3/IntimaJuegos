@@ -109,27 +109,27 @@ export default function HistoriasReales() {
       </header>
       <main className="flex-1">
         <section className="w-full pt-8">
-          <div className="flex flex-col items-center px-4 md:px-6 text-center">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Historias que Conectan</h1>
-            </div>
-            <div className="my-4 w-full">
-              <Link href="/juegos-para-conectar">
-                <div className="relative h-[450px] w-full overflow-hidden">
-                  <Image
-                    src="https://cdnx.jumpseller.com/oils-cl/image/59929195/Sexualidad__erotismo_y_productos_naturales_vive_esencial_aceites_esenciales_doterra.jpg?1738886517"
-                    alt="Banner de juguetes sexuales"
-                    layout="fill"
-                    objectFit="cover"
-                    data-ai-hint="sex toys banner"
-                  />
+            <div className="px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                    <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Historias que Conectan</h1>
+                    <div className="my-4 w-full">
+                        <Link href="/juegos-para-conectar">
+                        <div className="relative h-[450px] w-full overflow-hidden">
+                            <Image
+                            src="https://cdnx.jumpseller.com/oils-cl/image/59929195/Sexualidad__erotismo_y_productos_naturales_vive_esencial_aceites_esenciales_doterra.jpg?1738886517"
+                            alt="Banner de juguetes sexuales"
+                            layout="fill"
+                            objectFit="cover"
+                            data-ai-hint="sex toys banner"
+                            />
+                        </div>
+                        </Link>
+                    </div>
+                    <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto mt-10">
+                        Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
+                    </p>
                 </div>
-              </Link>
             </div>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto mt-10">
-              Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
-            </p>
-          </div>
         </section>
         <section className="w-full pt-8 pb-12 md:pb-24 lg:pb-32 bg-muted/20">
             <div className="container mx-auto max-w-4xl px-4 md:px-6 space-y-8">
@@ -177,4 +177,5 @@ export default function HistoriasReales() {
     
 
     
+
 
