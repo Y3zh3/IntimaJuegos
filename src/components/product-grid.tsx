@@ -109,45 +109,44 @@ export default function ProductGrid() {
   return (
     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
       {products.slice(0, 8).map((product) => (
-        <Card key={product.name} className="flex flex-col h-full border-transparent hover:border-primary transition-colors overflow-hidden">
-        <div className="relative">
-            <Image
-            src={product.image}
-            alt={product.name}
-            width={400}
-            height={300}
-            className="h-32 w-full object-cover"
-            data-ai-hint={product.imageHint}
-            />
-        </div>
-        <CardHeader className="p-2 text-center">
-            <CardTitle>{product.name}</CardTitle>
-            <CardDescription>{product.price}</CardDescription>
-        </CardHeader>
-        <CardContent className="flex flex-col flex-grow p-2 pt-0 text-center">
-            <div className="mt-auto">
-            <Dialog>
-                <DialogTrigger asChild>
-                <Button size="sm" className="w-full text-xs">Detalles</Button>
-                </DialogTrigger>
-                <DialogContent>
-                <DialogHeader>
-                    <DialogTitle className="text-primary">{product.name}</DialogTitle>
-                    <DialogDescription>
-                    {product.longDescription}
-                    </DialogDescription>
-                </DialogHeader>
-                <div className="flex items-center justify-between mt-4">
-                    <p className="text-2xl font-bold text-primary">{product.price}</p>
-                    <Button onClick={() => handleAddToCart(product)}>
-                      <ShoppingCartIcon className="mr-2 h-4 w-4" />
-                      Añadir al Carrito
-                    </Button>
-                </div>
-                </DialogContent>
-            </Dialog>
-            </div>
-        </CardContent>
+        <Card key={product.name} className="flex flex-col h-full items-center justify-center text-center border-transparent hover:border-primary transition-colors overflow-hidden rounded-full aspect-square">
+          <div className="relative w-24 h-24 mt-4">
+              <Image
+                src={product.image}
+                alt={product.name}
+                layout="fill"
+                className="object-cover rounded-full"
+                data-ai-hint={product.imageHint}
+              />
+          </div>
+          <CardHeader className="p-2 text-center">
+              <CardTitle className="text-sm">{product.name}</CardTitle>
+              <CardDescription>{product.price}</CardDescription>
+          </CardHeader>
+          <CardContent className="flex flex-col flex-grow p-2 pt-0 text-center justify-center">
+              <div className="mt-auto">
+              <Dialog>
+                  <DialogTrigger asChild>
+                  <Button size="sm" className="w-full text-xs">Detalles</Button>
+                  </DialogTrigger>
+                  <DialogContent>
+                  <DialogHeader>
+                      <DialogTitle className="text-primary">{product.name}</DialogTitle>
+                      <DialogDescription>
+                      {product.longDescription}
+                      </DialogDescription>
+                  </DialogHeader>
+                  <div className="flex items-center justify-between mt-4">
+                      <p className="text-2xl font-bold text-primary">{product.price}</p>
+                      <Button onClick={() => handleAddToCart(product)}>
+                        <ShoppingCartIcon className="mr-2 h-4 w-4" />
+                        Añadir al Carrito
+                      </Button>
+                  </div>
+                  </DialogContent>
+              </Dialog>
+              </div>
+          </CardContent>
         </Card>
       ))}
     </div>
