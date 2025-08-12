@@ -6,6 +6,7 @@ import { SparklesIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { CartSheet } from "@/components/cart-sheet";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
+import Image from "next/image";
 
 export default function SobreIntima() {
   return (
@@ -58,6 +59,19 @@ export default function SobreIntima() {
             <div className="container mx-auto max-w-3xl px-4 md:px-6">
                 <div className="flex flex-col items-center space-y-4 text-center">
                     <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
+                    <div className="my-4 w-full">
+                        <Link href="/juegos-para-conectar">
+                        <div className="relative h-[450px] w-full overflow-hidden">
+                            <Image
+                            src="https://cdnx.jumpseller.com/oils-cl/image/59929195/Sexualidad__erotismo_y_productos_naturales_vive_esencial_aceites_esenciales_doterra.jpg?1738886517"
+                            alt="Banner de juguetes sexuales"
+                            layout="fill"
+                            objectFit="cover"
+                            data-ai-hint="sex toys banner"
+                            />
+                        </div>
+                        </Link>
+                    </div>
                 </div>
                 <div className="mt-6 space-y-6">
                     <p className="text-lg text-muted-foreground text-justify">
@@ -105,5 +119,7 @@ export default function SobreIntima() {
     </div>
   );
 }
+
+    
 
     

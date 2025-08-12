@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import ProductGrid from "@/components/product-grid";
 import { CartSheet } from "@/components/cart-sheet";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
+import Image from "next/image";
 
 export default function JuegosParaConectar() {
   return (
@@ -59,6 +60,19 @@ export default function JuegosParaConectar() {
             <div className="px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col items-center justify-center space-y-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juguetes Sexuales para Explorar</h2>
+                    <div className="my-4 w-full">
+                      <Link href="/juegos-para-conectar">
+                        <div className="relative h-[450px] w-full overflow-hidden">
+                          <Image
+                            src="https://cdnx.jumpseller.com/oils-cl/image/59929195/Sexualidad__erotismo_y_productos_naturales_vive_esencial_aceites_esenciales_doterra.jpg?1738886517"
+                            alt="Banner de juguetes sexuales"
+                            layout="fill"
+                            objectFit="cover"
+                            data-ai-hint="sex toys banner"
+                          />
+                        </div>
+                      </Link>
+                    </div>
                     <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                         Nuestra selección de juguetes para la curiosidad y el placer.
                     </p>
@@ -81,5 +95,7 @@ export default function JuegosParaConectar() {
     </div>
   );
 }
+
+    
 
     

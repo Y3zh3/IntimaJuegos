@@ -111,6 +111,19 @@ export default function HistoriasReales() {
         <section className="w-full pt-8">
           <div className="flex flex-col items-center px-4 md:px-6 text-center">
             <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary mb-4">Historias que Conectan</h1>
+            <div className="my-4 w-full">
+              <Link href="/juegos-para-conectar">
+                <div className="relative h-[450px] w-full overflow-hidden">
+                  <Image
+                    src="https://cdnx.jumpseller.com/oils-cl/image/59929195/Sexualidad__erotismo_y_productos_naturales_vive_esencial_aceites_esenciales_doterra.jpg?1738886517"
+                    alt="Banner de juguetes sexuales"
+                    layout="fill"
+                    objectFit="cover"
+                    data-ai-hint="sex toys banner"
+                  />
+                </div>
+              </Link>
+            </div>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
               Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
             </p>
@@ -158,3 +171,5 @@ export default function HistoriasReales() {
     </div>
   );
 }
+
+    
