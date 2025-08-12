@@ -239,6 +239,18 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'media.gq.com.mx',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ingenioproductivo.wordpress.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
