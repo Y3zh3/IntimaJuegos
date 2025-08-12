@@ -116,7 +116,7 @@ export default function HistoriasReales() {
                   src="https://selecciones.com.ar/wp-content/uploads/2023/02/las-mejores-historias-de-amor-de-todos-los-tiempos-3990-mainImage-0.jpg"
                   alt="Banner de historias reales"
                   layout="fill"
-                  objectFit="contain"
+                  objectFit="cover"
                   data-ai-hint="loving couple"
                 />
               </div>
