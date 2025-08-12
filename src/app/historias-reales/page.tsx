@@ -6,8 +6,8 @@ import { SparklesIcon, MenuIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { CartSheet } from "@/components/cart-sheet";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
+import Image from "next/image";
 
 
 export default function HistoriasReales() {
@@ -117,22 +117,32 @@ export default function HistoriasReales() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/20">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-6">
+            <div className="container mx-auto max-w-4xl px-4 md:px-6 space-y-8">
               {testimonials.map((testimonial) => (
-                <Card key={testimonial.name} className="flex flex-col items-center text-center border-transparent hover:border-primary transition-colors">
-                  <CardHeader className="items-center">
-                    <Avatar className="h-20 w-20 mb-4">
-                        <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.imageHint}/>
-                        <AvatarFallback>{testimonial.fallback}</AvatarFallback>
-                    </Avatar>
-                    <CardTitle className="text-primary">{testimonial.name}</CardTitle>
-                    <CardDescription>{testimonial.years}</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground text-sm">
-                      "{testimonial.story}"
-                    </p>
-                  </CardContent>
+                <Card key={testimonial.name} className="w-full overflow-hidden transition-shadow hover:shadow-lg">
+                  <div className="md:flex">
+                    <div className="md:w-1/3 relative h-48 md:h-auto">
+                      <Image 
+                        src={testimonial.image} 
+                        alt={testimonial.name} 
+                        layout="fill"
+                        objectFit="cover"
+                        className="rounded-t-lg md:rounded-l-lg md:rounded-t-none"
+                        data-ai-hint={testimonial.imageHint}
+                      />
+                    </div>
+                    <div className="md:w-2/3 p-6">
+                      <CardHeader className="p-0">
+                        <CardTitle className="text-primary text-2xl">{testimonial.name}</CardTitle>
+                        <CardDescription>{testimonial.years}</CardDescription>
+                      </CardHeader>
+                      <CardContent className="p-0 mt-4">
+                        <p className="text-muted-foreground">
+                          "{testimonial.story}"
+                        </p>
+                      </CardContent>
+                    </div>
+                  </div>
                 </Card>
               ))}
             </div>
@@ -148,5 +158,3 @@ export default function HistoriasReales() {
     </div>
   );
 }
-
-    
