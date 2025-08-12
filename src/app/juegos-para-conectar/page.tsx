@@ -57,32 +57,32 @@ export default function JuegosParaConectar() {
       </header>
       <main className="flex-1">
         <section className="w-full pt-8">
-            <div className="px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                    <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juguetes Sexuales para Explorar</h2>
-                    <div className="my-4 w-full">
-                      <Link href="/juegos-para-conectar">
-                        <div className="relative h-[450px] w-full overflow-hidden">
-                          <Image
-                            src="https://images.ecestaticos.com/5QoBw2t9k8oY7Z0aE1pX6w3m3e4=/0x0:2272x1704/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd77%2F7a1%2Ff58%2Fd777a1f58a36152436f9479a4054a10f.jpg"
-                            alt="Banner de juguetes sexuales"
-                            layout="fill"
-                            objectFit="cover"
-                            data-ai-hint="sex toys banner"
-                          />
-                        </div>
-                      </Link>
-                    </div>
-                    <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-10">
-                        Nuestra selección de juguetes para la curiosidad y el placer.
-                    </p>
-                </div>
-                <div className="mx-auto max-w-7xl">
-                    <div className="py-12">
-                        <ProductGrid />
-                    </div>
-                </div>
+          <div className="px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juguetes Sexuales para Explorar</h2>
+              <div className="my-4 w-full">
+                <Link href="/juegos-para-conectar">
+                  <div className="relative h-[450px] w-full overflow-hidden">
+                    <Image
+                      src="https://cdn0.uncomo.com/es/posts/1/1/5/ideas_atrevidas_para_hacer_con_tu_pareja_49511_600.jpg"
+                      alt="Banner de juguetes sexuales"
+                      layout="fill"
+                      objectFit="cover"
+                      data-ai-hint="sex toys banner"
+                    />
+                  </div>
+                </Link>
+              </div>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-10">
+                Nuestra selección de juguetes para la curiosidad y el placer.
+              </p>
             </div>
+            <div className="mx-auto max-w-7xl">
+              <div className="py-12">
+                <ProductGrid />
+              </div>
+            </div>
+          </div>
         </section>
       </main>
        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
