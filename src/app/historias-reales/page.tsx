@@ -116,11 +116,11 @@ export default function HistoriasReales() {
                         <Link href="/juegos-para-conectar">
                         <div className="relative h-[450px] w-full overflow-hidden">
                             <Image
-                            src="https://cdnx.jumpseller.com/oils-cl/image/59929195/Sexualidad__erotismo_y_productos_naturales_vive_esencial_aceites_esenciales_doterra.jpg?1738886517"
-                            alt="Banner de juguetes sexuales"
+                            src="https://selecciones.com.ar/wp-content/uploads/2023/02/las-mejores-historias-de-amor-de-todos-los-tiempos-3990-mainImage-0.jpg"
+                            alt="Banner de historias reales"
                             layout="fill"
                             objectFit="cover"
-                            data-ai-hint="sex toys banner"
+                            data-ai-hint="loving couple"
                             />
                         </div>
                         </Link>
@@ -175,7 +175,3 @@ export default function HistoriasReales() {
 }
 
     
-
-    
-
-

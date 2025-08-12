@@ -220,6 +220,12 @@ const nextConfig: NextConfig = {
         hostname: 'mejorconsalud.as.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'selecciones.com.ar',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -227,5 +233,4 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 
-    
     
