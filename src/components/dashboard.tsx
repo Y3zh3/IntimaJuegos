@@ -1,4 +1,5 @@
 
+
 "use client";
 
 import React from 'react';
@@ -201,6 +202,21 @@ export function Dashboard() {
                 ))}
               </div>
             </div>
+          </div>
+        </section>
+        <section className="w-full pb-12">
+          <div className="container mx-auto px-4 md:px-6">
+            <Link href="/juegos-para-conectar">
+              <div className="relative aspect-[3/1] w-full overflow-hidden rounded-lg">
+                <Image
+                  src="https://placehold.co/1200x400.png"
+                  alt="Banner de juguetes sexuales"
+                  layout="fill"
+                  objectFit="cover"
+                  data-ai-hint="sex toys banner"
+                />
+              </div>
+            </Link>
           </div>
         </section>
       </main>
