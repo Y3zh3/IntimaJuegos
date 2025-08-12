@@ -36,7 +36,7 @@ export default function SobreIntima() {
       imageHint: "profile picture"
     },
     {
-      name: "Laura Mendoza",
+      name: "Sofia Chumbimune",
       role: "Head of Product",
       image: "https://placehold.co/150x150.png",
       imageHint: "profile picture"
@@ -114,7 +114,6 @@ export default function SobreIntima() {
                         />
                       </div>
                       <h3 className="mt-4 text-lg font-bold text-foreground">{member.name}</h3>
-                      <p className="text-sm text-muted-foreground">{member.role}</p>
                     </div>
                   ))}
                 </div>
@@ -132,7 +131,6 @@ export default function SobreIntima() {
                         />
                       </div>
                       <h3 className="mt-4 text-lg font-bold text-foreground">{member.name}</h3>
-                      <p className="text-sm text-muted-foreground">{member.role}</p>
                     </div>
                   ))}
                 </div>
