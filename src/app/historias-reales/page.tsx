@@ -109,28 +109,27 @@ export default function HistoriasReales() {
       </header>
       <main className="flex-1">
         <section className="w-full pt-8">
-            <div className="px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                    <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Historias que Conectan</h1>
-                    <div className="my-4 w-full">
-                        <Link href="/juegos-para-conectar">
-                        <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-lg">
-                            <Image
-                            src="https://selecciones.com.ar/wp-content/uploads/2023/02/las-mejores-historias-de-amor-de-todos-los-tiempos-3990-mainImage-0.jpg"
-                            alt="Banner de historias reales"
-                            layout="fill"
-                            objectFit="contain"
-                            className="rounded-lg"
-                            data-ai-hint="loving couple"
-                            />
-                        </div>
-                        </Link>
-                    </div>
-                    <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto mt-10">
-                        Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
-                    </p>
-                </div>
+          <div className="my-4 w-full">
+            <Link href="/juegos-para-conectar">
+              <div className="relative h-[450px] w-full overflow-hidden">
+                <Image
+                  src="https://selecciones.com.ar/wp-content/uploads/2023/02/las-mejores-historias-de-amor-de-todos-los-tiempos-3990-mainImage-0.jpg"
+                  alt="Banner de historias reales"
+                  layout="fill"
+                  objectFit="contain"
+                  data-ai-hint="loving couple"
+                />
+              </div>
+            </Link>
+          </div>
+          <div className="px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Historias que Conectan</h1>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto mt-10">
+                Parejas como la tuya comparten cómo IntimaJuegos les ayudó a redescubrirse.
+              </p>
             </div>
+          </div>
         </section>
         <section className="w-full pt-8 pb-12 md:pb-24 lg:pb-32 bg-muted/20">
             <div className="container mx-auto max-w-4xl px-4 md:px-6 space-y-8">

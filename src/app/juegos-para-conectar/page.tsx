@@ -57,23 +57,22 @@ export default function JuegosParaConectar() {
       </header>
       <main className="flex-1">
         <section className="w-full pt-8">
+          <div className="my-4 w-full">
+            <Link href="/juegos-para-conectar">
+              <div className="relative h-[450px] w-full overflow-hidden">
+                <Image
+                  src="https://images.ecestaticos.com/kL4cRkcIccu47bmz2ZU4SgifghA=/0x87:1697x1041/1600x900/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/93c/d92/139/93cd921390f261b41391cdd29ef2e81e.jpg"
+                  alt="Banner de juegos para conectar"
+                  layout="fill"
+                  objectFit="contain"
+                  data-ai-hint="sex toys"
+                />
+              </div>
+            </Link>
+          </div>
           <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juguetes Sexuales para Explorar</h2>
-              <div className="my-4 w-full">
-                <Link href="/juegos-para-conectar">
-                  <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-lg">
-                    <Image
-                      src="https://img.freepik.com/foto-gratis/pareja-riendo-mirandose_23-2147737265.jpg"
-                      alt="Banner de juegos para conectar"
-                      layout="fill"
-                      objectFit="contain"
-                      className="rounded-lg"
-                      data-ai-hint="laughing couple"
-                    />
-                  </div>
-                </Link>
-              </div>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-10">
                 Nuestra selección de juguetes para la curiosidad y el placer.
               </p>

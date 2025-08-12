@@ -185,28 +185,27 @@ export default function GuiaParaParejas() {
       </header>
       <main className="flex-1">
         <section className="w-full pt-8">
-            <div className="px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                    <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary text-center">Guía para Parejas</h1>
-                    <div className="my-4 w-full">
-                        <Link href="/juegos-para-conectar">
-                        <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-lg">
-                            <Image
-                            src="https://mejorconsalud.as.com/wp-content/uploads/2018/03/pareja-besandose-sofa-mujer-hombre-768x512.jpg?auto=webp&quality=7500&width=1920&crop=16:9,smart,safe&format=webp&optimize=medium&dpr=2&fit=cover&fm=webp&q=75&w=1920&h=1080"
-                            alt="Banner de guía para parejas"
-                            layout="fill"
-                            objectFit="contain"
-                            className="rounded-lg"
-                            data-ai-hint="couple kissing"
-                            />
-                        </div>
-                        </Link>
-                    </div>
-                    <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center mt-10">
-                    Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
-                    </p>
-                </div>
+          <div className="my-4 w-full">
+            <Link href="/juegos-para-conectar">
+              <div className="relative h-[450px] w-full overflow-hidden">
+                <Image
+                  src="https://mejorconsalud.as.com/wp-content/uploads/2018/03/pareja-besandose-sofa-mujer-hombre-768x512.jpg?auto=webp&quality=7500&width=1920&crop=16:9,smart,safe&format=webp&optimize=medium&dpr=2&fit=cover&fm=webp&q=75&w=1920&h=1080"
+                  alt="Banner de guía para parejas"
+                  layout="fill"
+                  objectFit="contain"
+                  data-ai-hint="couple kissing"
+                />
+              </div>
+            </Link>
+          </div>
+          <div className="px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary text-center">Guía para Parejas</h1>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center mt-10">
+                Consejos, ideas y recursos para fortalecer la conexión y la intimidad en tu relación.
+              </p>
             </div>
+          </div>
         </section>
         <section className="w-full pb-12 md:pb-24 lg:pb-32">
             <div className="mx-auto max-w-4xl px-4 md:px-6">
