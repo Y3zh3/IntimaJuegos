@@ -120,8 +120,8 @@ export default function HistoriasReales() {
             <div className="container mx-auto max-w-4xl px-4 md:px-6 space-y-8">
               {testimonials.map((testimonial) => (
                 <Card key={testimonial.name} className="w-full overflow-hidden transition-shadow hover:shadow-lg">
-                  <div className="md:flex">
-                    <div className="md:w-1/3 relative h-48 md:h-auto">
+                  <div className="md:grid md:grid-cols-3 md:items-center">
+                    <div className="relative h-40 md:h-full md:col-span-1">
                       <Image 
                         src={testimonial.image} 
                         alt={testimonial.name} 
@@ -131,13 +131,13 @@ export default function HistoriasReales() {
                         data-ai-hint={testimonial.imageHint}
                       />
                     </div>
-                    <div className="md:w-2/3 p-6">
+                    <div className="md:col-span-2 p-4">
                       <CardHeader className="p-0">
-                        <CardTitle className="text-primary text-2xl">{testimonial.name}</CardTitle>
+                        <CardTitle className="text-primary text-xl">{testimonial.name}</CardTitle>
                         <CardDescription>{testimonial.years}</CardDescription>
                       </CardHeader>
-                      <CardContent className="p-0 mt-4">
-                        <p className="text-muted-foreground">
+                      <CardContent className="p-0 mt-2">
+                        <p className="text-muted-foreground text-sm">
                           "{testimonial.story}"
                         </p>
                       </CardContent>
