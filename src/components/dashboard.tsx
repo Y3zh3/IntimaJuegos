@@ -159,7 +159,7 @@ export function Dashboard() {
                 <Link href="/juegos-para-conectar">
                   <div className="relative h-[450px] w-full overflow-hidden">
                     <Image
-                      src="https://cdnx.jumpseller.com/oils-cl/image/59929195/Sexualidad__erotismo_y_productos_naturales_vive_esencial_aceites_esenciales_doterra.jpg?1738886517"
+                      src="https://trome.com/resizer/v2/POIE635OING7VFSVNUPRBZTN7I.jpg?auth=215a50ebfc26bffea0feb05f6ff60b6c12caa5c3b5cbd7c1e7149ddcb3948e7c&width=6016&height=4016&quality=90&smart=true"
                       alt="Banner de juguetes sexuales"
                       layout="fill"
                       objectFit="cover"

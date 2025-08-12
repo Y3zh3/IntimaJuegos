@@ -233,6 +233,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'trome.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
