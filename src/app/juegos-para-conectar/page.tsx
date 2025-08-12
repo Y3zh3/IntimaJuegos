@@ -64,7 +64,7 @@ export default function JuegosParaConectar() {
                       <Link href="/juegos-para-conectar">
                         <div className="relative h-[450px] w-full overflow-hidden">
                           <Image
-                            src="https://images.ecestaticos.com/kL4cRkcIccu47bmz2ZU4SgifghA=/0x87:1697x1041/1600x900/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/93c/d92/139/93cd921390f261b41391cdd29ef2e81e.jpg"
+                            src="https://media.gq.com.mx/photos/5be9f660b5be86f2034b091f/master/w_1600%2Cc_limit/parejas_sexuales_7250.jpg"
                             alt="Banner de juguetes sexuales"
                             layout="fill"
                             objectFit="cover"

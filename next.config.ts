@@ -226,6 +226,12 @@ const nextConfig: NextConfig = {
         hostname: 'selecciones.com.ar',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.gq.com.mx',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
