@@ -110,7 +110,9 @@ export default function HistoriasReales() {
       <main className="flex-1">
         <section className="w-full pt-8">
           <div className="flex flex-col items-center px-4 md:px-6 text-center">
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary mb-4">Historias que Conectan</h1>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Historias que Conectan</h1>
+            </div>
             <div className="my-4 w-full">
               <Link href="/juegos-para-conectar">
                 <div className="relative h-[450px] w-full overflow-hidden">
@@ -175,3 +177,4 @@ export default function HistoriasReales() {
     
 
     
+
