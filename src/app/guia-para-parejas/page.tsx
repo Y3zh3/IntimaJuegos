@@ -192,11 +192,11 @@ export default function GuiaParaParejas() {
                         <Link href="/juegos-para-conectar">
                         <div className="relative h-[450px] w-full overflow-hidden">
                             <Image
-                            src="https://cdnx.jumpseller.com/oils-cl/image/59929195/Sexualidad__erotismo_y_productos_naturales_vive_esencial_aceites_esenciales_doterra.jpg?1738886517"
-                            alt="Banner de juguetes sexuales"
+                            src="https://mejorconsalud.as.com/wp-content/uploads/2018/03/pareja-besandose-sofa-mujer-hombre-768x512.jpg?auto=webp&quality=7500&width=1920&crop=16:9,smart,safe&format=webp&optimize=medium&dpr=2&fit=cover&fm=webp&q=75&w=1920&h=1080"
+                            alt="Banner de guía para parejas"
                             layout="fill"
                             objectFit="cover"
-                            data-ai-hint="sex toys banner"
+                            data-ai-hint="couple kissing"
                             />
                         </div>
                         </Link>
@@ -246,3 +246,6 @@ export default function GuiaParaParejas() {
 
     
 
+
+
+    
