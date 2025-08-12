@@ -155,22 +155,22 @@ export function Dashboard() {
           <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juegos Digitales para Parejas</h2>
+              <div className="my-4 w-full">
+                <Link href="/juegos-para-conectar">
+                  <div className="relative aspect-[4/1] w-full overflow-hidden">
+                    <Image
+                      src="https://placehold.co/1200x300.png"
+                      alt="Banner de juguetes sexuales"
+                      layout="fill"
+                      objectFit="cover"
+                      data-ai-hint="sex toys banner"
+                    />
+                  </div>
+                </Link>
+              </div>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Conecten a un nivel más profundo y divertido. Descubran nuestros juegos digitales diseñados para parejas.
               </p>
-            </div>
-            <div className="mt-8">
-                <Link href="/juegos-para-conectar">
-                <div className="relative aspect-[4/1] w-full overflow-hidden">
-                    <Image
-                    src="https://placehold.co/1200x300.png"
-                    alt="Banner de juguetes sexuales"
-                    layout="fill"
-                    objectFit="cover"
-                    data-ai-hint="sex toys banner"
-                    />
-                </div>
-                </Link>
             </div>
             <div className="container mx-auto px-4 md:px-6">
               <div className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-4">
