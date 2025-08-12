@@ -61,12 +61,13 @@ export default function SobreIntima() {
               <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Nuestra Razón de Ser</h1>
               <div className="my-4 w-full">
                 <Link href="/juegos-para-conectar">
-                  <div className="relative h-[450px] w-full overflow-hidden">
+                  <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-lg">
                     <Image
                       src="https://ingenioproductivo.wordpress.com/wp-content/uploads/2014/06/909053_47827595-1.jpg"
                       alt="Banner sobre nosotros"
                       layout="fill"
                       objectFit="cover"
+                      className="rounded-lg"
                       data-ai-hint="inspiration lightbulb"
                     />
                   </div>
@@ -119,3 +120,5 @@ export default function SobreIntima() {
     </div>
   );
 }
+
+    

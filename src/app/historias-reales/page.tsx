@@ -114,12 +114,13 @@ export default function HistoriasReales() {
                     <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-primary">Historias que Conectan</h1>
                     <div className="my-4 w-full">
                         <Link href="/juegos-para-conectar">
-                        <div className="relative h-[450px] w-full overflow-hidden">
+                        <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-lg">
                             <Image
                             src="https://selecciones.com.ar/wp-content/uploads/2023/02/las-mejores-historias-de-amor-de-todos-los-tiempos-3990-mainImage-0.jpg"
                             alt="Banner de historias reales"
                             layout="fill"
                             objectFit="cover"
+                            className="rounded-lg"
                             data-ai-hint="loving couple"
                             />
                         </div>

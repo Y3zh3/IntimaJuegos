@@ -62,12 +62,13 @@ export default function JuegosParaConectar() {
               <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-normal">Juguetes Sexuales para Explorar</h2>
               <div className="my-4 w-full">
                 <Link href="/juegos-para-conectar">
-                  <div className="relative h-[450px] w-full overflow-hidden">
+                  <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-lg">
                     <Image
                       src="https://images.ecestaticos.com/kL4cRkcIccu47bmz2ZU4SgifghA=/0x87:1697x1041/1600x900/filters:fill(white):format(jpg):quality(99)/f.elconfidencial.com/original/93c/d92/139/93cd921390f261b41391cdd29ef2e81e.jpg"
                       alt="Banner de juguetes sexuales"
                       layout="fill"
                       objectFit="cover"
+                      className="rounded-lg"
                       data-ai-hint="sex toys banner"
                     />
                   </div>
@@ -95,3 +96,5 @@ export default function JuegosParaConectar() {
     </div>
   );
 }
+
+    
