@@ -116,19 +116,19 @@ export default function ProductGrid() {
             alt={product.name}
             width={400}
             height={300}
-            className="h-40 w-full object-cover"
+            className="h-32 w-full object-cover"
             data-ai-hint={product.imageHint}
             />
         </div>
-        <CardHeader className="p-3 text-center">
+        <CardHeader className="p-2 text-center">
             <CardTitle>{product.name}</CardTitle>
             <CardDescription>{product.price}</CardDescription>
         </CardHeader>
-        <CardContent className="flex flex-col flex-grow p-3 pt-0 text-center">
+        <CardContent className="flex flex-col flex-grow p-2 pt-0 text-center">
             <div className="mt-auto">
             <Dialog>
                 <DialogTrigger asChild>
-                <Button className="w-full">Detalles</Button>
+                <Button size="sm" className="w-full">Detalles</Button>
                 </DialogTrigger>
                 <DialogContent>
                 <DialogHeader>
