@@ -43,7 +43,7 @@ export function Dashboard() {
       buttonText: "Ver Juego",
       image: "https://m.media-amazon.com/images/I/61IhLKtb4nL._UF1000,1000_QL80_.jpg",
       imageHint: "truth dare game",
-      slug: "#"
+      slug: "/juegos/verdad-o-atrevimiento-intimo"
     },
     {
       title: "Ruleta de Fantasías",
@@ -54,7 +54,7 @@ export function Dashboard() {
       buttonText: "Ver Juego",
       image: "https://http2.mlstatic.com/D_NQ_NP_984363-MLU79116847456_092024-O.webp",
       imageHint: "fantasy roulette",
-      slug: "#"
+      slug: "/juegos/ruleta-de-fantasias"
     },
     {
       title: "Escenario de Roles Erótico",
@@ -65,7 +65,7 @@ export function Dashboard() {
       buttonText: "Ver Juego",
       image: "https://www.clarin.com/2022/05/05/D9lXG--8R_720x0__1.jpg",
       imageHint: "erotic roleplay",
-      slug: "#"
+      slug: "/juegos/escenario-de-roles"
     },
     {
       title: "Desafío de los Sentidos",
@@ -76,7 +76,7 @@ export function Dashboard() {
       buttonText: "Ver Juego",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3AVKQuiRQw2V65Ng3Bo5t398p1-x38hS0Aw&s",
       imageHint: "sensory challenge",
-      slug: "#"
+      slug: "/juegos/desafio-de-los-sentidos"
     },
     {
       title: "Mapa del Tesoro Corporal",
@@ -87,7 +87,7 @@ export function Dashboard() {
       buttonText: "Ver Juego",
       image: "https://s.yimg.com/ny/api/res/1.2/U7dObyj1vZ92582kOPXlaw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/401/2012/05/22/99343542-jpg_220059.jpg",
       imageHint: "body map",
-      slug: "#"
+      slug: "/juegos/mapa-del-tesoro-corporal"
     },
     {
       title: "Secretos Compartidos",
@@ -98,7 +98,7 @@ export function Dashboard() {
       buttonText: "Ver Juego",
       image: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780892815883/secretos-sexuales-9780892815883_hr.jpg",
       imageHint: "shared secrets",
-      slug: "#"
+      slug: "/juegos/secretos-compartidos"
     },
     {
       title: "Guion Erótico Colaborativo",
@@ -109,7 +109,7 @@ export function Dashboard() {
       buttonText: "Ver Juego",
       image: "https://static.skillshare.com/uploads/parentClasses/f97c30cdaccfe5fdcb3740693dd09034/b8fbadf4",
       imageHint: "erotic script",
-      slug: "#"
+      slug: "/juegos/guion-erotico-colaborativo"
     }
   ];
   
@@ -234,5 +234,3 @@ export function Dashboard() {
     </div>
   );
 }
-
-    
