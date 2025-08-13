@@ -33,7 +33,7 @@ export default function SobreIntima() {
     },
     {
       name: "Cristina Lopez",
-      image: "https://placehold.co/128x128.png",
+      image: "https://i.imgur.com/JkrQPnX.jpeg",
       imageHint: "profile picture"
     }
   ];
