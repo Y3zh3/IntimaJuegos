@@ -5,7 +5,7 @@
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { SparklesIcon, MenuIcon, ShoppingCartIcon } from './icons';
+import { SparklesIcon, MenuIcon } from './icons';
 import Link from 'next/link';
 import {
   Dialog,
@@ -26,80 +26,80 @@ export function Dashboard() {
     {
       title: "Conversaciones de Corazón",
       description: "Más de 100 preguntas para encender la chispa y fortalecer la conexión emocional.",
+      category: "Comunicación",
       dialogTitle: "Conversaciones de Corazón",
       dialogDescription: "La intimidad no es solo física. Con estas tarjetas de conversación, podrán explorar sus sentimientos, sueños y recuerdos más profundos. Es una forma hermosa de conectar a nivel emocional y fortalecer el vínculo que los une.",
-      buttonText: "Detalles",
-      price: "S/ 49.99",
+      buttonText: "Ver Juego",
       image: "https://us.123rf.com/450wm/lightfieldstudios/lightfieldstudios2101/lightfieldstudios210100019/161849967-joven-besando-y-abrazando-a-una-mujer-sensual-con-los-ojos-cerrados-en-la-cama.jpg?ver=6",
       imageHint: "couple talking"
     },
     {
       title: "Verdad o Atrevimiento Íntimo",
       description: "Una versión picante del clásico juego para revelar sus secretos más profundos.",
+      category: "Confianza",
       dialogTitle: "Verdad o Atrevimiento Íntimo",
       dialogDescription: "Prepárense para una noche de revelaciones y risas. Con preguntas y desafíos que van de lo tierno a lo muy picante, este juego es perfecto para conocerse mejor y añadir una chispa de emoción. ¿Se atreverán a decir la verdad o cumplirán el desafío?",
-      buttonText: "Detalles",
-      price: "S/ 49.99",
+      buttonText: "Ver Juego",
       image: "https://m.media-amazon.com/images/I/61IhLKtb4nL._UF1000,1000_QL80_.jpg",
       imageHint: "truth dare game"
     },
     {
       title: "Ruleta de Fantasías",
       description: "Dejen que el azar decida su próxima aventura. Giren la ruleta y cumplan la fantasía.",
+      category: "Exploración",
       dialogTitle: "Ruleta de Fantasías",
       dialogDescription: "¿Buscan salir de la rutina? Dejen que la ruleta elija por ustedes. Cada giro desvela una nueva fantasía o un escenario para explorar juntos. Desde masajes sensuales hasta juegos de roles, nunca sabrán qué les depara la suerte.",
-      buttonText: "Detalles",
-      price: "S/ 59.99",
+      buttonText: "Ver Juego",
       image: "https://http2.mlstatic.com/D_NQ_NP_984363-MLU79116847456_092024-O.webp",
       imageHint: "fantasy roulette"
     },
     {
       title: "Escenario de Roles Erótico",
       description: "Elijan un escenario y dejen volar su imaginación. ¿Quién quieren ser esta noche?",
+      category: "Creatividad",
       dialogTitle: "Escenario de Roles Erótico",
       dialogDescription: "Desde un encuentro casual en un bar hasta una sesión con el profesor particular. Elijan uno de nuestros escenarios o creen el suyo propio. Es la oportunidad perfecta para experimentar con nuevas dinámicas y liberar su lado más creativo en la intimidad.",
-      buttonText: "Detalles",
-      price: "S/ 59.99",
+      buttonText: "Ver Juego",
       image: "https://www.clarin.com/2022/05/05/D9lXG--8R_720x0__1.jpg",
       imageHint: "erotic roleplay"
     },
     {
       title: "Desafío de los Sentidos",
       description: "Un juego para explorar el tacto, el gusto y el olfato de formas nuevas y excitantes.",
+      category: "Sensualidad",
       dialogTitle: "Desafío de los Sentidos",
       dialogDescription: "Venden los ojos a su pareja y prepárense para un viaje sensorial. Usen diferentes texturas, sabores y aromas para despertar sensaciones inolvidables. Este juego agudizará sus sentidos y les hará redescubrir el placer del tacto.",
-      buttonText: "Detalles",
-      price: "S/ 69.99",
+      buttonText: "Ver Juego",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3AVKQuiRQw2V65Ng3Bo5t398p1-x38hS0Aw&s",
       imageHint: "sensory challenge"
     },
     {
       title: "Mapa del Tesoro Corporal",
       description: "Descubran nuevas zonas de placer en el cuerpo del otro con este juego guiado.",
+      category: "Intimidad",
       dialogTitle: "Mapa del Tesoro Corporal",
       dialogDescription: "El cuerpo de su pareja es un mapa lleno de tesoros por descubrir. Con esta guía, explorarán cada rincón con besos, caricias y masajes, encontrando nuevos puntos de placer que no sabían que existían. ¡La aventura está a punto de comenzar!",
-      buttonText: "Detalles",
-      price: "S/ 69.99",
+      buttonText: "Ver Juego",
       image: "https://s.yimg.com/ny/api/res/1.2/U7dObyj1vZ92582kOPXlaw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/401/2012/05/22/99343542-jpg_220059.jpg",
       imageHint: "body map"
     },
     {
       title: "Secretos Compartidos",
       description: "Un juego de cartas para revelar secretos y fortalecer la confianza mutua.",
+      category: "Confianza",
       dialogTitle: "Secretos Compartidos",
       dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
-      buttonText: "Detalles",
-      price: "S/ 49.99",
+      buttonText: "Ver Juego",
       image: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780892815883/secretos-sexuales-9780892815883_hr.jpg",
       imageHint: "shared secrets"
     },
     {
       title: "Guion Erótico Colaborativo",
       description: "Escriban juntos una historia erótica y luego, si se atreven, llévenla a la realidad.",
+      category: "Creatividad",
       dialogTitle: "Guion Erótico Colaborativo",
       dialogDescription: "Tomen turnos para escribir un párrafo de una historia erótica. Dejen volar su imaginación y creen un relato único que los excite a ambos. La diversión está tanto en el proceso creativo como en el resultado final.",
-      buttonText: "Detalles",
-      price: "S/ 59.99",
+      buttonText: "Ver Juego",
       image: "https://static.skillshare.com/uploads/parentClasses/f97c30cdaccfe5fdcb3740693dd09034/b8fbadf4",
       imageHint: "erotic script"
     }
@@ -186,13 +186,13 @@ export function Dashboard() {
                   </div>
                   <CardHeader className="p-2 text-center">
                     <CardTitle className="text-sm">{game.title}</CardTitle>
-                      <CardDescription>{game.price}</CardDescription>
+                      <CardDescription>{game.category}</CardDescription>
                   </CardHeader>
                   <CardContent className="flex flex-col flex-grow p-2 pt-0 text-center justify-center">
                     <div className="mt-auto">
                       <Dialog>
                         <DialogTrigger asChild>
-                          <Button size="sm" className="w-full text-sm">Detalles</Button>
+                          <Button size="sm" className="w-full text-sm">{game.buttonText}</Button>
                         </DialogTrigger>
                         <DialogContent>
                           <DialogHeader>
@@ -201,13 +201,9 @@ export function Dashboard() {
                               {game.dialogDescription}
                             </DialogDescription>
                           </DialogHeader>
-                          <div className="flex items-center justify-between mt-4">
-                              <p className="text-2xl font-bold text-primary">{game.price}</p>
-                              <Button>
-                                  <ShoppingCartIcon className="mr-2 h-4 w-4" />
-                                  Añadir al Carrito
-                              </Button>
-                          </div>
+                          <DialogFooter>
+                            <Button className="w-full">Jugar Ahora</Button>
+                          </DialogFooter>
                         </DialogContent>
                       </Dialog>
                     </div>
