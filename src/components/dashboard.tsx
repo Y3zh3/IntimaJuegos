@@ -31,7 +31,8 @@ export function Dashboard() {
       dialogDescription: "La intimidad no es solo física. Con estas tarjetas de conversación, podrán explorar sus sentimientos, sueños y recuerdos más profundos. Es una forma hermosa de conectar a nivel emocional y fortalecer el vínculo que los une.",
       buttonText: "Ver Juego",
       image: "https://us.123rf.com/450wm/lightfieldstudios/lightfieldstudios2101/lightfieldstudios210100019/161849967-joven-besando-y-abrazando-a-una-mujer-sensual-con-los-ojos-cerrados-en-la-cama.jpg?ver=6",
-      imageHint: "couple talking"
+      imageHint: "couple talking",
+      slug: "/juegos/conversaciones-de-corazon"
     },
     {
       title: "Verdad o Atrevimiento Íntimo",
@@ -41,7 +42,8 @@ export function Dashboard() {
       dialogDescription: "Prepárense para una noche de revelaciones y risas. Con preguntas y desafíos que van de lo tierno a lo muy picante, este juego es perfecto para conocerse mejor y añadir una chispa de emoción. ¿Se atreverán a decir la verdad o cumplirán el desafío?",
       buttonText: "Ver Juego",
       image: "https://m.media-amazon.com/images/I/61IhLKtb4nL._UF1000,1000_QL80_.jpg",
-      imageHint: "truth dare game"
+      imageHint: "truth dare game",
+      slug: "#"
     },
     {
       title: "Ruleta de Fantasías",
@@ -51,7 +53,8 @@ export function Dashboard() {
       dialogDescription: "¿Buscan salir de la rutina? Dejen que la ruleta elija por ustedes. Cada giro desvela una nueva fantasía o un escenario para explorar juntos. Desde masajes sensuales hasta juegos de roles, nunca sabrán qué les depara la suerte.",
       buttonText: "Ver Juego",
       image: "https://http2.mlstatic.com/D_NQ_NP_984363-MLU79116847456_092024-O.webp",
-      imageHint: "fantasy roulette"
+      imageHint: "fantasy roulette",
+      slug: "#"
     },
     {
       title: "Escenario de Roles Erótico",
@@ -61,7 +64,8 @@ export function Dashboard() {
       dialogDescription: "Desde un encuentro casual en un bar hasta una sesión con el profesor particular. Elijan uno de nuestros escenarios o creen el suyo propio. Es la oportunidad perfecta para experimentar con nuevas dinámicas y liberar su lado más creativo en la intimidad.",
       buttonText: "Ver Juego",
       image: "https://www.clarin.com/2022/05/05/D9lXG--8R_720x0__1.jpg",
-      imageHint: "erotic roleplay"
+      imageHint: "erotic roleplay",
+      slug: "#"
     },
     {
       title: "Desafío de los Sentidos",
@@ -71,7 +75,8 @@ export function Dashboard() {
       dialogDescription: "Venden los ojos a su pareja y prepárense para un viaje sensorial. Usen diferentes texturas, sabores y aromas para despertar sensaciones inolvidables. Este juego agudizará sus sentidos y les hará redescubrir el placer del tacto.",
       buttonText: "Ver Juego",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3AVKQuiRQw2V65Ng3Bo5t398p1-x38hS0Aw&s",
-      imageHint: "sensory challenge"
+      imageHint: "sensory challenge",
+      slug: "#"
     },
     {
       title: "Mapa del Tesoro Corporal",
@@ -81,7 +86,8 @@ export function Dashboard() {
       dialogDescription: "El cuerpo de su pareja es un mapa lleno de tesoros por descubrir. Con esta guía, explorarán cada rincón con besos, caricias y masajes, encontrando nuevos puntos de placer que no sabían que existían. ¡La aventura está a punto de comenzar!",
       buttonText: "Ver Juego",
       image: "https://s.yimg.com/ny/api/res/1.2/U7dObyj1vZ92582kOPXlaw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/401/2012/05/22/99343542-jpg_220059.jpg",
-      imageHint: "body map"
+      imageHint: "body map",
+      slug: "#"
     },
     {
       title: "Secretos Compartidos",
@@ -91,7 +97,8 @@ export function Dashboard() {
       dialogDescription: "Cada carta contiene una pregunta que invita a la honestidad. Compartan sus secretos más guardados en un espacio seguro y sin juicios. Ideal para parejas que buscan una conexión más auténtica.",
       buttonText: "Ver Juego",
       image: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780892815883/secretos-sexuales-9780892815883_hr.jpg",
-      imageHint: "shared secrets"
+      imageHint: "shared secrets",
+      slug: "#"
     },
     {
       title: "Guion Erótico Colaborativo",
@@ -101,7 +108,8 @@ export function Dashboard() {
       dialogDescription: "Tomen turnos para escribir un párrafo de una historia erótica. Dejen volar su imaginación y creen un relato único que los excite a ambos. La diversión está tanto en el proceso creativo como en el resultado final.",
       buttonText: "Ver Juego",
       image: "https://static.skillshare.com/uploads/parentClasses/f97c30cdaccfe5fdcb3740693dd09034/b8fbadf4",
-      imageHint: "erotic script"
+      imageHint: "erotic script",
+      slug: "#"
     }
   ];
   
@@ -202,7 +210,9 @@ export function Dashboard() {
                             </DialogDescription>
                           </DialogHeader>
                           <DialogFooter className="sm:justify-end">
-                            <Button>Jugar Ahora</Button>
+                            <Link href={game.slug}>
+                              <Button size="sm">Jugar Ahora</Button>
+                            </Link>
                           </DialogFooter>
                         </DialogContent>
                       </Dialog>
@@ -224,3 +234,5 @@ export function Dashboard() {
     </div>
   );
 }
+
+    
