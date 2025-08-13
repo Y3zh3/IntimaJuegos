@@ -173,9 +173,3 @@ export default function HistoriasReales() {
     </div>
   );
 }
-
-    
-
-    
-
-    

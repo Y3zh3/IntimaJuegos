@@ -241,9 +241,3 @@ export default function GuiaParaParejas() {
     </div>
   );
 }
-
-    
-
-    
-
-    
