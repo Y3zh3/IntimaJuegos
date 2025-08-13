@@ -12,13 +12,13 @@ export default function SobreIntima() {
 
   const teamMembers = [
     {
-      name: "Yessenia Hernández",
-      image: "https://i.imgur.com/0rgs4S0.png",
+      name: "Jesus Barreto",
+      image: "https://i.imgur.com/Z5EqBpJ.png",
       imageHint: "profile picture"
     },
     {
-      name: "Jesus Barreto",
-      image: "https://i.imgur.com/Z5EqBpJ.png",
+      name: "Yessenia Hernández",
+      image: "https://i.imgur.com/0rgs4S0.png",
       imageHint: "profile picture"
     },
     {
@@ -27,13 +27,13 @@ export default function SobreIntima() {
       imageHint: "profile picture"
     },
     {
-      name: "José González",
-      image: "https://i.imgur.com/e4BKX8y.jpeg",
+      name: "Cristina Lopez",
+      image: "https://i.imgur.com/JkrQPnX.jpeg",
       imageHint: "profile picture"
     },
     {
-      name: "Cristina Lopez",
-      image: "https://i.imgur.com/JkrQPnX.jpeg",
+      name: "José González",
+      image: "https://i.imgur.com/e4BKX8y.jpeg",
       imageHint: "profile picture"
     }
   ];
