@@ -33,7 +33,7 @@ export default function SobreIntima() {
     },
     {
       name: "Sofia Chumbimune",
-      image: "https://placehold.co/150x150.png",
+      image: "https://i.imgur.com/LNAuxlf.jpeg",
       imageHint: "profile picture"
     }
   ];
