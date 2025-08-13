@@ -32,8 +32,8 @@ export default function SobreIntima() {
       imageHint: "profile picture"
     },
     {
-      name: "Sofia Chumbimune",
-      image: "https://i.imgur.com/LNAuxlf.jpeg",
+      name: "Cristina Lopez",
+      image: "https://placehold.co/128x128.png",
       imageHint: "profile picture"
     }
   ];
