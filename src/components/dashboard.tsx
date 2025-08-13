@@ -194,15 +194,15 @@ export function Dashboard() {
                         <DialogTrigger asChild>
                           <Button size="sm" className="w-full text-sm">{game.buttonText}</Button>
                         </DialogTrigger>
-                        <DialogContent>
+                        <DialogContent className="sm:max-w-xl">
                           <DialogHeader>
-                            <DialogTitle className="text-primary">{game.dialogTitle}</DialogTitle>
-                            <DialogDescription>
+                            <DialogTitle className="text-primary text-2xl">{game.dialogTitle}</DialogTitle>
+                            <DialogDescription className="text-base pt-2">
                               {game.dialogDescription}
                             </DialogDescription>
                           </DialogHeader>
-                          <DialogFooter>
-                            <Button className="w-full">Jugar Ahora</Button>
+                          <DialogFooter className="sm:justify-end">
+                            <Button>Jugar Ahora</Button>
                           </DialogFooter>
                         </DialogContent>
                       </Dialog>
