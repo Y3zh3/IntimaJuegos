@@ -22,8 +22,8 @@ export default function SobreIntima() {
       imageHint: "profile picture"
     },
     {
-      name: "Cristina Lopez",
-      image: "https://i.imgur.com/JkrQPnX.jpeg",
+      name: "Angel Goitia",
+      image: "https://placehold.co/128x128.png",
       imageHint: "profile picture"
     },
     {
