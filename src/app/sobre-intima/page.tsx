@@ -23,7 +23,7 @@ export default function SobreIntima() {
     },
     {
       name: "Angel Goitia",
-      image: "https://placehold.co/128x128.png",
+      image: "https://i.imgur.com/LNAuxlf.jpeg",
       imageHint: "profile picture"
     },
     {
