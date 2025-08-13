@@ -127,18 +127,18 @@ export default function ProductGrid() {
               <div className="mt-auto">
               <Dialog>
                   <DialogTrigger asChild>
-                  <Button size="sm" className="w-full text-xs">Detalles</Button>
+                  <Button size="sm" className="w-full text-sm">Detalles</Button>
                   </DialogTrigger>
-                  <DialogContent>
+                  <DialogContent className="sm:max-w-xl">
                   <DialogHeader>
-                      <DialogTitle className="text-primary">{product.name}</DialogTitle>
-                      <DialogDescription>
+                      <DialogTitle className="text-primary text-2xl">{product.name}</DialogTitle>
+                      <DialogDescription className="text-base pt-2">
                       {product.longDescription}
                       </DialogDescription>
                   </DialogHeader>
                   <div className="flex items-center justify-between mt-4">
                       <p className="text-2xl font-bold text-primary">{product.price}</p>
-                      <Button onClick={() => handleAddToCart(product)}>
+                      <Button size="sm" onClick={() => handleAddToCart(product)}>
                         <ShoppingCartIcon className="mr-2 h-4 w-4" />
                         Añadir al Carrito
                       </Button>
@@ -152,3 +152,5 @@ export default function ProductGrid() {
     </div>
   );
 }
+
+    
